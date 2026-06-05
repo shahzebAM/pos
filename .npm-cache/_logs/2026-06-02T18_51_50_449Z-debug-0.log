@@ -1,0 +1,677 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Shahzeb\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.4.0
+2 info using node@v24.13.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Users\Shahzeb\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:C:\Users\Shahzeb\.npmrc Completed in 6ms
+12 timing config:load:user Completed in 6ms
+13 timing config:load:file:C:\Users\Shahzeb\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 21ms
+17 timing npm:load:configload Completed in 21ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install jspdf
+22 verbose argv "install" "jspdf" "--cache" ".npm-cache"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\.npm-cache\_logs\2026-06-02T18_51_50_449Z-
+26 verbose logfile C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\.npm-cache\_logs\2026-06-02T18_51_50_449Z-debug-0.log
+27 timing npm:load:logFile Completed in 13ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 1ms
+30 timing npm:load Completed in 54ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 52ms
+34 timing idealTree:userRequests Completed in 1ms
+35 silly idealTree buildDeps
+36 silly fetch manifest jspdf@*
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/jspdf 254ms (cache miss)
+39 silly placeDep ROOT jspdf@4.2.1 OK for: multi-branch-pos@1.0.0 want: *
+40 silly fetch manifest @babel/runtime@^7.28.6
+41 silly fetch manifest fflate@^0.8.1
+42 silly fetch manifest fast-png@^6.2.0
+43 http fetch GET 200 https://registry.npmjs.org/fast-png 360ms (cache miss)
+44 silly fetch manifest canvg@^3.0.11
+45 http fetch GET 200 https://registry.npmjs.org/fflate 375ms (cache miss)
+46 silly fetch manifest core-js@^3.6.0
+47 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 560ms (cache miss)
+48 silly fetch manifest dompurify@^3.3.1
+49 http fetch GET 200 https://registry.npmjs.org/canvg 258ms (cache miss)
+50 silly fetch manifest html2canvas@^1.0.0-rc.5
+51 http fetch GET 200 https://registry.npmjs.org/core-js 286ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/dompurify 264ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/html2canvas 241ms (cache miss)
+54 timing idealTree:#root Completed in 1139ms
+55 silly placeDep ROOT @babel/runtime@7.29.7 OK for: jspdf@4.2.1 want: ^7.28.6
+56 silly placeDep ROOT canvg@3.0.11 OK for: jspdf@4.2.1 want: ^3.0.11
+57 silly placeDep ROOT core-js@3.49.0 OK for: jspdf@4.2.1 want: ^3.6.0
+58 silly placeDep ROOT dompurify@3.4.7 OK for: jspdf@4.2.1 want: ^3.3.1
+59 silly placeDep ROOT fast-png@6.4.0 OK for: jspdf@4.2.1 want: ^6.2.0
+60 silly placeDep ROOT fflate@0.8.3 OK for: jspdf@4.2.1 want: ^0.8.1
+61 silly placeDep ROOT html2canvas@1.4.1 OK for: jspdf@4.2.1 want: ^1.0.0-rc.5
+62 silly fetch manifest raf@^3.4.1
+63 silly fetch manifest core-js@^3.8.3
+64 silly fetch manifest rgbcolor@^1.0.1
+65 silly fetch manifest @types/raf@^3.4.0
+66 http fetch GET 200 https://registry.npmjs.org/raf 261ms (cache miss)
+67 silly fetch manifest svg-pathdata@^6.0.3
+68 http fetch GET 200 https://registry.npmjs.org/rgbcolor 266ms (cache miss)
+69 silly fetch manifest stackblur-canvas@^2.0.0
+70 http fetch GET 200 https://registry.npmjs.org/@types%2fraf 393ms (cache miss)
+71 silly fetch manifest regenerator-runtime@^0.13.7
+72 http fetch GET 200 https://registry.npmjs.org/svg-pathdata 217ms (cache miss)
+73 silly fetch manifest @types/trusted-types@^2.0.7
+74 http fetch GET 200 https://registry.npmjs.org/stackblur-canvas 238ms (cache miss)
+75 silly fetch manifest pako@^2.1.0
+76 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 214ms (cache miss)
+77 silly fetch manifest iobuffer@^5.3.2
+78 http fetch GET 200 https://registry.npmjs.org/pako 224ms (cache miss)
+79 silly fetch manifest @types/pako@^2.0.3
+80 http fetch GET 200 https://registry.npmjs.org/iobuffer 231ms (cache miss)
+81 silly fetch manifest css-line-break@^2.1.0
+82 http fetch GET 200 https://registry.npmjs.org/@types%2ftrusted-types 428ms (cache miss)
+83 silly fetch manifest text-segmentation@^1.0.3
+84 http fetch GET 200 https://registry.npmjs.org/css-line-break 236ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/@types%2fpako 394ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/text-segmentation 217ms (cache miss)
+87 timing idealTree:node_modules/jspdf Completed in 1150ms
+88 timing idealTree:node_modules/@babel/runtime Completed in 0ms
+89 silly placeDep ROOT @types/raf@3.4.3 OK for: canvg@3.0.11 want: ^3.4.0
+90 silly placeDep ROOT raf@3.4.1 OK for: canvg@3.0.11 want: ^3.4.1
+91 silly placeDep ROOT regenerator-runtime@0.13.11 OK for: canvg@3.0.11 want: ^0.13.7
+92 silly placeDep ROOT rgbcolor@1.0.1 OK for: canvg@3.0.11 want: ^1.0.1
+93 silly placeDep ROOT stackblur-canvas@2.7.0 OK for: canvg@3.0.11 want: ^2.0.0
+94 silly placeDep ROOT svg-pathdata@6.0.3 OK for: canvg@3.0.11 want: ^6.0.3
+95 silly fetch manifest performance-now@^2.1.0
+96 http fetch GET 200 https://registry.npmjs.org/performance-now 213ms (cache miss)
+97 timing idealTree:node_modules/canvg Completed in 226ms
+98 timing idealTree:node_modules/@types/raf Completed in 0ms
+99 timing idealTree:node_modules/core-js Completed in 0ms
+100 silly placeDep ROOT @types/trusted-types@2.0.7 OK for: dompurify@3.4.7 want: ^2.0.7
+101 timing idealTree:node_modules/dompurify Completed in 2ms
+102 timing idealTree:node_modules/@types/trusted-types Completed in 0ms
+103 silly placeDep ROOT @types/pako@2.0.4 OK for: fast-png@6.4.0 want: ^2.0.3
+104 silly placeDep ROOT iobuffer@5.4.0 OK for: fast-png@6.4.0 want: ^5.3.2
+105 silly placeDep ROOT pako@2.1.0 OK for: fast-png@6.4.0 want: ^2.1.0
+106 timing idealTree:node_modules/fast-png Completed in 10ms
+107 timing idealTree:node_modules/@types/pako Completed in 0ms
+108 timing idealTree:node_modules/fflate Completed in 0ms
+109 silly placeDep ROOT css-line-break@2.1.0 OK for: html2canvas@1.4.1 want: ^2.1.0
+110 silly placeDep ROOT text-segmentation@1.0.3 OK for: html2canvas@1.4.1 want: ^1.0.3
+111 silly fetch manifest utrie@^1.0.2
+112 http fetch GET 200 https://registry.npmjs.org/utrie 233ms (cache miss)
+113 timing idealTree:node_modules/html2canvas Completed in 239ms
+114 silly placeDep ROOT utrie@1.0.2 OK for: css-line-break@2.1.0 want: ^1.0.2
+115 silly fetch manifest base64-arraybuffer@^1.0.2
+116 http fetch GET 200 https://registry.npmjs.org/base64-arraybuffer 213ms (cache miss)
+117 timing idealTree:node_modules/css-line-break Completed in 220ms
+118 timing idealTree:node_modules/iobuffer Completed in 0ms
+119 timing idealTree:node_modules/pako Completed in 0ms
+120 silly placeDep ROOT performance-now@2.1.0 OK for: raf@3.4.1 want: ^2.1.0
+121 timing idealTree:node_modules/raf Completed in 3ms
+122 timing idealTree:node_modules/performance-now Completed in 0ms
+123 timing idealTree:node_modules/regenerator-runtime Completed in 0ms
+124 timing idealTree:node_modules/rgbcolor Completed in 0ms
+125 timing idealTree:node_modules/stackblur-canvas Completed in 0ms
+126 timing idealTree:node_modules/svg-pathdata Completed in 0ms
+127 timing idealTree:node_modules/text-segmentation Completed in 0ms
+128 silly placeDep ROOT base64-arraybuffer@1.0.2 OK for: utrie@1.0.2 want: ^1.0.2
+129 timing idealTree:node_modules/utrie Completed in 2ms
+130 timing idealTree:node_modules/base64-arraybuffer Completed in 0ms
+131 timing idealTree:buildDeps Completed in 2996ms
+132 timing idealTree:fixDepFlags Completed in 2ms
+133 timing idealTree Completed in 3053ms
+134 timing reify:loadTrees Completed in 3054ms
+135 timing reify:diffTrees Completed in 7ms
+136 silly reify moves {}
+137 timing reify:retireShallow Completed in 1ms
+138 timing reify:createSparse Completed in 19ms
+139 timing reify:loadBundles Completed in 0ms
+140 silly audit bulk request {
+140 silly audit   '@babel/helper-string-parser': [ '7.29.7' ],
+140 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+140 silly audit   '@babel/parser': [ '7.29.7' ],
+140 silly audit   '@babel/types': [ '7.29.7' ],
+140 silly audit   '@esbuild/aix-ppc64': [ '0.27.7' ],
+140 silly audit   '@esbuild/android-arm': [ '0.27.7' ],
+140 silly audit   '@esbuild/android-arm64': [ '0.27.7' ],
+140 silly audit   '@esbuild/android-x64': [ '0.27.7' ],
+140 silly audit   '@esbuild/darwin-arm64': [ '0.27.7' ],
+140 silly audit   '@esbuild/darwin-x64': [ '0.27.7' ],
+140 silly audit   '@esbuild/freebsd-arm64': [ '0.27.7' ],
+140 silly audit   '@esbuild/freebsd-x64': [ '0.27.7' ],
+140 silly audit   '@esbuild/linux-arm': [ '0.27.7' ],
+140 silly audit   '@esbuild/linux-arm64': [ '0.27.7' ],
+140 silly audit   '@esbuild/linux-ia32': [ '0.27.7' ],
+140 silly audit   '@esbuild/linux-loong64': [ '0.27.7' ],
+140 silly audit   '@esbuild/linux-mips64el': [ '0.27.7' ],
+140 silly audit   '@esbuild/linux-ppc64': [ '0.27.7' ],
+140 silly audit   '@esbuild/linux-riscv64': [ '0.27.7' ],
+140 silly audit   '@esbuild/linux-s390x': [ '0.27.7' ],
+140 silly audit   '@esbuild/linux-x64': [ '0.27.7' ],
+140 silly audit   '@esbuild/netbsd-arm64': [ '0.27.7' ],
+140 silly audit   '@esbuild/netbsd-x64': [ '0.27.7' ],
+140 silly audit   '@esbuild/openbsd-arm64': [ '0.27.7' ],
+140 silly audit   '@esbuild/openbsd-x64': [ '0.27.7' ],
+140 silly audit   '@esbuild/openharmony-arm64': [ '0.27.7' ],
+140 silly audit   '@esbuild/sunos-x64': [ '0.27.7' ],
+140 silly audit   '@esbuild/win32-arm64': [ '0.27.7' ],
+140 silly audit   '@esbuild/win32-ia32': [ '0.27.7' ],
+140 silly audit   '@esbuild/win32-x64': [ '0.27.7' ],
+140 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+140 silly audit   '@lucide/vue': [ '1.17.0' ],
+140 silly audit   '@primeuix/styled': [ '0.7.4' ],
+140 silly audit   '@primeuix/styles': [ '2.0.3' ],
+140 silly audit   '@primeuix/themes': [ '2.0.3' ],
+140 silly audit   '@primeuix/utils': [ '0.6.4' ],
+140 silly audit   '@primevue/core': [ '4.5.5' ],
+140 silly audit   '@primevue/icons': [ '4.5.5' ],
+140 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+140 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-android-arm64': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-darwin-arm64': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-darwin-x64': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-freebsd-x64': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-openbsd-x64': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.61.0' ],
+140 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.61.0' ],
+140 silly audit   '@supabase/auth-js': [ '2.107.0' ],
+140 silly audit   '@supabase/functions-js': [ '2.107.0' ],
+140 silly audit   '@supabase/phoenix': [ '0.4.2' ],
+140 silly audit   '@supabase/postgrest-js': [ '2.107.0' ],
+140 silly audit   '@supabase/realtime-js': [ '2.107.0' ],
+140 silly audit   '@supabase/storage-js': [ '2.107.0' ],
+140 silly audit   '@supabase/supabase-js': [ '2.107.0' ],
+140 silly audit   '@types/estree': [ '1.0.9' ],
+140 silly audit   '@vitejs/plugin-vue': [ '6.0.7' ],
+140 silly audit   '@vue/compiler-core': [ '3.5.35' ],
+140 silly audit   '@vue/compiler-dom': [ '3.5.35' ],
+140 silly audit   '@vue/compiler-sfc': [ '3.5.35' ],
+140 silly audit   '@vue/compiler-ssr': [ '3.5.35' ],
+140 silly audit   '@vue/devtools-api': [ '6.6.4' ],
+140 silly audit   '@vue/reactivity': [ '3.5.35' ],
+140 silly audit   '@vue/runtime-core': [ '3.5.35' ],
+140 silly audit   '@vue/runtime-dom': [ '3.5.35' ],
+140 silly audit   '@vue/server-renderer': [ '3.5.35' ],
+140 silly audit   '@vue/shared': [ '3.5.35' ],
+140 silly audit   csstype: [ '3.2.3' ],
+140 silly audit   entities: [ '7.0.1' ],
+140 silly audit   esbuild: [ '0.27.7' ],
+140 silly audit   'estree-walker': [ '2.0.2' ],
+140 silly audit   fdir: [ '6.5.0' ],
+140 silly audit   fsevents: [ '2.3.3' ],
+140 silly audit   'iceberg-js': [ '0.8.1' ],
+140 silly audit   'magic-string': [ '0.30.21' ],
+140 silly audit   nanoid: [ '3.3.12' ],
+140 silly audit   picocolors: [ '1.1.1' ],
+140 silly audit   picomatch: [ '4.0.4' ],
+140 silly audit   postcss: [ '8.5.15' ],
+140 silly audit   primeicons: [ '7.0.0' ],
+140 silly audit   primevue: [ '4.5.5' ],
+140 silly audit   rollup: [ '4.61.0' ],
+140 silly audit   'source-map-js': [ '1.2.1' ],
+140 silly audit   tinyglobby: [ '0.2.17' ],
+140 silly audit   tslib: [ '2.8.1' ],
+140 silly audit   vite: [ '7.3.5' ],
+140 silly audit   vue: [ '3.5.35' ],
+140 silly audit   'vue-router': [ '4.6.4' ],
+140 silly audit   jspdf: [ '4.2.1' ],
+140 silly audit   '@babel/runtime': [ '7.29.7' ],
+140 silly audit   canvg: [ '3.0.11' ],
+140 silly audit   'core-js': [ '3.49.0' ],
+140 silly audit   dompurify: [ '3.4.7' ],
+140 silly audit   'fast-png': [ '6.4.0' ],
+140 silly audit   fflate: [ '0.8.3' ],
+140 silly audit   html2canvas: [ '1.4.1' ],
+140 silly audit   '@types/raf': [ '3.4.3' ],
+140 silly audit   raf: [ '3.4.1' ],
+140 silly audit   'regenerator-runtime': [ '0.13.11' ],
+140 silly audit   rgbcolor: [ '1.0.1' ],
+140 silly audit   'stackblur-canvas': [ '2.7.0' ],
+140 silly audit   'svg-pathdata': [ '6.0.3' ],
+140 silly audit   '@types/trusted-types': [ '2.0.7' ],
+140 silly audit   '@types/pako': [ '2.0.4' ],
+140 silly audit   iobuffer: [ '5.4.0' ],
+140 silly audit   pako: [ '2.1.0' ],
+140 silly audit   'css-line-break': [ '2.1.0' ],
+140 silly audit   'text-segmentation': [ '1.0.3' ],
+140 silly audit   utrie: [ '1.0.2' ],
+140 silly audit   'performance-now': [ '2.1.0' ],
+140 silly audit   'base64-arraybuffer': [ '1.0.2' ]
+140 silly audit }
+141 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\fsevents
+142 silly reify mark deleted [
+142 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\fsevents'
+142 silly reify ]
+143 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-win32-ia32-msvc
+144 silly reify mark deleted [
+144 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+144 silly reify ]
+145 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-win32-arm64-msvc
+146 silly reify mark deleted [
+146 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+146 silly reify ]
+147 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-openharmony-arm64
+148 silly reify mark deleted [
+148 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-openharmony-arm64'
+148 silly reify ]
+149 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-openbsd-x64
+150 silly reify mark deleted [
+150 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-openbsd-x64'
+150 silly reify ]
+151 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-x64-musl
+152 silly reify mark deleted [
+152 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-x64-musl'
+152 silly reify ]
+153 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-x64-gnu
+154 silly reify mark deleted [
+154 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+154 silly reify ]
+155 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-s390x-gnu
+156 silly reify mark deleted [
+156 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+156 silly reify ]
+157 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-riscv64-musl
+158 silly reify mark deleted [
+158 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+158 silly reify ]
+159 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-riscv64-gnu
+160 silly reify mark deleted [
+160 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+160 silly reify ]
+161 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-ppc64-musl
+162 silly reify mark deleted [
+162 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+162 silly reify ]
+163 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-ppc64-gnu
+164 silly reify mark deleted [
+164 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+164 silly reify ]
+165 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-loong64-musl
+166 silly reify mark deleted [
+166 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+166 silly reify ]
+167 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-loong64-gnu
+168 silly reify mark deleted [
+168 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+168 silly reify ]
+169 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-arm64-musl
+170 silly reify mark deleted [
+170 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+170 silly reify ]
+171 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-arm64-gnu
+172 silly reify mark deleted [
+172 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+172 silly reify ]
+173 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-arm-musleabihf
+174 silly reify mark deleted [
+174 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+174 silly reify ]
+175 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-arm-gnueabihf
+176 silly reify mark deleted [
+176 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+176 silly reify ]
+177 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-freebsd-x64
+178 silly reify mark deleted [
+178 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-freebsd-x64'
+178 silly reify ]
+179 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-freebsd-arm64
+180 silly reify mark deleted [
+180 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-freebsd-arm64'
+180 silly reify ]
+181 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-darwin-x64
+182 silly reify mark deleted [
+182 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-darwin-x64'
+182 silly reify ]
+183 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-darwin-arm64
+184 silly reify mark deleted [
+184 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-darwin-arm64'
+184 silly reify ]
+185 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-android-arm64
+186 silly reify mark deleted [
+186 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-android-arm64'
+186 silly reify ]
+187 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-android-arm-eabi
+188 silly reify mark deleted [
+188 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-android-arm-eabi'
+188 silly reify ]
+189 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\win32-ia32
+190 silly reify mark deleted [
+190 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\win32-ia32'
+190 silly reify ]
+191 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\win32-arm64
+192 silly reify mark deleted [
+192 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\win32-arm64'
+192 silly reify ]
+193 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\sunos-x64
+194 silly reify mark deleted [
+194 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\sunos-x64'
+194 silly reify ]
+195 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\openharmony-arm64
+196 silly reify mark deleted [
+196 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\openharmony-arm64'
+196 silly reify ]
+197 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\openbsd-x64
+198 silly reify mark deleted [
+198 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\openbsd-x64'
+198 silly reify ]
+199 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\openbsd-arm64
+200 silly reify mark deleted [
+200 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\openbsd-arm64'
+200 silly reify ]
+201 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\netbsd-x64
+202 silly reify mark deleted [
+202 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\netbsd-x64'
+202 silly reify ]
+203 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\netbsd-arm64
+204 silly reify mark deleted [
+204 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\netbsd-arm64'
+204 silly reify ]
+205 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-x64
+206 silly reify mark deleted [
+206 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-x64'
+206 silly reify ]
+207 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-s390x
+208 silly reify mark deleted [
+208 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-s390x'
+208 silly reify ]
+209 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-riscv64
+210 silly reify mark deleted [
+210 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-riscv64'
+210 silly reify ]
+211 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-ppc64
+212 silly reify mark deleted [
+212 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-ppc64'
+212 silly reify ]
+213 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-mips64el
+214 silly reify mark deleted [
+214 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-mips64el'
+214 silly reify ]
+215 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-loong64
+216 silly reify mark deleted [
+216 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-loong64'
+216 silly reify ]
+217 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-ia32
+218 silly reify mark deleted [
+218 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-ia32'
+218 silly reify ]
+219 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-arm64
+220 silly reify mark deleted [
+220 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-arm64'
+220 silly reify ]
+221 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-arm
+222 silly reify mark deleted [
+222 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-arm'
+222 silly reify ]
+223 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\freebsd-x64
+224 silly reify mark deleted [
+224 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\freebsd-x64'
+224 silly reify ]
+225 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\freebsd-arm64
+226 silly reify mark deleted [
+226 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\freebsd-arm64'
+226 silly reify ]
+227 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\darwin-x64
+228 silly reify mark deleted [
+228 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\darwin-x64'
+228 silly reify ]
+229 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\darwin-arm64
+230 silly reify mark deleted [
+230 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\darwin-arm64'
+230 silly reify ]
+231 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\android-x64
+232 silly reify mark deleted [
+232 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\android-x64'
+232 silly reify ]
+233 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\android-arm64
+234 silly reify mark deleted [
+234 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\android-arm64'
+234 silly reify ]
+235 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\android-arm
+236 silly reify mark deleted [
+236 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\android-arm'
+236 silly reify ]
+237 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\aix-ppc64
+238 silly reify mark deleted [
+238 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\aix-ppc64'
+238 silly reify ]
+239 timing reifyNode:node_modules/fsevents Completed in 19ms
+240 timing reifyNode:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 20ms
+241 timing reifyNode:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 19ms
+242 timing reifyNode:node_modules/@rollup/rollup-openharmony-arm64 Completed in 19ms
+243 timing reifyNode:node_modules/@rollup/rollup-openbsd-x64 Completed in 19ms
+244 timing reifyNode:node_modules/@rollup/rollup-linux-x64-musl Completed in 19ms
+245 timing reifyNode:node_modules/@rollup/rollup-linux-x64-gnu Completed in 19ms
+246 timing reifyNode:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 19ms
+247 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-musl Completed in 19ms
+248 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 19ms
+249 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-musl Completed in 19ms
+250 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-gnu Completed in 19ms
+251 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-musl Completed in 19ms
+252 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-gnu Completed in 19ms
+253 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-musl Completed in 20ms
+254 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 20ms
+255 timing reifyNode:node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 20ms
+256 timing reifyNode:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 20ms
+257 timing reifyNode:node_modules/@rollup/rollup-freebsd-x64 Completed in 20ms
+258 timing reifyNode:node_modules/@rollup/rollup-freebsd-arm64 Completed in 20ms
+259 timing reifyNode:node_modules/@rollup/rollup-darwin-x64 Completed in 20ms
+260 timing reifyNode:node_modules/@rollup/rollup-darwin-arm64 Completed in 20ms
+261 timing reifyNode:node_modules/@rollup/rollup-android-arm64 Completed in 20ms
+262 timing reifyNode:node_modules/@rollup/rollup-android-arm-eabi Completed in 20ms
+263 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 20ms
+264 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 20ms
+265 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 20ms
+266 timing reifyNode:node_modules/@esbuild/openharmony-arm64 Completed in 20ms
+267 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 20ms
+268 timing reifyNode:node_modules/@esbuild/openbsd-arm64 Completed in 21ms
+269 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 20ms
+270 timing reifyNode:node_modules/@esbuild/netbsd-arm64 Completed in 20ms
+271 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 20ms
+272 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 20ms
+273 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 20ms
+274 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 20ms
+275 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 20ms
+276 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 20ms
+277 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 20ms
+278 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 20ms
+279 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 20ms
+280 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 20ms
+281 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 20ms
+282 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 21ms
+283 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 21ms
+284 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 21ms
+285 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 21ms
+286 timing reifyNode:node_modules/@esbuild/android-arm Completed in 21ms
+287 timing reifyNode:node_modules/@esbuild/aix-ppc64 Completed in 21ms
+288 silly tarball no local data for base64-arraybuffer@https://registry.npmjs.org/base64-arraybuffer/-/base64-arraybuffer-1.0.2.tgz. Extracting by manifest.
+289 silly tarball no local data for utrie@https://registry.npmjs.org/utrie/-/utrie-1.0.2.tgz. Extracting by manifest.
+290 silly tarball no local data for performance-now@https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz. Extracting by manifest.
+291 silly tarball no local data for text-segmentation@https://registry.npmjs.org/text-segmentation/-/text-segmentation-1.0.3.tgz. Extracting by manifest.
+292 silly tarball no local data for css-line-break@https://registry.npmjs.org/css-line-break/-/css-line-break-2.1.0.tgz. Extracting by manifest.
+293 silly tarball no local data for pako@https://registry.npmjs.org/pako/-/pako-2.1.0.tgz. Extracting by manifest.
+294 silly tarball no local data for iobuffer@https://registry.npmjs.org/iobuffer/-/iobuffer-5.4.0.tgz. Extracting by manifest.
+295 silly tarball no local data for @types/pako@https://registry.npmjs.org/@types/pako/-/pako-2.0.4.tgz. Extracting by manifest.
+296 silly tarball no local data for @types/trusted-types@https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz. Extracting by manifest.
+297 silly tarball no local data for svg-pathdata@https://registry.npmjs.org/svg-pathdata/-/svg-pathdata-6.0.3.tgz. Extracting by manifest.
+298 silly tarball no local data for stackblur-canvas@https://registry.npmjs.org/stackblur-canvas/-/stackblur-canvas-2.7.0.tgz. Extracting by manifest.
+299 silly tarball no local data for rgbcolor@https://registry.npmjs.org/rgbcolor/-/rgbcolor-1.0.1.tgz. Extracting by manifest.
+300 silly tarball no local data for regenerator-runtime@https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz. Extracting by manifest.
+301 silly tarball no local data for raf@https://registry.npmjs.org/raf/-/raf-3.4.1.tgz. Extracting by manifest.
+302 silly tarball no local data for @types/raf@https://registry.npmjs.org/@types/raf/-/raf-3.4.3.tgz. Extracting by manifest.
+303 silly tarball no local data for html2canvas@https://registry.npmjs.org/html2canvas/-/html2canvas-1.4.1.tgz. Extracting by manifest.
+304 silly tarball no local data for fflate@https://registry.npmjs.org/fflate/-/fflate-0.8.3.tgz. Extracting by manifest.
+305 silly tarball no local data for fast-png@https://registry.npmjs.org/fast-png/-/fast-png-6.4.0.tgz. Extracting by manifest.
+306 silly tarball no local data for dompurify@https://registry.npmjs.org/dompurify/-/dompurify-3.4.7.tgz. Extracting by manifest.
+307 silly tarball no local data for core-js@https://registry.npmjs.org/core-js/-/core-js-3.49.0.tgz. Extracting by manifest.
+308 silly tarball no local data for canvg@https://registry.npmjs.org/canvg/-/canvg-3.0.11.tgz. Extracting by manifest.
+309 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.7.tgz. Extracting by manifest.
+310 silly tarball no local data for jspdf@https://registry.npmjs.org/jspdf/-/jspdf-4.2.1.tgz. Extracting by manifest.
+311 http fetch GET 200 https://registry.npmjs.org/base64-arraybuffer/-/base64-arraybuffer-1.0.2.tgz 107ms (cache miss)
+312 timing reifyNode:node_modules/base64-arraybuffer Completed in 168ms
+313 http fetch GET 200 https://registry.npmjs.org/utrie/-/utrie-1.0.2.tgz 255ms (cache miss)
+314 timing reifyNode:node_modules/utrie Completed in 297ms
+315 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 329ms
+316 timing auditReport:getReport Completed in 333ms
+317 silly audit report {}
+318 timing auditReport:init Completed in 0ms
+319 timing reify:audit Completed in 334ms
+320 http fetch GET 200 https://registry.npmjs.org/raf/-/raf-3.4.1.tgz 461ms (cache miss)
+321 timing reifyNode:node_modules/raf Completed in 542ms
+322 http fetch GET 200 https://registry.npmjs.org/rgbcolor/-/rgbcolor-1.0.1.tgz 537ms (cache miss)
+323 timing reifyNode:node_modules/rgbcolor Completed in 607ms
+324 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz 691ms (cache miss)
+325 timing reifyNode:node_modules/regenerator-runtime Completed in 737ms
+326 http fetch GET 200 https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz 705ms (cache miss)
+327 http fetch GET 200 https://registry.npmjs.org/@types/pako/-/pako-2.0.4.tgz 709ms (cache miss)
+328 timing reifyNode:node_modules/@types/pako Completed in 751ms
+329 http fetch GET 200 https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz 713ms (cache miss)
+330 timing reifyNode:node_modules/performance-now Completed in 759ms
+331 http fetch GET 200 https://registry.npmjs.org/@types/raf/-/raf-3.4.3.tgz 717ms (cache miss)
+332 timing reifyNode:node_modules/@types/raf Completed in 765ms
+333 timing reifyNode:node_modules/@types/trusted-types Completed in 798ms
+334 http fetch GET 200 https://registry.npmjs.org/iobuffer/-/iobuffer-5.4.0.tgz 860ms (cache miss)
+335 timing reifyNode:node_modules/iobuffer Completed in 901ms
+336 http fetch GET 200 https://registry.npmjs.org/stackblur-canvas/-/stackblur-canvas-2.7.0.tgz 1151ms (cache miss)
+337 timing reifyNode:node_modules/stackblur-canvas Completed in 1196ms
+338 http fetch GET 200 https://registry.npmjs.org/text-segmentation/-/text-segmentation-1.0.3.tgz 1221ms (cache miss)
+339 timing reifyNode:node_modules/text-segmentation Completed in 1269ms
+340 http fetch GET 200 https://registry.npmjs.org/css-line-break/-/css-line-break-2.1.0.tgz 1367ms (cache miss)
+341 timing reifyNode:node_modules/css-line-break Completed in 1414ms
+342 http fetch GET 200 https://registry.npmjs.org/svg-pathdata/-/svg-pathdata-6.0.3.tgz 1378ms (cache miss)
+343 timing reifyNode:node_modules/svg-pathdata Completed in 1424ms
+344 http fetch GET 200 https://registry.npmjs.org/dompurify/-/dompurify-3.4.7.tgz 1402ms (cache miss)
+345 timing reifyNode:node_modules/dompurify Completed in 1454ms
+346 http fetch GET 200 https://registry.npmjs.org/fflate/-/fflate-0.8.3.tgz 1408ms (cache miss)
+347 timing reifyNode:node_modules/fflate Completed in 1456ms
+348 http fetch GET 200 https://registry.npmjs.org/fast-png/-/fast-png-6.4.0.tgz 1474ms (cache miss)
+349 timing reifyNode:node_modules/fast-png Completed in 1523ms
+350 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.7.tgz 2419ms (cache miss)
+351 timing reifyNode:node_modules/@babel/runtime Completed in 2469ms
+352 http fetch GET 200 https://registry.npmjs.org/canvg/-/canvg-3.0.11.tgz 2424ms (cache miss)
+353 timing reifyNode:node_modules/canvg Completed in 2475ms
+354 http fetch GET 200 https://registry.npmjs.org/pako/-/pako-2.1.0.tgz 2454ms (cache miss)
+355 timing reifyNode:node_modules/pako Completed in 2495ms
+356 http fetch GET 200 https://registry.npmjs.org/jspdf/-/jspdf-4.2.1.tgz 2863ms (cache miss)
+357 timing reifyNode:node_modules/jspdf Completed in 2915ms
+358 http fetch GET 200 https://registry.npmjs.org/html2canvas/-/html2canvas-1.4.1.tgz 5143ms (cache miss)
+359 timing reifyNode:node_modules/html2canvas Completed in 5192ms
+360 http fetch GET 200 https://registry.npmjs.org/core-js/-/core-js-3.49.0.tgz 10881ms (cache miss)
+361 timing reifyNode:node_modules/core-js Completed in 10931ms
+362 timing reify:unpack Completed in 10932ms
+363 timing reify:unretire Completed in 0ms
+364 timing build:queue Completed in 6ms
+365 info run core-js@3.49.0 postinstall node_modules/core-js node -e "try{require('./postinstall')}catch(e){}"
+366 info run core-js@3.49.0 postinstall { code: 0, signal: null }
+367 timing build:run:postinstall:node_modules/core-js Completed in 146ms
+368 timing build:run:postinstall Completed in 147ms
+369 timing build:deps Completed in 153ms
+370 timing build Completed in 153ms
+371 timing reify:build Completed in 154ms
+372 timing reify:trash Completed in 11ms
+373 timing reify:save Completed in 95ms
+374 timing reify Completed in 14333ms
+375 silly ADD node_modules/base64-arraybuffer
+376 silly ADD node_modules/performance-now
+377 silly ADD node_modules/utrie
+378 silly ADD node_modules/text-segmentation
+379 silly ADD node_modules/css-line-break
+380 silly ADD node_modules/pako
+381 silly ADD node_modules/iobuffer
+382 silly ADD node_modules/@types/pako
+383 silly ADD node_modules/@types/trusted-types
+384 silly ADD node_modules/svg-pathdata
+385 silly ADD node_modules/stackblur-canvas
+386 silly ADD node_modules/rgbcolor
+387 silly ADD node_modules/regenerator-runtime
+388 silly ADD node_modules/raf
+389 silly ADD node_modules/@types/raf
+390 silly ADD node_modules/html2canvas
+391 silly ADD node_modules/fflate
+392 silly ADD node_modules/fast-png
+393 silly ADD node_modules/dompurify
+394 silly ADD node_modules/core-js
+395 silly ADD node_modules/canvg
+396 silly ADD node_modules/@babel/runtime
+397 silly ADD node_modules/jspdf
+398 silly ADD
+399 silly ADD
+400 silly ADD
+401 silly ADD
+402 silly ADD
+403 silly ADD
+404 silly ADD
+405 silly ADD
+406 silly ADD
+407 silly ADD
+408 silly ADD
+409 silly ADD
+410 silly ADD
+411 silly ADD
+412 silly ADD
+413 silly ADD
+414 silly ADD
+415 silly ADD
+416 silly ADD
+417 silly ADD
+418 silly ADD
+419 silly ADD
+420 silly ADD
+421 silly ADD
+422 silly ADD
+423 silly ADD
+424 silly ADD
+425 silly ADD
+426 silly ADD
+427 silly ADD
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD
+432 silly ADD
+433 silly ADD
+434 silly ADD
+435 silly ADD
+436 silly ADD
+437 silly ADD
+438 silly ADD
+439 silly ADD
+440 silly ADD
+441 silly ADD
+442 silly ADD
+443 silly ADD
+444 silly ADD
+445 silly ADD
+446 silly ADD
+447 timing command:install Completed in 14346ms
+448 verbose exit 0
+449 timing npm Completed in 14950ms
+450 info ok

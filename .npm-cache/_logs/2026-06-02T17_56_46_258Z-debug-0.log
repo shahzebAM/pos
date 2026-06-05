@@ -1,0 +1,534 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Shahzeb\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.4.0
+2 info using node@v24.13.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\Shahzeb\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 5ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 11ms
+11 timing config:load:file:C:\Users\Shahzeb\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\Shahzeb\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 26ms
+17 timing npm:load:configload Completed in 27ms
+18 timing config:load:flatten Completed in 4ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install primevue @primeuix/themes primeicons
+22 verbose argv "install" "primevue" "@primeuix/themes" "primeicons" "--cache" ".npm-cache"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\.npm-cache\_logs\2026-06-02T17_56_46_258Z-
+26 verbose logfile C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\.npm-cache\_logs\2026-06-02T17_56_46_258Z-debug-0.log
+27 timing npm:load:logFile Completed in 21ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 71ms
+31 timing arborist:ctor Completed in 2ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 74ms
+34 timing idealTree:userRequests Completed in 2ms
+35 silly idealTree buildDeps
+36 silly fetch manifest primevue@*
+37 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+38 http fetch GET 200 https://registry.npmjs.org/primevue 603ms (cache miss)
+39 silly fetch manifest @primeuix/themes@*
+40 http fetch GET 200 https://registry.npmjs.org/@primeuix%2fthemes 673ms (cache miss)
+41 silly fetch manifest primeicons@*
+42 http fetch GET 200 https://registry.npmjs.org/primeicons 408ms (cache miss)
+43 silly placeDep ROOT @primeuix/themes@2.0.3 OK for: multi-branch-pos@1.0.0 want: *
+44 silly placeDep ROOT primeicons@7.0.0 OK for: multi-branch-pos@1.0.0 want: *
+45 silly placeDep ROOT primevue@4.5.5 OK for: multi-branch-pos@1.0.0 want: *
+46 silly fetch manifest @primeuix/styled@^0.7.4
+47 silly fetch manifest @primeuix/utils@^0.6.2
+48 http fetch GET 200 https://registry.npmjs.org/@primeuix%2fstyled 699ms (cache miss)
+49 silly fetch manifest @primeuix/styles@^2.0.3
+50 silly fetch manifest @primevue/core@4.5.5
+51 http fetch GET 200 https://registry.npmjs.org/@primeuix%2futils 751ms (cache miss)
+52 silly fetch manifest @primevue/icons@4.5.5
+53 http fetch GET 200 https://registry.npmjs.org/@primeuix%2fstyles 708ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/@primevue%2ficons 657ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/@primevue%2fcore 830ms (cache miss)
+56 timing idealTree:#root Completed in 3251ms
+57 silly placeDep ROOT @primeuix/styled@0.7.4 OK for: @primeuix/themes@2.0.3 want: ^0.7.4
+58 silly fetch manifest @primeuix/utils@^0.6.1
+59 timing idealTree:node_modules/@primeuix/themes Completed in 7ms
+60 silly placeDep ROOT @primeuix/utils@0.6.4 OK for: @primeuix/styled@0.7.4 want: ^0.6.1
+61 timing idealTree:node_modules/@primeuix/styled Completed in 3ms
+62 timing idealTree:node_modules/@primeuix/utils Completed in 0ms
+63 timing idealTree:node_modules/primeicons Completed in 0ms
+64 silly fetch manifest vue@^3.5.0
+65 http fetch GET 200 https://registry.npmjs.org/vue 272ms (cache revalidated)
+66 silly fetch manifest typescript@*
+67 http fetch GET 200 https://registry.npmjs.org/typescript 133ms (cache revalidated)
+68 silly placeDep ROOT @primeuix/styles@2.0.3 OK for: primevue@4.5.5 want: ^2.0.3
+69 silly placeDep ROOT @primevue/core@4.5.5 OK for: primevue@4.5.5 want: 4.5.5
+70 silly placeDep ROOT @primevue/icons@4.5.5 OK for: primevue@4.5.5 want: 4.5.5
+71 timing idealTree:node_modules/primevue Completed in 606ms
+72 timing idealTree:node_modules/@primeuix/styles Completed in 0ms
+73 timing idealTree:node_modules/@primevue/core Completed in 0ms
+74 timing idealTree:node_modules/@primevue/icons Completed in 0ms
+75 timing idealTree:buildDeps Completed in 3867ms
+76 timing idealTree:fixDepFlags Completed in 2ms
+77 timing idealTree Completed in 3949ms
+78 timing reify:loadTrees Completed in 3953ms
+79 timing reify:diffTrees Completed in 6ms
+80 silly reify moves {}
+81 timing reify:retireShallow Completed in 1ms
+82 timing reify:createSparse Completed in 21ms
+83 timing reify:loadBundles Completed in 0ms
+84 silly audit bulk request {
+84 silly audit   '@babel/helper-string-parser': [ '7.29.7' ],
+84 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+84 silly audit   '@babel/parser': [ '7.29.7' ],
+84 silly audit   '@babel/types': [ '7.29.7' ],
+84 silly audit   '@esbuild/aix-ppc64': [ '0.27.7' ],
+84 silly audit   '@esbuild/android-arm': [ '0.27.7' ],
+84 silly audit   '@esbuild/android-arm64': [ '0.27.7' ],
+84 silly audit   '@esbuild/android-x64': [ '0.27.7' ],
+84 silly audit   '@esbuild/darwin-arm64': [ '0.27.7' ],
+84 silly audit   '@esbuild/darwin-x64': [ '0.27.7' ],
+84 silly audit   '@esbuild/freebsd-arm64': [ '0.27.7' ],
+84 silly audit   '@esbuild/freebsd-x64': [ '0.27.7' ],
+84 silly audit   '@esbuild/linux-arm': [ '0.27.7' ],
+84 silly audit   '@esbuild/linux-arm64': [ '0.27.7' ],
+84 silly audit   '@esbuild/linux-ia32': [ '0.27.7' ],
+84 silly audit   '@esbuild/linux-loong64': [ '0.27.7' ],
+84 silly audit   '@esbuild/linux-mips64el': [ '0.27.7' ],
+84 silly audit   '@esbuild/linux-ppc64': [ '0.27.7' ],
+84 silly audit   '@esbuild/linux-riscv64': [ '0.27.7' ],
+84 silly audit   '@esbuild/linux-s390x': [ '0.27.7' ],
+84 silly audit   '@esbuild/linux-x64': [ '0.27.7' ],
+84 silly audit   '@esbuild/netbsd-arm64': [ '0.27.7' ],
+84 silly audit   '@esbuild/netbsd-x64': [ '0.27.7' ],
+84 silly audit   '@esbuild/openbsd-arm64': [ '0.27.7' ],
+84 silly audit   '@esbuild/openbsd-x64': [ '0.27.7' ],
+84 silly audit   '@esbuild/openharmony-arm64': [ '0.27.7' ],
+84 silly audit   '@esbuild/sunos-x64': [ '0.27.7' ],
+84 silly audit   '@esbuild/win32-arm64': [ '0.27.7' ],
+84 silly audit   '@esbuild/win32-ia32': [ '0.27.7' ],
+84 silly audit   '@esbuild/win32-x64': [ '0.27.7' ],
+84 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+84 silly audit   '@lucide/vue': [ '1.17.0' ],
+84 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+84 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-android-arm64': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-darwin-arm64': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-darwin-x64': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-freebsd-x64': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-openbsd-x64': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.61.0' ],
+84 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.61.0' ],
+84 silly audit   '@supabase/auth-js': [ '2.107.0' ],
+84 silly audit   '@supabase/functions-js': [ '2.107.0' ],
+84 silly audit   '@supabase/phoenix': [ '0.4.2' ],
+84 silly audit   '@supabase/postgrest-js': [ '2.107.0' ],
+84 silly audit   '@supabase/realtime-js': [ '2.107.0' ],
+84 silly audit   '@supabase/storage-js': [ '2.107.0' ],
+84 silly audit   '@supabase/supabase-js': [ '2.107.0' ],
+84 silly audit   '@types/estree': [ '1.0.9' ],
+84 silly audit   '@vitejs/plugin-vue': [ '6.0.7' ],
+84 silly audit   '@vue/compiler-core': [ '3.5.35' ],
+84 silly audit   '@vue/compiler-dom': [ '3.5.35' ],
+84 silly audit   '@vue/compiler-sfc': [ '3.5.35' ],
+84 silly audit   '@vue/compiler-ssr': [ '3.5.35' ],
+84 silly audit   '@vue/devtools-api': [ '6.6.4' ],
+84 silly audit   '@vue/reactivity': [ '3.5.35' ],
+84 silly audit   '@vue/runtime-core': [ '3.5.35' ],
+84 silly audit   '@vue/runtime-dom': [ '3.5.35' ],
+84 silly audit   '@vue/server-renderer': [ '3.5.35' ],
+84 silly audit   '@vue/shared': [ '3.5.35' ],
+84 silly audit   csstype: [ '3.2.3' ],
+84 silly audit   entities: [ '7.0.1' ],
+84 silly audit   esbuild: [ '0.27.7' ],
+84 silly audit   'estree-walker': [ '2.0.2' ],
+84 silly audit   fdir: [ '6.5.0' ],
+84 silly audit   fsevents: [ '2.3.3' ],
+84 silly audit   'iceberg-js': [ '0.8.1' ],
+84 silly audit   'magic-string': [ '0.30.21' ],
+84 silly audit   nanoid: [ '3.3.12' ],
+84 silly audit   picocolors: [ '1.1.1' ],
+84 silly audit   picomatch: [ '4.0.4' ],
+84 silly audit   postcss: [ '8.5.15' ],
+84 silly audit   rollup: [ '4.61.0' ],
+84 silly audit   'source-map-js': [ '1.2.1' ],
+84 silly audit   tinyglobby: [ '0.2.17' ],
+84 silly audit   tslib: [ '2.8.1' ],
+84 silly audit   vite: [ '7.3.5' ],
+84 silly audit   vue: [ '3.5.35' ],
+84 silly audit   'vue-router': [ '4.6.4' ],
+84 silly audit   '@primeuix/themes': [ '2.0.3' ],
+84 silly audit   primeicons: [ '7.0.0' ],
+84 silly audit   primevue: [ '4.5.5' ],
+84 silly audit   '@primeuix/styled': [ '0.7.4' ],
+84 silly audit   '@primeuix/utils': [ '0.6.4' ],
+84 silly audit   '@primeuix/styles': [ '2.0.3' ],
+84 silly audit   '@primevue/core': [ '4.5.5' ],
+84 silly audit   '@primevue/icons': [ '4.5.5' ]
+84 silly audit }
+85 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\fsevents
+86 silly reify mark deleted [
+86 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\fsevents'
+86 silly reify ]
+87 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-win32-ia32-msvc
+88 silly reify mark deleted [
+88 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+88 silly reify ]
+89 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-win32-arm64-msvc
+90 silly reify mark deleted [
+90 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+90 silly reify ]
+91 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-openharmony-arm64
+92 silly reify mark deleted [
+92 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-openharmony-arm64'
+92 silly reify ]
+93 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-openbsd-x64
+94 silly reify mark deleted [
+94 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-openbsd-x64'
+94 silly reify ]
+95 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-x64-musl
+96 silly reify mark deleted [
+96 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-x64-musl'
+96 silly reify ]
+97 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-x64-gnu
+98 silly reify mark deleted [
+98 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+98 silly reify ]
+99 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-s390x-gnu
+100 silly reify mark deleted [
+100 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+100 silly reify ]
+101 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-riscv64-musl
+102 silly reify mark deleted [
+102 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+102 silly reify ]
+103 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-riscv64-gnu
+104 silly reify mark deleted [
+104 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+104 silly reify ]
+105 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-ppc64-musl
+106 silly reify mark deleted [
+106 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+106 silly reify ]
+107 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-ppc64-gnu
+108 silly reify mark deleted [
+108 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+108 silly reify ]
+109 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-loong64-musl
+110 silly reify mark deleted [
+110 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+110 silly reify ]
+111 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-loong64-gnu
+112 silly reify mark deleted [
+112 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+112 silly reify ]
+113 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-arm64-musl
+114 silly reify mark deleted [
+114 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+114 silly reify ]
+115 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-arm64-gnu
+116 silly reify mark deleted [
+116 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+116 silly reify ]
+117 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-arm-musleabihf
+118 silly reify mark deleted [
+118 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+118 silly reify ]
+119 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-linux-arm-gnueabihf
+120 silly reify mark deleted [
+120 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+120 silly reify ]
+121 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-freebsd-x64
+122 silly reify mark deleted [
+122 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-freebsd-x64'
+122 silly reify ]
+123 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-freebsd-arm64
+124 silly reify mark deleted [
+124 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-freebsd-arm64'
+124 silly reify ]
+125 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-darwin-x64
+126 silly reify mark deleted [
+126 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-darwin-x64'
+126 silly reify ]
+127 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-darwin-arm64
+128 silly reify mark deleted [
+128 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-darwin-arm64'
+128 silly reify ]
+129 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-android-arm64
+130 silly reify mark deleted [
+130 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-android-arm64'
+130 silly reify ]
+131 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@rollup\rollup-android-arm-eabi
+132 silly reify mark deleted [
+132 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@rollup\\rollup-android-arm-eabi'
+132 silly reify ]
+133 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\win32-ia32
+134 silly reify mark deleted [
+134 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\win32-ia32'
+134 silly reify ]
+135 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\win32-arm64
+136 silly reify mark deleted [
+136 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\win32-arm64'
+136 silly reify ]
+137 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\sunos-x64
+138 silly reify mark deleted [
+138 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\sunos-x64'
+138 silly reify ]
+139 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\openharmony-arm64
+140 silly reify mark deleted [
+140 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\openharmony-arm64'
+140 silly reify ]
+141 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\openbsd-x64
+142 silly reify mark deleted [
+142 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\openbsd-x64'
+142 silly reify ]
+143 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\openbsd-arm64
+144 silly reify mark deleted [
+144 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\openbsd-arm64'
+144 silly reify ]
+145 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\netbsd-x64
+146 silly reify mark deleted [
+146 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\netbsd-x64'
+146 silly reify ]
+147 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\netbsd-arm64
+148 silly reify mark deleted [
+148 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\netbsd-arm64'
+148 silly reify ]
+149 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-x64
+150 silly reify mark deleted [
+150 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-x64'
+150 silly reify ]
+151 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-s390x
+152 silly reify mark deleted [
+152 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-s390x'
+152 silly reify ]
+153 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-riscv64
+154 silly reify mark deleted [
+154 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-riscv64'
+154 silly reify ]
+155 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-ppc64
+156 silly reify mark deleted [
+156 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-ppc64'
+156 silly reify ]
+157 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-mips64el
+158 silly reify mark deleted [
+158 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-mips64el'
+158 silly reify ]
+159 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-loong64
+160 silly reify mark deleted [
+160 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-loong64'
+160 silly reify ]
+161 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-ia32
+162 silly reify mark deleted [
+162 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-ia32'
+162 silly reify ]
+163 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-arm64
+164 silly reify mark deleted [
+164 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-arm64'
+164 silly reify ]
+165 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\linux-arm
+166 silly reify mark deleted [
+166 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\linux-arm'
+166 silly reify ]
+167 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\freebsd-x64
+168 silly reify mark deleted [
+168 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\freebsd-x64'
+168 silly reify ]
+169 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\freebsd-arm64
+170 silly reify mark deleted [
+170 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\freebsd-arm64'
+170 silly reify ]
+171 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\darwin-x64
+172 silly reify mark deleted [
+172 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\darwin-x64'
+172 silly reify ]
+173 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\darwin-arm64
+174 silly reify mark deleted [
+174 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\darwin-arm64'
+174 silly reify ]
+175 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\android-x64
+176 silly reify mark deleted [
+176 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\android-x64'
+176 silly reify ]
+177 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\android-arm64
+178 silly reify mark deleted [
+178 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\android-arm64'
+178 silly reify ]
+179 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\android-arm
+180 silly reify mark deleted [
+180 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\android-arm'
+180 silly reify ]
+181 verbose reify failed optional dependency C:\Users\Shahzeb\Documents\Codex\2026-06-02\you-are-a-senior-full-stack\node_modules\@esbuild\aix-ppc64
+182 silly reify mark deleted [
+182 silly reify   'C:\\Users\\Shahzeb\\Documents\\Codex\\2026-06-02\\you-are-a-senior-full-stack\\node_modules\\@esbuild\\aix-ppc64'
+182 silly reify ]
+183 timing reifyNode:node_modules/fsevents Completed in 21ms
+184 timing reifyNode:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 20ms
+185 timing reifyNode:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 21ms
+186 timing reifyNode:node_modules/@rollup/rollup-openharmony-arm64 Completed in 21ms
+187 timing reifyNode:node_modules/@rollup/rollup-openbsd-x64 Completed in 21ms
+188 timing reifyNode:node_modules/@rollup/rollup-linux-x64-musl Completed in 21ms
+189 timing reifyNode:node_modules/@rollup/rollup-linux-x64-gnu Completed in 21ms
+190 timing reifyNode:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 21ms
+191 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-musl Completed in 21ms
+192 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 21ms
+193 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-musl Completed in 21ms
+194 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-gnu Completed in 21ms
+195 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-musl Completed in 21ms
+196 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-gnu Completed in 21ms
+197 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-musl Completed in 21ms
+198 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 21ms
+199 timing reifyNode:node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 22ms
+200 timing reifyNode:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 22ms
+201 timing reifyNode:node_modules/@rollup/rollup-freebsd-x64 Completed in 22ms
+202 timing reifyNode:node_modules/@rollup/rollup-freebsd-arm64 Completed in 22ms
+203 timing reifyNode:node_modules/@rollup/rollup-darwin-x64 Completed in 22ms
+204 timing reifyNode:node_modules/@rollup/rollup-darwin-arm64 Completed in 21ms
+205 timing reifyNode:node_modules/@rollup/rollup-android-arm64 Completed in 21ms
+206 timing reifyNode:node_modules/@rollup/rollup-android-arm-eabi Completed in 21ms
+207 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 21ms
+208 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 21ms
+209 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 21ms
+210 timing reifyNode:node_modules/@esbuild/openharmony-arm64 Completed in 21ms
+211 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 21ms
+212 timing reifyNode:node_modules/@esbuild/openbsd-arm64 Completed in 21ms
+213 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 21ms
+214 timing reifyNode:node_modules/@esbuild/netbsd-arm64 Completed in 21ms
+215 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 22ms
+216 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 23ms
+217 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 23ms
+218 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 23ms
+219 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 23ms
+220 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 23ms
+221 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 23ms
+222 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 24ms
+223 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 24ms
+224 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 24ms
+225 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 23ms
+226 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 23ms
+227 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 23ms
+228 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 23ms
+229 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 23ms
+230 timing reifyNode:node_modules/@esbuild/android-arm Completed in 23ms
+231 timing reifyNode:node_modules/@esbuild/aix-ppc64 Completed in 24ms
+232 silly tarball no local data for @primevue/icons@https://registry.npmjs.org/@primevue/icons/-/icons-4.5.5.tgz. Extracting by manifest.
+233 silly tarball no local data for @primevue/core@https://registry.npmjs.org/@primevue/core/-/core-4.5.5.tgz. Extracting by manifest.
+234 silly tarball no local data for @primeuix/styles@https://registry.npmjs.org/@primeuix/styles/-/styles-2.0.3.tgz. Extracting by manifest.
+235 silly tarball no local data for @primeuix/utils@https://registry.npmjs.org/@primeuix/utils/-/utils-0.6.4.tgz. Extracting by manifest.
+236 silly tarball no local data for @primeuix/styled@https://registry.npmjs.org/@primeuix/styled/-/styled-0.7.4.tgz. Extracting by manifest.
+237 silly tarball no local data for primevue@https://registry.npmjs.org/primevue/-/primevue-4.5.5.tgz. Extracting by manifest.
+238 silly tarball no local data for @primeuix/themes@https://registry.npmjs.org/@primeuix/themes/-/themes-2.0.3.tgz. Extracting by manifest.
+239 silly tarball no local data for primeicons@https://registry.npmjs.org/primeicons/-/primeicons-7.0.0.tgz. Extracting by manifest.
+240 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 338ms
+241 timing auditReport:getReport Completed in 343ms
+242 silly audit report {}
+243 timing auditReport:init Completed in 0ms
+244 timing reify:audit Completed in 343ms
+245 http fetch GET 200 https://registry.npmjs.org/@primeuix/styled/-/styled-0.7.4.tgz 745ms (cache miss)
+246 timing reifyNode:node_modules/@primeuix/styled Completed in 785ms
+247 http fetch GET 200 https://registry.npmjs.org/@primeuix/utils/-/utils-0.6.4.tgz 880ms (cache miss)
+248 timing reifyNode:node_modules/@primeuix/utils Completed in 917ms
+249 http fetch GET 200 https://registry.npmjs.org/@primevue/core/-/core-4.5.5.tgz 884ms (cache miss)
+250 timing reifyNode:node_modules/@primevue/core Completed in 920ms
+251 http fetch GET 200 https://registry.npmjs.org/@primevue/icons/-/icons-4.5.5.tgz 2880ms (cache miss)
+252 timing reifyNode:node_modules/@primevue/icons Completed in 2920ms
+253 http fetch GET 200 https://registry.npmjs.org/@primeuix/styles/-/styles-2.0.3.tgz 3313ms (cache miss)
+254 timing reifyNode:node_modules/@primeuix/styles Completed in 3354ms
+255 http fetch GET 200 https://registry.npmjs.org/primeicons/-/primeicons-7.0.0.tgz 3462ms (cache miss)
+256 timing reifyNode:node_modules/primeicons Completed in 3503ms
+257 http fetch GET 200 https://registry.npmjs.org/@primeuix/themes/-/themes-2.0.3.tgz 8781ms (cache miss)
+258 timing reifyNode:node_modules/@primeuix/themes Completed in 8821ms
+259 http fetch GET 200 https://registry.npmjs.org/primevue/-/primevue-4.5.5.tgz 9081ms (cache miss)
+260 timing reifyNode:node_modules/primevue Completed in 9120ms
+261 timing reify:unpack Completed in 9122ms
+262 timing reify:unretire Completed in 0ms
+263 timing build:queue Completed in 15ms
+264 timing build:deps Completed in 16ms
+265 timing build Completed in 17ms
+266 timing reify:build Completed in 18ms
+267 timing reify:trash Completed in 18ms
+268 timing reify:save Completed in 90ms
+269 timing reify Completed in 13292ms
+270 silly ADD node_modules/@primevue/icons
+271 silly ADD node_modules/@primevue/core
+272 silly ADD node_modules/@primeuix/styles
+273 silly ADD node_modules/@primeuix/utils
+274 silly ADD node_modules/@primeuix/styled
+275 silly ADD node_modules/primevue
+276 silly ADD node_modules/primeicons
+277 silly ADD node_modules/@primeuix/themes
+278 silly ADD
+279 silly ADD
+280 silly ADD
+281 silly ADD
+282 silly ADD
+283 silly ADD
+284 silly ADD
+285 silly ADD
+286 silly ADD
+287 silly ADD
+288 silly ADD
+289 silly ADD
+290 silly ADD
+291 silly ADD
+292 silly ADD
+293 silly ADD
+294 silly ADD
+295 silly ADD
+296 silly ADD
+297 silly ADD
+298 silly ADD
+299 silly ADD
+300 silly ADD
+301 silly ADD
+302 silly ADD
+303 silly ADD
+304 silly ADD
+305 silly ADD
+306 silly ADD
+307 silly ADD
+308 silly ADD
+309 silly ADD
+310 silly ADD
+311 silly ADD
+312 silly ADD
+313 silly ADD
+314 silly ADD
+315 silly ADD
+316 silly ADD
+317 silly ADD
+318 silly ADD
+319 silly ADD
+320 silly ADD
+321 silly ADD
+322 silly ADD
+323 silly ADD
+324 silly ADD
+325 silly ADD
+326 silly ADD
+327 timing command:install Completed in 13306ms
+328 verbose exit 0
+329 timing npm Completed in 14103ms
+330 info ok
