@@ -1269,7 +1269,21 @@ dist
 
 ## Step 49: Test PWA Install
 
-PWA install works from the production build, not the normal dev server.
+For the fastest check during development:
+
+```bash
+npm run dev
+```
+
+Then open:
+
+```text
+http://localhost:5173/manifest.webmanifest
+```
+
+You should see the app manifest. Then open `http://localhost:5173`, refresh once, and check the browser install icon.
+
+For the most accurate install test, use the production preview:
 
 1. Build the app:
 
@@ -1292,6 +1306,7 @@ npm run preview
 Important:
 
 - The installed app needs HTTPS in production. Vercel already provides HTTPS.
+- Localhost is allowed for testing, but ordinary LAN URLs like `http://192.168.x.x` are not installable unless served with HTTPS.
 - The app shell can load after the first successful visit.
 - Live sales, checkout, stock, reports, and staff actions still need network access unless you use the POS offline queue.
 - After a new deployment, the installed app updates its cached app shell automatically on the next visit.
