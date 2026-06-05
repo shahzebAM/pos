@@ -211,19 +211,21 @@ begin
     'daily_sales', (
       select coalesce(jsonb_agg(
         jsonb_build_object(
-          'date', d.day,
-          'label', to_char(d.day, 'Mon DD'),
-          'orders', coalesce(s.orders, 0),
-          'sales', coalesce(s.sales, 0)
+          'date', s.business_date,
+          'label', to_char(s.business_date, 'Mon DD'),
+          'orders', s.orders,
+          'sales', s.sales
         )
-        order by d.day
+        order by s.business_date
       ), '[]'::jsonb)
-      from generate_series(v_from, v_to, interval '1 day') as d(day)
-      left join lateral (
-        select count(*)::integer as orders, coalesce(sum(o.total), 0)::numeric(14, 2) as sales
+      from (
+        select
+          o.business_date,
+          count(*)::integer as orders,
+          coalesce(sum(o.total), 0)::numeric(14, 2) as sales
         from scoped_orders o
-        where o.business_date = d.day::date
-      ) s on true
+        group by o.business_date
+      ) s
     ),
     'cashier_performance', (
       select coalesce(jsonb_agg(

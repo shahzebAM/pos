@@ -764,16 +764,15 @@ begin
   ),
   daily_rows as (
     select
-      d.day::date as business_date,
-      to_char(d.day, 'Mon DD') as label,
+      pr.business_date,
+      to_char(pr.business_date, 'Mon DD') as label,
       count(pr.id)::integer as payment_count,
       coalesce(sum(pr.amount), 0)::numeric(14, 2) as collected_amount,
       coalesce(sum(pr.processor_fee_amount), 0)::numeric(14, 2) as processor_fee_amount,
       coalesce(sum(pr.net_amount), 0)::numeric(14, 2) as net_amount
-    from generate_series(v_from, v_to, interval '1 day') d(day)
-    left join payment_rows pr on pr.business_date = d.day::date
-    group by d.day
-    order by d.day
+    from payment_rows pr
+    group by pr.business_date
+    order by pr.business_date
   ),
   recent_payment_rows as (
     select *

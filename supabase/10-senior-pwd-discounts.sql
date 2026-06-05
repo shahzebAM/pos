@@ -404,17 +404,16 @@ begin
   ),
   daily_rows as (
     select
-      d.day::date as business_date,
-      to_char(d.day, 'Mon DD') as label,
+      c.business_date,
+      to_char(c.business_date, 'Mon DD') as label,
       count(c.id)::integer as claims,
       coalesce(sum(c.regular_discount_amount), 0)::numeric(14, 2) as regular_discount_amount,
       coalesce(sum(c.special_discount_amount), 0)::numeric(14, 2) as special_discount_amount,
       coalesce(sum(c.vat_exempt_amount), 0)::numeric(14, 2) as vat_exempt_amount,
       coalesce(sum(c.total_discount_amount), 0)::numeric(14, 2) as total_discount_amount
-    from generate_series(v_from, v_to, interval '1 day') d(day)
-    left join scoped_claims c on c.business_date = d.day::date
-    group by d.day
-    order by d.day
+    from scoped_claims c
+    group by c.business_date
+    order by c.business_date
   )
   select jsonb_build_object(
     'period', jsonb_build_object('from', v_from, 'to', v_to),

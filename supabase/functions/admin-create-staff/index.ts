@@ -22,7 +22,7 @@ const roleDefaults = {
     'pos.void',
     'reports.view',
   ],
-  manager: ['dashboard.view', 'branches.view', 'users.view', 'shifts.view', 'shifts.manage', 'pos.sell', 'pos.discount', 'reports.view'],
+  manager: ['dashboard.view', 'branches.view', 'users.view', 'shifts.view', 'shifts.manage', 'activity.view', 'pos.sell', 'pos.discount', 'reports.view'],
   cashier: ['dashboard.view', 'pos.sell', 'shifts.view'],
   auditor: ['dashboard.view', 'branches.view', 'users.view', 'activity.view', 'reports.view'],
 }

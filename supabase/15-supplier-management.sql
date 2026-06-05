@@ -587,13 +587,13 @@ begin
   ),
   daily_payments as (
     select
-      d.day::date as business_date,
-      to_char(d.day::date, 'Mon DD') as label,
-      coalesce(count(pr.id) filter (where pr.status = 'posted'), 0)::integer as payments,
-      coalesce(sum(pr.amount) filter (where pr.status = 'posted'), 0)::numeric(14, 2) as paid_amount
-    from generate_series(v_from, v_to, interval '1 day') d(day)
-    left join payment_rows pr on pr.payment_date = d.day::date
-    group by d.day
+      pr.payment_date as business_date,
+      to_char(pr.payment_date, 'Mon DD') as label,
+      count(pr.id)::integer as payments,
+      coalesce(sum(pr.amount), 0)::numeric(14, 2) as paid_amount
+    from payment_rows pr
+    where pr.status = 'posted'
+    group by pr.payment_date
   ),
   branch_summary as (
     select

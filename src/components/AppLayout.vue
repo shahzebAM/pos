@@ -5,8 +5,8 @@
         <RouterLink class="brand-lockup" to="/dashboard" @click="closeMenu">
           <span class="brand-mark">POS</span>
           <span>
-            <small>Philippines POS</small>
-            <strong>Clean Build</strong>
+            <small>Multi-Branch POS</small>
+            <strong>RetailLedger</strong>
           </span>
         </RouterLink>
 
@@ -14,16 +14,19 @@
       </div>
 
       <nav class="sidebar-nav">
-        <RouterLink
-          v-for="item in visibleNavItems"
-          :key="item.to"
-          :to="item.to"
-          class="sidebar-nav__link"
-          @click="closeMenu"
-        >
-          <i :class="item.icon" />
-          <span>{{ item.label }}</span>
-        </RouterLink>
+        <section v-for="group in visibleNavGroups" :key="group.label" class="sidebar-nav__section">
+          <span class="sidebar-nav__section-label">{{ group.label }}</span>
+          <RouterLink
+            v-for="item in group.items"
+            :key="item.to"
+            :to="item.to"
+            class="sidebar-nav__link"
+            @click="closeMenu"
+          >
+            <i :class="item.icon" />
+            <span>{{ item.label }}</span>
+          </RouterLink>
+        </section>
       </nav>
 
       <div class="sidebar-user">
@@ -73,32 +76,72 @@ const route = useRoute()
 const auth = useAuthStore()
 const menuOpen = ref(false)
 
-const navItems = [
-  { label: 'Dashboard', to: '/dashboard', icon: 'pi pi-chart-bar', roles: ['admin', 'manager', 'cashier', 'auditor'] },
-  { label: 'POS', to: '/pos', icon: 'pi pi-shopping-cart', roles: ['admin', 'manager', 'cashier'] },
-  { label: 'Customers', to: '/customers', icon: 'pi pi-id-card', roles: ['admin', 'manager', 'cashier', 'auditor'] },
-  { label: 'Shifts', to: '/shifts', icon: 'pi pi-clock', roles: ['admin', 'manager', 'cashier', 'auditor'] },
-  { label: 'Returns', to: '/returns', icon: 'pi pi-undo', roles: ['admin', 'manager', 'cashier', 'auditor'] },
-  { label: 'Purchases', to: '/purchases', icon: 'pi pi-shopping-bag', roles: ['admin', 'manager', 'auditor'] },
-  { label: 'Suppliers', to: '/suppliers', icon: 'pi pi-address-book', roles: ['admin', 'manager', 'auditor'] },
-  { label: 'Branches', to: '/branches', icon: 'pi pi-building', roles: ['admin', 'manager', 'auditor'] },
-  { label: 'Users', to: '/users', icon: 'pi pi-users', roles: ['admin', 'manager', 'auditor'] },
-  { label: 'Products', to: '/products', icon: 'pi pi-box', roles: ['admin', 'manager', 'auditor'] },
-  { label: 'Inventory', to: '/inventory', icon: 'pi pi-warehouse', roles: ['admin', 'manager', 'auditor'] },
-  { label: 'Transfers', to: '/transfers', icon: 'pi pi-send', roles: ['admin', 'manager', 'auditor'] },
-  { label: 'BIR', to: '/bir-compliance', icon: 'pi pi-receipt', roles: ['admin', 'manager', 'auditor'] },
-  { label: 'Tax', to: '/tax-management', icon: 'pi pi-percentage', roles: ['admin', 'manager', 'auditor'] },
-  { label: 'Senior/PWD', to: '/senior-pwd', icon: 'pi pi-id-card', roles: ['admin', 'manager', 'auditor'] },
-  { label: 'Payments', to: '/payments', icon: 'pi pi-credit-card', roles: ['admin', 'manager', 'auditor'] },
+const navGroups = [
+  {
+    label: 'Home',
+    items: [
+      { label: 'Dashboard', to: '/dashboard', icon: 'pi pi-chart-bar', roles: ['admin', 'manager', 'cashier', 'auditor'] },
+    ],
+  },
+  {
+    label: 'Sales',
+    items: [
+      { label: 'POS', to: '/pos', icon: 'pi pi-shopping-cart', roles: ['admin', 'manager', 'cashier'] },
+      { label: 'Customers', to: '/customers', icon: 'pi pi-id-card', roles: ['admin', 'manager', 'cashier', 'auditor'] },
+      { label: 'Returns', to: '/returns', icon: 'pi pi-undo', roles: ['admin', 'manager', 'cashier', 'auditor'] },
+      { label: 'Payments', to: '/payments', icon: 'pi pi-credit-card', roles: ['admin', 'manager', 'auditor'] },
+    ],
+  },
+  {
+    label: 'Operations',
+    items: [
+      { label: 'Shifts', to: '/shifts', icon: 'pi pi-clock', roles: ['admin', 'manager', 'cashier', 'auditor'] },
+      { label: 'Products', to: '/products', icon: 'pi pi-box', roles: ['admin', 'manager', 'auditor'] },
+      { label: 'Inventory', to: '/inventory', icon: 'pi pi-warehouse', roles: ['admin', 'manager', 'auditor'] },
+      { label: 'Transfers', to: '/transfers', icon: 'pi pi-send', roles: ['admin', 'manager', 'auditor'] },
+    ],
+  },
+  {
+    label: 'Purchasing',
+    items: [
+      { label: 'Purchases', to: '/purchases', icon: 'pi pi-shopping-bag', roles: ['admin', 'manager', 'auditor'] },
+      { label: 'Suppliers', to: '/suppliers', icon: 'pi pi-address-book', roles: ['admin', 'manager', 'auditor'] },
+    ],
+  },
+  {
+    label: 'Finance',
+    items: [
+      { label: 'Reports', to: '/reports', icon: 'pi pi-chart-bar', roles: ['admin', 'manager', 'auditor'] },
+      { label: 'Accounting', to: '/accounting', icon: 'pi pi-book', roles: ['admin', 'manager', 'auditor'] },
+      { label: 'Expenses', to: '/expenses', icon: 'pi pi-wallet', roles: ['admin', 'manager', 'auditor'] },
+      { label: 'Tax', to: '/tax-management', icon: 'pi pi-percentage', roles: ['admin', 'manager', 'auditor'] },
+      { label: 'Senior/PWD', to: '/senior-pwd', icon: 'pi pi-id-card', roles: ['admin', 'manager', 'auditor'] },
+      { label: 'BIR', to: '/bir-compliance', icon: 'pi pi-receipt', roles: ['admin', 'manager', 'auditor'] },
+    ],
+  },
+  {
+    label: 'Company',
+    items: [
+      { label: 'Branches', to: '/branches', icon: 'pi pi-building', roles: ['admin', 'manager', 'auditor'] },
+      { label: 'Users', to: '/users', icon: 'pi pi-users', roles: ['admin', 'manager', 'auditor'] },
+      { label: 'Audit Logs', to: '/audit-logs', icon: 'pi pi-history', roles: ['admin', 'manager', 'auditor'] },
+    ],
+  },
 ]
 
 const profileName = computed(() => auth.state.profile?.full_name || 'Signed in')
 const usernameLabel = computed(() => (auth.state.profile?.username ? `@${auth.state.profile.username}` : 'staff'))
 const roleLabel = computed(() => (auth.state.profile?.role || 'user').replace('_', ' '))
-const visibleNavItems = computed(() => {
+const visibleNavGroups = computed(() => {
   const role = auth.state.profile?.role
-  return navItems.filter((item) => item.roles.includes(role))
+  return navGroups
+    .map((group) => ({
+      ...group,
+      items: group.items.filter((item) => item.roles.includes(role)),
+    }))
+    .filter((group) => group.items.length)
 })
+const visibleNavItems = computed(() => visibleNavGroups.value.flatMap((group) => group.items))
 const activePageLabel = computed(() => {
   const active = visibleNavItems.value.find((item) => route.path === item.to || route.path.startsWith(`${item.to}/`))
   return active?.label || 'Dashboard'

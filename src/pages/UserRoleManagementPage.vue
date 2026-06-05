@@ -263,6 +263,12 @@ const defaultPermissionsByRole = {
     'customers.manage',
     'customers.credit',
     'customers.loyalty',
+    'expenses.view',
+    'expenses.manage',
+    'expenses.approve',
+    'accounting.view',
+    'accounting.manage',
+    'accounting.close',
     'activity.view',
     'pos.sell',
     'pos.discount',
@@ -302,6 +308,11 @@ const defaultPermissionsByRole = {
     'customers.manage',
     'customers.credit',
     'customers.loyalty',
+    'expenses.view',
+    'expenses.manage',
+    'expenses.approve',
+    'accounting.view',
+    'activity.view',
     'pos.sell',
     'pos.discount',
     'reports.view',
@@ -323,6 +334,8 @@ const defaultPermissionsByRole = {
     'purchases.view',
     'suppliers.view',
     'customers.view',
+    'expenses.view',
+    'accounting.view',
     'activity.view',
     'reports.view',
   ],
@@ -558,7 +571,7 @@ async function saveUser() {
 }
 
 async function hardDeleteUser(user) {
-  const confirmed = window.confirm(`Permanently delete @${user.username}? This removes the staff Auth account and database profile.`)
+  const confirmed = window.confirm(`Permanently delete @${user.username}? This removes the staff login account and staff profile.`)
   if (!confirmed) return
 
   loading.value = true

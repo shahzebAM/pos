@@ -565,20 +565,16 @@ begin
     left join scoped_shifts ss on ss.branch_id = vb.id
     group by vb.id, vb.branch_code, vb.name
   ),
-  day_rows as (
-    select generate_series(v_from, v_to, interval '1 day')::date as business_date
-  ),
   daily_shifts as (
     select
-      dr.business_date,
-      to_char(dr.business_date, 'Mon DD') as label,
-      coalesce(count(ss.id), 0)::integer as shifts,
+      ss.business_date,
+      to_char(ss.business_date, 'Mon DD') as label,
+      count(ss.id)::integer as shifts,
       coalesce(sum(ss.cash_sales), 0)::numeric(14, 2) as cash_sales,
       coalesce(sum(ss.total_sales), 0)::numeric(14, 2) as total_sales,
       coalesce(sum(ss.short_over), 0)::numeric(14, 2) as short_over
-    from day_rows dr
-    left join scoped_shifts ss on ss.business_date = dr.business_date
-    group by dr.business_date
+    from scoped_shifts ss
+    group by ss.business_date
   )
   select jsonb_build_object(
     'period', jsonb_build_object('from', v_from, 'to', v_to),

@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# pos
-=======
 # Multi-Branch POS Rebuild
 
 This project has been reset to a clean, module-by-module build. The current code contains:
@@ -20,6 +17,12 @@ This project has been reset to a clean, module-by-module build. The current code
 - **Module 12: Cash Register / Shift Management**
 - **Module 13: Returns & Exchanges**
 - **Module 14: Purchase Management**
+- **Module 15: Supplier Management**
+- **Module 16: Customer Management**
+- **Module 17: Expenses**
+- **Module 18: Accounting**
+- **Module 19: Reports**
+- **Module 20: Audit Logs**
 
 ## What Is Included
 
@@ -28,15 +31,15 @@ Module 1 Dashboard:
 - Daily sales summary
 - Cashier performance
 - Low stock alerts
-- Responsive PrimeVue dashboard UI
-- Fresh Supabase schema with seed data
-- Protected dashboard RPC: `dashboard_get_metrics`
+- Responsive dashboard layout
+- Fresh sample business data for testing
+- Role-aware dashboard metrics
 
 Login/Auth Foundation:
-- Supabase Auth with username/password UI
-- Secure first-admin bootstrap through Edge Function
+- Username/password login
+- Secure first-admin setup
 - Protected routes
-- Profile lookup through `auth_get_current_profile`
+- Profile lookup for signed-in users
 
 Module 2 Branch Management:
 - Head office and branch setup
@@ -59,9 +62,9 @@ Module 3 User & Role Management:
 - Open/close shift permissions
 - Max discount percentage per user
 - Activity logs for user access changes
-- Admin hard-delete through Supabase Edge Function
+- Admin permanent-delete controls for staff accounts
 
-Module 3 uses Supabase Edge Functions for first-admin creation, staff creation, and hard delete. This is required because the browser must never receive the Supabase service-role key.
+Module 3 keeps staff creation and permanent deletion protected so secret administrator credentials are never exposed to regular users.
 
 Module 4 Product Management:
 - Products, categories, brands, and units
@@ -70,7 +73,7 @@ Module 4 Product Management:
 - VATable, VAT-exempt, zero-rated, and non-VAT tagging
 - Cost price, selling price, reorder level, and active catalog status
 - Admin-only create, edit, and product delete controls
-- Responsive PrimeVue product catalog screen
+- Responsive product catalog screen
 
 Module 5 Inventory Management:
 - Branch-wise stock tracking
@@ -190,6 +193,48 @@ Module 16 Customer Management:
 - Loyalty points earned from completed POS invoices
 - Manual customer payments, write-offs, store-credit entries, and loyalty adjustments
 
+Module 17 Expenses:
+- Branch expenses for rent, utilities, salaries, supplies, repairs, transport, marketing, and miscellaneous costs
+- Expense category setup
+- Draft, submitted, approved, rejected, paid, and voided expense states
+- Approval, rejection, paid marking, and void controls with activity logs
+- Branch, category, and daily expense reporting charts
+- Admin all-branch view and manager branch-only scope
+
+Module 18 Accounting:
+- Chart of accounts for cash, receivables, inventory, VAT, payables, revenue, COGS, expenses, and adjustments
+- Sales journal from completed POS invoices
+- Cash ledger from sale payments, customer payments, supplier payments, and paid expenses
+- Accounts receivable from customer balances
+- Accounts payable from open supplier invoices
+- Profit/loss report with sales revenue, COGS, gross profit, operating expenses, and net profit
+- VAT payable report from output VAT less purchase and expense input VAT
+- Trial balance view with operational balances and posted manual journal adjustments
+- Balanced manual journals with debit/credit validation and void controls
+
+Module 19 Reports:
+- Daily sales report showing only dates with completed sales
+- Branch sales and branch performance comparison
+- Cashier sales and average order reporting
+- Sales invoice detail with FEFO COGS and gross profit
+- Inventory report with branch stock, reorder, expiry, and stock value
+- Stock movement report
+- VAT sales report by tax type
+- Senior/PWD discount report
+- Z-reading report
+- Profit report by branch
+- CSV export from the active report view
+
+Module 20 Audit Logs:
+- Central audit trail from system activity logs
+- Login/logout history
+- Void, deleted-record, and high-risk event review
+- Product and variant price-change audit triggers
+- Discount audit from completed sales
+- Stock adjustment, damaged, and expired movement audit
+- Branch-scoped visibility for managers
+- CSV export from the active audit view
+
 ## Step 1: Create A New Supabase Project
 
 1. Open [Supabase](https://supabase.com/dashboard).
@@ -261,10 +306,10 @@ This creates:
 
 - `user_profiles`
 - `branch_settings`
-- first-admin bootstrap RPC
-- branch management RPCs
+- first-admin setup action
+- branch management actions
 - role-aware dashboard access
-- safe branch hard-delete RPC
+- safe branch hard-delete action
 
 Important: after Module 2 is installed, continue with Module 3 before using the login page. Username login is installed by Module 3.
 
@@ -289,8 +334,8 @@ This creates:
 - `user_access_settings`
 - `activity_logs`
 - username login resolver
-- user update RPCs
-- activity log RPC helpers
+- user update actions
+- activity log helpers
 
 It also removes the old invite-code Module 3 objects if they exist.
 
@@ -350,8 +395,8 @@ This creates:
 - `product_units`
 - `product_variants`
 - product tax/pricing columns
-- product management RPCs
-- product category, brand, and unit RPCs
+- product management actions
+- product category, brand, and unit actions
 
 Run this after Module 3, because it uses the active-user, admin-check, and activity-log functions from the login/user modules.
 
@@ -370,7 +415,7 @@ This creates:
 - `inventory_movements`
 - `stock_counts`
 - `stock_count_items`
-- inventory management RPCs
+- inventory management actions
 - batch/expiry seed records from existing Module 1 stock
 - product and inventory permission entries for staff roles
 
@@ -390,7 +435,7 @@ This creates:
 - `stock_transfers`
 - `stock_transfer_items`
 - `stock_transfer_batches`
-- stock transfer management RPCs
+- stock transfer management actions
 - transfer permissions for admin, manager, and auditor roles
 - transfer movement support in `inventory_movements`
 
@@ -410,7 +455,7 @@ This creates:
 - `sales_order_items`
 - `sales_order_payments`
 - `sales_order_batch_allocations`
-- POS checkout RPCs
+- POS checkout actions
 - invoice number fields on `sales_orders`
 - cashier/user linking for sales reporting
 - dashboard sales/cashier reporting updates for real POS orders
@@ -434,7 +479,7 @@ This creates:
 - `bir_readings`
 - invoice document type fields on `sales_orders`
 - automatic branch/machine invoice serial assignment
-- BIR compliance management RPCs
+- BIR compliance management controls
 - X-reading and Z-reading generation
 - invoice reprint and void controls
 
@@ -454,7 +499,7 @@ This creates:
 - `tax_profiles`
 - `tax_codes`
 - branch tax profile fields on `branch_settings`
-- tax management RPCs
+- tax management actions
 - VATable, VAT-exempt, zero-rated, non-VAT, and percentage-tax report summaries
 - `tax.view` and `tax.manage` permission entries
 
@@ -475,7 +520,7 @@ This creates:
 - `senior_pwd_discount_claims`
 - Senior/PWD discount columns on `sales_orders` and `sales_order_items`
 - product Senior/PWD eligibility tagging
-- Senior/PWD management RPCs
+- Senior/PWD management actions
 - POS checkout Senior/PWD discount and claim handling
 - `senior_pwd.view`, `senior_pwd.manage`, and `senior_pwd.apply` permission entries
 
@@ -496,9 +541,9 @@ This creates:
 - `branch_payment_methods`
 - tendered, change, fee, net, reference, and settlement columns on `sales_order_payments`
 - branch-enabled payment method settings
-- POS payment method options from Supabase
+- POS payment method options from branch setup
 - payment validation triggers
-- payment management RPCs
+- payment management actions
 - `payments.view`, `payments.manage`, and `payments.settle` permission entries
 
 Run this after Module 10. The script seeds Cash, Card, GCash, Maya, Bank transfer, Store credit, and COD. Non-cash methods can require references, and only cash/change-enabled methods can create change from overpayment.
@@ -518,9 +563,9 @@ This creates:
 - `cashier_shifts`
 - `cash_drawer_movements`
 - `shift_id` linkage on `sales_orders`
-- shift opening, cash movement, closing, and report RPCs
-- POS shift status RPC
-- database trigger that requires an open shift before completed POS checkout
+- shift opening, cash movement, closing, and report actions
+- POS shift status check
+- checkout rule that requires an open shift before completed POS checkout
 
 Run this after Module 11. The script creates a default **REG-01 / Main Register** for each active branch. Existing sales stay unchanged; new POS sales are linked to the signed-in cashier's open shift.
 
@@ -542,7 +587,7 @@ This creates:
 - `credit_memos`
 - `sales_refunds`
 - return tracking fields on `sales_orders`
-- return processing and return dashboard RPCs
+- return processing and return dashboard actions
 - `returns.view`, `returns.manage`, and `returns.approve` permission entries
 
 Run this after Module 12. Sellable returns are restored to inventory with original batch traceability. Void transactions use the existing BIR void checks, including the posted Z-reading lock.
@@ -567,7 +612,7 @@ This creates:
 - `purchase_returns`
 - `purchase_return_items`
 - `product_cost_history`
-- purchase order, receiving, invoice status, supplier save, and purchase return RPCs
+- purchase order, receiving, invoice status, supplier save, and purchase return actions
 - `purchases.view`, `purchases.manage`, `purchases.approve`, and `purchases.receive` permission entries
 
 Run this after Module 13. Receiving creates inventory batches, posts `stock_in` movements, updates product cost price, and keeps `branch_inventory` synchronized. Purchase returns reduce the linked received batch and post `stock_out` movements.
@@ -585,9 +630,9 @@ This creates:
 
 - `supplier_payments`
 - extra supplier profile fields for account, website, lead time, rating, status, and default payment method
-- supplier profile save RPC
-- supplier payment post and void RPCs
-- supplier management dashboard RPC
+- supplier profile save action
+- supplier payment post and void actions
+- supplier management dashboard data
 - `suppliers.view`, `suppliers.manage`, and `suppliers.pay` permission entries
 
 Run this after Module 14. Supplier payments update supplier invoice balances automatically. Voiding a posted supplier payment reverses the paid amount from the linked invoice and records the void in activity logs.
@@ -608,13 +653,90 @@ This creates:
 - `customer_loyalty_ledger`
 - `customer_loyalty_settings`
 - `customer_id` linkage on `sales_orders`
-- POS customer option RPC
-- customer dashboard, profile, account-entry, void-entry, and loyalty-adjustment RPCs
+- POS customer option list
+- customer dashboard, profile, account-entry, void-entry, and loyalty-adjustment actions
 - `customers.view`, `customers.manage`, `customers.credit`, and `customers.loyalty` permission entries
 
 Run this after Module 15. Existing POS sales still work. New POS sales with a customer name are linked to a customer profile automatically, and COD sales for linked customers create receivable entries.
 
-## Step 21: Create Your First Admin Login
+## Step 21: Install Module 17 Expenses
+
+Open another SQL Editor query and run:
+
+```sql
+-- paste everything from:
+supabase/17-expenses.sql
+```
+
+This creates:
+
+- `expense_categories`
+- `expenses`
+- seeded categories for rent, utilities, salaries, supplies, maintenance, transport, marketing, and miscellaneous expenses
+- expense dashboard, category save, expense save, and status update actions
+- `expenses.view`, `expenses.manage`, and `expenses.approve` permission entries
+
+Run this after Module 16. Managers are locked to their own branch expenses, admins can see all branches, and auditors can view reports without posting changes.
+
+## Step 22: Install Module 18 Accounting
+
+Open another SQL Editor query and run:
+
+```sql
+-- paste everything from:
+supabase/18-accounting.sql
+```
+
+This creates:
+
+- `accounting_accounts`
+- `accounting_journal_entries`
+- `accounting_journal_lines`
+- seeded chart of accounts
+- accounting dashboard, report, manual-journal, and journal-void actions
+- `accounting.view`, `accounting.manage`, and `accounting.close` permission entries
+
+Run this after Module 17. Admins can view and post accounting journals for all branches. Managers and auditors can view accounting reports for their allowed branch scope unless you explicitly grant additional accounting permissions.
+
+## Step 23: Install Module 19 Reports
+
+Open another SQL Editor query and run:
+
+```sql
+-- paste everything from:
+supabase/19-reports.sql
+```
+
+This creates:
+
+- report permission helpers
+- report data loader
+- daily sales, branch sales, cashier sales, inventory, stock movement, VAT, Senior/PWD, Z-reading, and profit report datasets
+- CSV export rows from the active report view
+
+Run this after Module 18. Admins and auditors can report across active branches. Managers are locked to their assigned branch.
+
+## Step 24: Install Module 20 Audit Logs
+
+Open another SQL Editor query and run:
+
+```sql
+-- paste everything from:
+supabase/20-audit-logs.sql
+```
+
+This creates:
+
+- audit classifications and severity on `activity_logs`
+- audit dashboard data loader
+- login/logout audit recorder
+- product and variant price-change audit triggers
+- branch-scoped audit visibility for managers
+- audit report datasets for login history, voids, deletes, discounts, stock adjustments, and price changes
+
+Run this after Module 19. Admins and auditors can view system-wide audit logs. Managers can view audit records scoped to their branch.
+
+## Step 25: Create Your First Admin Login
 
 1. Start the app.
 2. Open `http://localhost:5173/login`.
@@ -624,7 +746,7 @@ Run this after Module 15. Existing POS sales still work. New POS sales with a cu
 
 Only the first admin can be created this way. After one active admin exists, the bootstrap function refuses to create another admin.
 
-## Step 22: Add Staff With Username And Password
+## Step 26: Add Staff With Username And Password
 
 1. Login as admin.
 2. Open **Users** from the sidebar.
@@ -635,7 +757,7 @@ Only the first admin can be created this way. After one active admin exists, the
 
 No invite code is required for this flow.
 
-## Step 23: Manage Products
+## Step 27: Manage Products
 
 1. Login as admin.
 2. Open **Products** from the sidebar.
@@ -647,7 +769,7 @@ No invite code is required for this flow.
 
 Managers and auditors can view the catalog. Product creation, editing, and deletion are admin-only.
 
-## Step 24: Manage Inventory
+## Step 28: Manage Inventory
 
 1. Login as admin or branch manager.
 2. Open **Inventory** from the sidebar.
@@ -659,7 +781,7 @@ Managers and auditors can view the catalog. Product creation, editing, and delet
 
 Admins can manage all branches. Branch managers can manage only their own branch. Auditors can view inventory but cannot post movements.
 
-## Step 25: Manage Stock Transfers
+## Step 29: Manage Stock Transfers
 
 1. Login as admin or branch manager.
 2. Open **Transfers** from the sidebar.
@@ -673,7 +795,7 @@ Admins can manage all branches. Branch managers can manage only their own branch
 
 Admins can operate all branches. Branch managers can create transfers involving their branch and can approve/dispatch only when their branch is the source. They can receive only when their branch is the destination. Auditors can view the transfer ledger.
 
-## Step 26: Use POS Sales / Checkout
+## Step 30: Use POS Sales / Checkout
 
 1. Login as admin, branch manager, or cashier.
 2. Open **POS** from the sidebar.
@@ -692,9 +814,9 @@ Offline mode:
 1. Build the cart as usual.
 2. Click **Save offline** if the internet is down or the branch needs to queue the sale.
 3. When online again, open **POS** and click **Sync now** on the offline warning.
-4. Synced offline sales are submitted to Supabase and stock is reduced at sync time.
+4. Synced offline sales are submitted and stock is reduced at sync time.
 
-## Step 27: Use BIR Compliance
+## Step 31: Use BIR Compliance
 
 1. Login as admin or branch manager.
 2. Open **BIR** from the sidebar.
@@ -708,7 +830,7 @@ Offline mode:
 
 This module gives the system controls needed for Philippine invoice numbering and reading workflows, but it is not legal certification. Confirm final invoice layout, serial registrations, and permit details with your accountant or BIR-accredited POS provider before production use.
 
-## Step 28: Use Tax Management
+## Step 32: Use Tax Management
 
 1. Login as admin.
 2. Open **Tax** from the sidebar.
@@ -719,7 +841,7 @@ This module gives the system controls needed for Philippine invoice numbering an
 7. Use **Add tax code** to maintain VATable, VAT-exempt, zero-rated, non-VAT, and percentage-tax codes.
 8. Managers and auditors can view tax reports for their allowed branch scope, but setup edits are admin-only.
 
-## Step 29: Use Senior Citizen & PWD Discounts
+## Step 33: Use Senior Citizen & PWD Discounts
 
 1. Login as admin.
 2. Open **Senior/PWD** from the sidebar.
@@ -732,7 +854,7 @@ This module gives the system controls needed for Philippine invoice numbering an
 
 Admins can edit branch settings and product eligibility. Managers and auditors can view reports for their allowed branch scope.
 
-## Step 30: Use Payments
+## Step 34: Use Payments
 
 1. Login as admin.
 2. Open **Payments** from the sidebar.
@@ -746,7 +868,7 @@ Admins can edit branch settings and product eligibility. Managers and auditors c
 
 Admins can edit payment setup. Managers can view their branch payment reports and update settlement status for their branch. Auditors can view payment reports.
 
-## Step 31: Use Cash Register / Shifts
+## Step 35: Use Cash Register / Shifts
 
 1. Login as admin, branch manager, or cashier.
 2. Open **Shifts** from the sidebar.
@@ -759,7 +881,7 @@ Admins can edit payment setup. Managers can view their branch payment reports an
 
 Admins can see all branches. Managers see their assigned branch. Cashiers see and operate their own shift. Auditors can view reports only.
 
-## Step 32: Use Returns & Exchanges
+## Step 36: Use Returns & Exchanges
 
 1. Login as admin, branch manager, or cashier.
 2. Open **Returns** from the sidebar.
@@ -773,7 +895,7 @@ Admins can see all branches. Managers see their assigned branch. Cashiers see an
 
 Admins can process all branches and void invoices. Managers can process their branch and void only when authorized. Cashiers can process branch returns when permitted. Auditors can view reports only.
 
-## Step 33: Use Purchase Management
+## Step 37: Use Purchase Management
 
 1. Login as admin or branch manager.
 2. Open **Purchases** from the sidebar.
@@ -788,7 +910,7 @@ Admins can process all branches and void invoices. Managers can process their br
 
 Admins can manage all branches. Managers can manage their assigned branch. Auditors can view purchase reports only.
 
-## Step 34: Use Supplier Management
+## Step 38: Use Supplier Management
 
 1. Login as admin or branch manager.
 2. Open **Suppliers** from the sidebar.
@@ -803,7 +925,7 @@ Admins can manage all branches. Managers can manage their assigned branch. Audit
 
 Admins can manage and pay suppliers for all branches. Managers can manage and pay suppliers only for their assigned branch. Auditors can view supplier reports only.
 
-## Step 35: Use Customer Management
+## Step 39: Use Customer Management
 
 1. Login as admin, branch manager, cashier, or auditor.
 2. Open **Customers** from the sidebar.
@@ -819,7 +941,68 @@ Admins can manage and pay suppliers for all branches. Managers can manage and pa
 
 Admins can manage all customers and balances. Managers can manage customers and balances for their assigned branch. Cashiers can view customer records and select customers at POS. Auditors can view customer reports only.
 
-## Step 36: Hard Delete Staff
+## Step 40: Use Expenses
+
+1. Login as admin or branch manager.
+2. Open **Expenses** from the sidebar.
+3. Use the filters to select date range, branch, or search text.
+4. Click **Expense** to add rent, utilities, salary, supply, maintenance, transport, marketing, or other branch expenses.
+5. Save the expense as **Draft** or **Submit for approval**.
+6. Use the check icon to approve a submitted expense.
+7. Use the card icon to mark an approved expense as paid.
+8. Use the reject or void icons only with a written reason.
+9. Admins can click **Category** to add or update expense categories.
+10. Review daily expense charts, category charts, and branch summaries.
+
+Admins can manage and approve expenses for all branches. Managers can manage and approve only their assigned branch. Auditors can view expense reports only.
+
+## Step 41: Use Accounting
+
+1. Login as admin, branch manager, or auditor.
+2. Open **Accounting** from the sidebar.
+3. Use the filters to select date range, branch, or search text.
+4. Review sales revenue, COGS, gross profit, expenses, net profit, cash net, receivables, and VAT payable cards.
+5. Review daily net profit and branch performance charts.
+6. Check the **Sales journal** for completed invoices and FEFO cost.
+7. Check the **Cash ledger** for sale payments, customer payments, supplier payments, and paid expenses.
+8. Review open customer receivables and supplier payables.
+9. Review the VAT payable report and trial balance.
+10. Admins can click **Manual journal** to post balanced debit/credit adjustments.
+11. Admins can void posted manual journals with a written reason.
+
+Admins can view and manage accounting for all branches. Managers and auditors can view their allowed branch scope. Manual journals are admin-only unless you grant `accounting.manage` or `accounting.close` to a manager.
+
+## Step 42: Use Reports
+
+1. Login as admin, branch manager, or auditor.
+2. Open **Reports** from the sidebar.
+3. Select date range, branch, report type, and optional search text.
+4. Use **Overview** for daily sales, branch sales, cashier performance, and profit charts.
+5. Use **Sales** for daily sales, branch sales, cashier sales, invoice detail, top products, and payment mix.
+6. Use **Inventory** for branch stock, low-stock status, stock value, expiry status, stock movement, and slow-moving products.
+7. Use **VAT** for VATable, VAT-exempt, zero-rated, and non-VAT sales totals.
+8. Use **Senior/PWD** for beneficiary, ID, invoice, discount, and VAT-exempt records.
+9. Use **Z-reading** for posted end-of-day machine readings.
+10. Use **Profit** for revenue, FEFO COGS, expenses, and net profit by branch.
+11. Click **Export CSV** to download the active report rows.
+
+Daily report charts only show dates with actual records. Admins and auditors can view all allowed branches. Managers are locked to their assigned branch.
+
+## Step 43: Use Audit Logs
+
+1. Login as admin, branch manager, or auditor.
+2. Open **Audit Logs** from the sidebar.
+3. Select date range, branch, actor, category, severity, and optional search text.
+4. Use **Overview** for daily audit charts, category charts, and the latest event trail.
+5. Use **Access** for login/logout history.
+6. Use **Controls** for voided records, deleted records, and price changes.
+7. Use **Discounts** for sales invoices where discounts were applied.
+8. Use **Inventory** for stock adjustment, damaged, and expired stock movements.
+9. Click **Export CSV** to download the active audit section.
+
+Admins and auditors can review all branches. Managers can review audit records for their assigned branch.
+
+## Step 44: Hard Delete Staff
 
 1. Login as admin.
 2. Open **Users**.
@@ -828,13 +1011,13 @@ Admins can manage all customers and balances. Managers can manage customers and 
 
 Hard delete removes:
 
-- Supabase Auth user
+- staff login account
 - `user_profiles` row
 - `user_access_settings` row
 
 The app blocks deleting your own admin account and blocks deleting the last active admin.
 
-## Step 37: Run The App
+## Step 45: Run The App
 
 Install dependencies if needed:
 
@@ -854,7 +1037,7 @@ Open:
 http://localhost:5173
 ```
 
-## Step 38: Verify Dashboard, Branch, User, Product, Inventory, Transfer, POS, BIR, Tax, Senior/PWD, Payments, Shifts, Returns, Purchases, Suppliers, And Customers Modules
+## Step 46: Verify Dashboard, Branch, User, Product, Inventory, Transfer, POS, BIR, Tax, Senior/PWD, Payments, Shifts, Returns, Purchases, Suppliers, Customers, Expenses, Accounting, Reports, And Audit Logs Modules
 
 After login you should see:
 
@@ -941,7 +1124,7 @@ After login you should see:
 - close shift dialog with counted cash and short/over preview
 - daily cash sales and branch drawer charts
 - shift history table and cash drawer movement log
-- POS checkout open-shift warning and database enforcement
+- POS checkout open-shift warning and checkout enforcement
 - Returns navigation for admin, manager, cashier, and auditor
 - eligible invoice search for sales returns
 - return/refund/exchange/credit memo processing dialog
@@ -974,6 +1157,44 @@ After login you should see:
 - manual customer charge/payment/store-credit/write-off dialog
 - loyalty points ledger and adjustment dialog
 - customer sales, top customer, and branch summary charts
+- Expenses navigation for admin, manager, and auditor
+- expense form with branch, category, date, payee, amount, tax, payment method, and status
+- expense category setup for admin
+- draft, submit, approve, reject, paid, and void controls
+- daily expense and category expense charts
+- branch expense summary table
+- Accounting navigation for admin, manager, and auditor
+- accounting KPI cards for revenue, COGS, profit, cash, receivables, and VAT
+- daily net profit and branch performance charts
+- sales journal with invoice, branch, revenue, VAT, total, and FEFO COGS
+- cash ledger for cash-equivalent inflows and outflows
+- accounts receivable and accounts payable tables
+- VAT payable panel
+- trial balance table
+- manual journal dialog with balanced debit/credit validation
+- manual journal line viewer and void control
+- Reports navigation for admin, manager, and auditor
+- report filters for date range, branch, report type, and search
+- daily sales chart and table showing only days with completed sales
+- branch sales and cashier performance charts
+- invoice sales detail with FEFO COGS and gross profit
+- top products and payment mix reports
+- inventory report with low-stock, stock value, expiry, and movement rows
+- VAT sales report by tax type
+- Senior/PWD discount report
+- Z-reading report
+- branch profit report
+- CSV export for the active report
+- Audit Logs navigation for admin, manager, and auditor
+- audit filters for date range, branch, actor, category, severity, and search
+- daily audit event chart and category chart
+- activity log table with actor, branch, category, severity, and metadata
+- login/logout history table
+- void and deleted-record audit sections
+- product and variant price-change audit records
+- sales discount audit records
+- stock adjustment, damaged, and expired movement audit records
+- CSV export for the active audit view
 
 If you see a missing function or schema cache error, run the SQL scripts again in this order:
 
@@ -994,16 +1215,31 @@ If you see a missing function or schema cache error, run the SQL scripts again i
 15. `supabase/14-purchase-management.sql`
 16. `supabase/15-supplier-management.sql`
 17. `supabase/16-customer-management.sql`
+18. `supabase/17-expenses.sql`
+19. `supabase/18-accounting.sql`
+20. `supabase/19-reports.sql`
+21. `supabase/20-audit-logs.sql`
 
 Then refresh the browser.
 
-## Step 39: Build For Production
+## One SQL Patch For Daily Charts
+
+If you only want to hide empty days from all daily charts without rerunning every module file, open Supabase **SQL Editor** and run:
+
+```sql
+-- paste everything from:
+supabase/patch-daily-record-days-only.sql
+```
+
+This patch keeps your existing data and filters daily chart rows so only days with records are returned.
+
+## Step 47: Build For Production
 
 ```bash
 npm run build
 ```
 
-## Step 40: Deploy To Vercel
+## Step 48: Deploy To Vercel
 
 1. Push the project to GitHub.
 2. Import the repo in Vercel.
@@ -1027,8 +1263,5 @@ dist
 
 Recommended next build order:
 
-1. Expenses
-2. Accounting
-3. Reports
-4. Audit Logs
->>>>>>> 7c7d1db (Deploy Vue app)
+1. Payroll
+2. Offline sync hardening

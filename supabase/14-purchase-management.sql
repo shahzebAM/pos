@@ -867,13 +867,12 @@ begin
   ),
   daily_receipts as (
     select
-      d.day::date as business_date,
-      to_char(d.day::date, 'Mon DD') as label,
-      coalesce(count(rr.id), 0)::integer as receipts,
+      rr.receipt_date as business_date,
+      to_char(rr.receipt_date, 'Mon DD') as label,
+      count(rr.id)::integer as receipts,
       coalesce(sum(rr.total_cost), 0)::numeric(14, 2) as received_value
-    from generate_series(v_from, v_to, interval '1 day') d(day)
-    left join receipt_rows rr on rr.receipt_date = d.day::date
-    group by d.day
+    from receipt_rows rr
+    group by rr.receipt_date
   ),
   branch_summary as (
     select

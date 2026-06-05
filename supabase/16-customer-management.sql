@@ -976,13 +976,13 @@ begin
   ),
   daily_sales as (
     select
-      d.day::date as business_date,
-      to_char(d.day::date, 'Mon DD') as label,
-      coalesce(count(orow.id) filter (where orow.status = 'completed'), 0)::integer as orders,
-      coalesce(sum(orow.total) filter (where orow.status = 'completed'), 0)::numeric(14, 2) as sales
-    from generate_series(v_from, v_to, interval '1 day') d(day)
-    left join order_rows orow on orow.business_date = d.day::date
-    group by d.day
+      orow.business_date,
+      to_char(orow.business_date, 'Mon DD') as label,
+      count(orow.id)::integer as orders,
+      coalesce(sum(orow.total), 0)::numeric(14, 2) as sales
+    from order_rows orow
+    where orow.status = 'completed'
+    group by orow.business_date
   ),
   branch_summary as (
     select

@@ -406,8 +406,8 @@ begin
   ),
   daily_tax_rows as (
     select
-      d.day::date as business_date,
-      to_char(d.day, 'Mon DD') as label,
+      so.business_date,
+      to_char(so.business_date, 'Mon DD') as label,
       count(so.id)::integer as orders,
       round(coalesce(sum(so.total), 0), 2) as gross_sales,
       round(coalesce(sum(so.tax_total), 0), 2) as vat_output,
@@ -418,10 +418,9 @@ begin
           else 0
         end
       ), 0), 2) as percentage_tax_due
-    from generate_series(v_from, v_to, interval '1 day') d(day)
-    left join scoped_orders so on so.business_date = d.day::date
-    group by d.day
-    order by d.day
+    from scoped_orders so
+    group by so.business_date
+    order by so.business_date
   ),
   tax_classes as (
     select *

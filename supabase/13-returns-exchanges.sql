@@ -1453,15 +1453,14 @@ begin
   ),
   daily_returns as (
     select
-      d.day::date as business_date,
-      to_char(d.day::date, 'Mon DD') as label,
-      coalesce(count(rr.id), 0)::integer as returns,
+      rr.created_at::date as business_date,
+      to_char(rr.created_at::date, 'Mon DD') as label,
+      count(rr.id)::integer as returns,
       coalesce(sum(rr.total_return_amount), 0)::numeric(14, 2) as return_amount,
       coalesce(sum(rr.refund_amount), 0)::numeric(14, 2) as refund_amount,
       coalesce(sum(rr.credit_memo_amount), 0)::numeric(14, 2) as credit_memo_amount
-    from generate_series(v_from, v_to, interval '1 day') d(day)
-    left join return_rows rr on rr.created_at::date = d.day::date
-    group by d.day
+    from return_rows rr
+    group by rr.created_at::date
   ),
   branch_summary as (
     select

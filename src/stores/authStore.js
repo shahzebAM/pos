@@ -1,5 +1,6 @@
 import { computed, reactive } from 'vue'
 import { requireSupabaseConfig, supabase } from '../lib/supabase'
+import { recordAuditAuthEvent } from '../services/auditService'
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL?.replace(/\/$/, '')
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
@@ -164,6 +165,9 @@ async function signIn({ username, password }) {
 
     state.session = data.session
     await loadProfile()
+    await recordAuditAuthEvent('auth.login', {
+      user_agent: navigator.userAgent,
+    })
 
     return data
   } catch (error) {
@@ -199,6 +203,10 @@ async function createFirstAdmin({ fullName, username, password }) {
 
 async function signOut() {
   if (!supabase) return
+
+  await recordAuditAuthEvent('auth.logout', {
+    user_agent: navigator.userAgent,
+  })
 
   await supabase.auth.signOut()
   state.session = null

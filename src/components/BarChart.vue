@@ -12,7 +12,7 @@
       <article v-for="row in chartRows" :key="row[keyField] || row[labelField]" class="bar-chart__row">
         <div class="bar-chart__meta">
           <span>{{ row[labelField] }}</span>
-          <strong>{{ money ? formatCurrency(row[valueField]) : formatNumber(row[valueField]) }}</strong>
+          <strong :class="valueClass(row)" :title="formattedValue(row)">{{ formattedValue(row) }}</strong>
         </div>
         <div class="bar-chart__track" aria-hidden="true">
           <span :style="{ width: `${row.percent}%`, background: row.color }" />
@@ -77,4 +77,12 @@ const chartRows = computed(() => {
     color: palette[index % palette.length],
   }))
 })
+
+function formattedValue(row) {
+  return props.money ? formatCurrency(row[props.valueField]) : formatNumber(row[props.valueField])
+}
+
+function valueClass(row) {
+  return formattedValue(row).replace(/\s/g, '').length >= 13 ? 'bar-chart__value--long' : ''
+}
 </script>

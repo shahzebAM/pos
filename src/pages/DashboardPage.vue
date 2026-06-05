@@ -5,8 +5,8 @@
         <p class="eyebrow">Module 1</p>
         <h2>Sales, cashier performance, and low-stock alerts in one command center.</h2>
         <p>
-          The dashboard uses a protected Supabase RPC so admin and branch-level users see
-          the right sales, cashier, and inventory alerts for their role.
+          Admin and branch-level users see the right sales, cashier, and inventory alerts
+          for their role.
         </p>
       </div>
 

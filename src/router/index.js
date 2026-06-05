@@ -1,14 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import AccountingPage from '../pages/AccountingPage.vue'
+import AuditLogsPage from '../pages/AuditLogsPage.vue'
 import BirCompliancePage from '../pages/BirCompliancePage.vue'
 import DashboardPage from '../pages/DashboardPage.vue'
 import BranchManagementPage from '../pages/BranchManagementPage.vue'
 import CustomerManagementPage from '../pages/CustomerManagementPage.vue'
+import ExpenseManagementPage from '../pages/ExpenseManagementPage.vue'
 import InventoryManagementPage from '../pages/InventoryManagementPage.vue'
 import LoginPage from '../pages/LoginPage.vue'
 import PaymentManagementPage from '../pages/PaymentManagementPage.vue'
 import PosCheckoutPage from '../pages/PosCheckoutPage.vue'
 import ProductManagementPage from '../pages/ProductManagementPage.vue'
 import PurchaseManagementPage from '../pages/PurchaseManagementPage.vue'
+import ReportsPage from '../pages/ReportsPage.vue'
 import ReturnsManagementPage from '../pages/ReturnsManagementPage.vue'
 import SeniorPwdDiscountPage from '../pages/SeniorPwdDiscountPage.vue'
 import ShiftManagementPage from '../pages/ShiftManagementPage.vue'
@@ -172,6 +176,42 @@ const routes = [
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'cashier', 'auditor'],
+    },
+  },
+  {
+    path: '/accounting',
+    name: 'accounting',
+    component: AccountingPage,
+    meta: {
+      requiresAuth: true,
+      roles: ['admin', 'manager', 'auditor'],
+    },
+  },
+  {
+    path: '/expenses',
+    name: 'expenses',
+    component: ExpenseManagementPage,
+    meta: {
+      requiresAuth: true,
+      roles: ['admin', 'manager', 'auditor'],
+    },
+  },
+  {
+    path: '/reports',
+    name: 'reports',
+    component: ReportsPage,
+    meta: {
+      requiresAuth: true,
+      roles: ['admin', 'manager', 'auditor'],
+    },
+  },
+  {
+    path: '/audit-logs',
+    name: 'audit-logs',
+    component: AuditLogsPage,
+    meta: {
+      requiresAuth: true,
+      roles: ['admin', 'manager', 'auditor'],
     },
   },
 ]
