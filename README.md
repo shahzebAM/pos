@@ -23,6 +23,7 @@ This project has been reset to a clean, module-by-module build. The current code
 - **Module 18: Accounting**
 - **Module 19: Reports**
 - **Module 20: Audit Logs**
+- **PWA install support**
 
 ## What Is Included
 
@@ -234,6 +235,13 @@ Module 20 Audit Logs:
 - Stock adjustment, damaged, and expired movement audit
 - Branch-scoped visibility for managers
 - CSV export from the active audit view
+
+PWA Install Support:
+- Installable app experience for desktop, tablet, and mobile browsers
+- App icons for normal and maskable home-screen display
+- App shell caching after the first production load
+- Automatic app-shell updates after a new deployment
+- Live sales and inventory requests stay online-first to avoid stale business data
 
 ## Step 1: Create A New Supabase Project
 
@@ -1258,6 +1266,35 @@ npm run build
 ```text
 dist
 ```
+
+## Step 49: Test PWA Install
+
+PWA install works from the production build, not the normal dev server.
+
+1. Build the app:
+
+```bash
+npm run build
+```
+
+2. Preview the production build:
+
+```bash
+npm run preview
+```
+
+3. Open the preview URL in Chrome or Edge.
+4. Login once so the app shell loads.
+5. Click the install icon in the browser address bar.
+6. On mobile, open the deployed Vercel URL and choose **Add to Home Screen**.
+7. After install, open the app from the desktop or home-screen icon.
+
+Important:
+
+- The installed app needs HTTPS in production. Vercel already provides HTTPS.
+- The app shell can load after the first successful visit.
+- Live sales, checkout, stock, reports, and staff actions still need network access unless you use the POS offline queue.
+- After a new deployment, the installed app updates its cached app shell automatically on the next visit.
 
 ## Next Module
 
