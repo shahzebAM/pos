@@ -1,0 +1,8074 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 5136
+>>
+stream
+0.200025 w
+0 G
+0.06 0.56 0.44 rg
+0. 841.8899999999999864 595.2799999999999727 -170. re
+f
+BT
+/F2 26 Tf
+29.8999999999999986 TL
+1. g
+52.0699999999999363 723.8899999999999864 Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.933 0.98 0.961 rg
+80.9199999999999591 677.8899999999999864 Td
+(Complete operating guide for admins, managers, cashiers, auditors, and inventory) Tj
+203.7000000000000171 -13.7999999999999989 Td
+(staff.) Tj
+ET
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.137 0.2 0.176 rg
+46. 625.8899999999999864 Td
+(Version: Modules 1 to 20) Tj
+ET
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.137 0.2 0.176 rg
+46. 600.8899999999999864 Td
+(This guide explains how to use the complete system step by step. It also explains what the system does) Tj
+T* (after each action, so admins, managers, cashiers, auditors, and inventory staff understand the full business) Tj
+T* (flow.) Tj
+ET
+0.91 0.96 0.94 rg
+43. 567.8899999999999864 m
+552.2799999999999727 567.8899999999999864 l
+556.1459932488155573 567.8899999999999864 559.2799999999999727 564.7559932488154573 559.2799999999999727 560.8899999999999864 c
+559.2799999999999727 538.8899999999999864 l
+559.2799999999999727 535.0240067511845155 555.4140067511843881 531.8899999999999864 552.2799999999999727 531.8899999999999864 c
+43. 531.8899999999999864 l
+39.1340067511844438 531.8899999999999864 36. 535.7559932488154573 36. 538.8899999999999864 c
+36. 560.8899999999999864 l
+36. 564.7559932488154573 39.8659932488155562 567.8899999999999864 43. 567.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 547.8899999999999864 Td
+(1. System Purpose) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 513.8899999999999864 Td
+(The system is built for retail businesses that operate one or more branches. It helps the business) Tj
+T* (manage:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 474.8899999999999864 Td
+(- sales and checkout) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 458.3899999999999864 Td
+(- branch setup) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 441.8899999999999864 Td
+(- staff and permissions) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 425.3899999999999864 Td
+(- products, variants, prices, and taxes) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 408.8899999999999864 Td
+(- branch-wise inventory) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 392.3899999999999864 Td
+(- stock transfer) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 375.8899999999999864 Td
+(- invoice numbering and readings) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 359.3899999999999864 Td
+(- payment tracking) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 342.8899999999999864 Td
+(- cash drawer shifts) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 326.3899999999999864 Td
+(- returns and exchanges) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 309.8899999999999864 Td
+(- purchases and suppliers) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 293.3899999999999864 Td
+(- customers, credit, loyalty, and store credit) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 276.8899999999999864 Td
+(- expenses and accounting) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 260.3899999999999864 Td
+(- reports and audit logs) Tj
+ET
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.137 0.2 0.176 rg
+46. 237.8899999999999864 Td
+(The system is branch-aware. This means every sale, stock movement, payment, expense, shift, and report) Tj
+T* (is tied to the correct branch.) Tj
+ET
+0.91 0.96 0.94 rg
+43. 210.8899999999999864 m
+552.2799999999999727 210.8899999999999864 l
+556.1459932488155573 210.8899999999999864 559.2799999999999727 207.755993248815571 559.2799999999999727 203.8899999999999864 c
+559.2799999999999727 181.8899999999999864 l
+559.2799999999999727 178.0240067511844018 555.4140067511843881 174.8899999999999864 552.2799999999999727 174.8899999999999864 c
+43. 174.8899999999999864 l
+39.1340067511844438 174.8899999999999864 36. 178.755993248815571 36. 181.8899999999999864 c
+36. 203.8899999999999864 l
+36. 207.755993248815571 39.8659932488155562 210.8899999999999864 43. 210.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 190.8899999999999864 Td
+(2. User Roles) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 156.8899999999999864 Td
+(Admin:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 131.8899999999999864 Td
+(- controls all branches) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 115.3899999999999864 Td
+(- creates branches and staff) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 98.8899999999999864 Td
+(- manages products, prices, taxes, permissions, reports, accounting, and audit logs) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 82.3899999999999864 Td
+(- can delete allowed clean/test records where the system permits it) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+504.2399999999999523 22. Td
+(Page 1 of 27) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 5899
+>>
+stream
+0.200025 w
+0 G
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 787.8899999999999864 Td
+(Branch Manager:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 762.8899999999999864 Td
+(- manages only the assigned branch) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 746.3899999999999864 Td
+(- can manage branch stock, transfers, POS, reports, shifts, returns, purchases, suppliers, customers,) Tj
+T* (expenses, and audit records for the assigned branch based on permission settings) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 710.3899999999999864 Td
+(Cashier:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 685.3899999999999864 Td
+(- mainly uses POS checkout) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 668.8899999999999864 Td
+(- can process sales, payments, receipts, returns, and shift actions only when permissions allow) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 652.3899999999999864 Td
+(- sees branch-specific records only) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 629.8899999999999864 Td
+(Auditor:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 604.8899999999999864 Td
+(- reviews reports, readings, stock, accounting, and audit logs) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 588.3899999999999864 Td
+(- normally cannot post changes) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 565.8899999999999864 Td
+(Inventory Staff:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 540.8899999999999864 Td
+(- can manage stock counts, stock movements, receiving, transfers, and inventory tasks when granted) Tj
+T* (permission) Tj
+ET
+0.91 0.96 0.94 rg
+43. 516.8899999999999864 m
+552.2799999999999727 516.8899999999999864 l
+556.1459932488155573 516.8899999999999864 559.2799999999999727 513.7559932488154573 559.2799999999999727 509.8899999999999864 c
+559.2799999999999727 487.8899999999999864 l
+559.2799999999999727 484.0240067511844586 555.4140067511843881 480.8899999999999864 552.2799999999999727 480.8899999999999864 c
+43. 480.8899999999999864 l
+39.1340067511844438 480.8899999999999864 36. 484.7559932488155141 36. 487.8899999999999864 c
+36. 509.8899999999999864 l
+36. 513.7559932488154573 39.8659932488155562 516.8899999999999864 43. 516.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 496.8899999999999864 Td
+(3. Login And Navigation) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 462.8899999999999864 Td
+(1. Open the app URL.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 445.3899999999999864 Td
+(2. Enter username and password.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 427.8899999999999864 Td
+(3. Click Login.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 410.3899999999999864 Td
+(4. The system checks your account, role, branch assignment, active status, and permissions.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 392.8899999999999864 Td
+(5. After login, the sidebar only shows pages that your role can access.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 375.3899999999999864 Td
+(6. Admin users can usually see all branches.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 357.8899999999999864 Td
+(7. Branch-level users are locked to their assigned branch.) Tj
+ET
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.137 0.2 0.176 rg
+46. 334.3899999999999864 Td
+(If a page is missing from the sidebar, the signed-in user does not have permission for that module.) Tj
+ET
+0.91 0.96 0.94 rg
+43. 321.3899999999999864 m
+552.2799999999999727 321.3899999999999864 l
+556.1459932488155573 321.3899999999999864 559.2799999999999727 318.255993248815571 559.2799999999999727 314.3899999999999864 c
+559.2799999999999727 292.3899999999999864 l
+559.2799999999999727 288.5240067511844018 555.4140067511843881 285.3899999999999864 552.2799999999999727 285.3899999999999864 c
+43. 285.3899999999999864 l
+39.1340067511844438 285.3899999999999864 36. 289.255993248815571 36. 292.3899999999999864 c
+36. 314.3899999999999864 l
+36. 318.255993248815571 39.8659932488155562 321.3899999999999864 43. 321.3899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 301.3899999999999864 Td
+(4. Daily Business Flow) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 267.3899999999999864 Td
+(Recommended daily flow:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 242.3899999999999864 Td
+(1. Manager or cashier opens a shift.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 224.8899999999999864 Td
+(2. Cashier enters opening cash.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 207.3899999999999864 Td
+(3. Cashier sells products through POS.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 189.8899999999999864 Td
+(4. The system saves invoices, payments, tax amounts, and stock allocation.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 172.3899999999999864 Td
+(5. Stock decreases immediately from the earliest expiry batches first.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 154.8899999999999864 Td
+(6. Cash payments update expected drawer cash.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 137.3899999999999864 Td
+(7. Non-cash payments are tracked by method and reference.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 119.8899999999999864 Td
+(8. Returns, voids, cash in, cash out, and expenses are recorded during the day.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 102.3899999999999864 Td
+(9. Manager generates X-reading for checking during the day.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 84.8899999999999864 Td
+(10. At closing, cashier counts cash and closes the shift.) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+504.2399999999999523 22. Td
+(Page 2 of 27) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 5539
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 787.8899999999999864 Td
+(11. Manager generates Z-reading when the business day is final.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 770.3899999999999864 Td
+(12. Admin or manager reviews reports, accounting, and audit logs.) Tj
+ET
+0.91 0.96 0.94 rg
+43. 758.8899999999999864 m
+552.2799999999999727 758.8899999999999864 l
+556.1459932488155573 758.8899999999999864 559.2799999999999727 755.755993248815571 559.2799999999999727 751.8899999999999864 c
+559.2799999999999727 729.8899999999999864 l
+559.2799999999999727 726.0240067511844018 555.4140067511843881 722.8899999999999864 552.2799999999999727 722.8899999999999864 c
+43. 722.8899999999999864 l
+39.1340067511844438 722.8899999999999864 36. 726.755993248815571 36. 729.8899999999999864 c
+36. 751.8899999999999864 l
+36. 755.755993248815571 39.8659932488155562 758.8899999999999864 43. 758.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 738.8899999999999864 Td
+(5. First Admin Setup) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 704.8899999999999864 Td
+(1. Open the login page.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 687.3899999999999864 Td
+(2. If no admin exists, use the first-admin setup flow.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 669.8899999999999864 Td
+(3. Enter the admin name, username, email, and password.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 652.3899999999999864 Td
+(4. Save the admin account.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 634.8899999999999864 Td
+(5. Login using the admin username and password.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 617.3899999999999864 Td
+(6. Create branches before adding branch managers and cashiers.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 593.8899999999999864 Td
+(How it works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 568.8899999999999864 Td
+(- The first admin becomes the main account owner.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 552.3899999999999864 Td
+(- The admin can create other admins, managers, cashiers, auditors, and inventory staff.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 535.8899999999999864 Td
+(- The system blocks removing the last active admin.) Tj
+ET
+0.91 0.96 0.94 rg
+43. 525.3899999999999864 m
+552.2799999999999727 525.3899999999999864 l
+556.1459932488155573 525.3899999999999864 559.2799999999999727 522.2559932488154573 559.2799999999999727 518.3899999999999864 c
+559.2799999999999727 496.3899999999999864 l
+559.2799999999999727 492.5240067511844586 555.4140067511843881 489.3899999999999864 552.2799999999999727 489.3899999999999864 c
+43. 489.3899999999999864 l
+39.1340067511844438 489.3899999999999864 36. 493.2559932488155141 36. 496.3899999999999864 c
+36. 518.3899999999999864 l
+36. 522.2559932488154573 39.8659932488155562 525.3899999999999864 43. 525.3899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 505.3899999999999864 Td
+(6. Module 1 - Dashboard) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 471.3899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 446.3899999999999864 Td
+(- gives a quick view of sales, orders, cashier performance, and low stock) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 423.8899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 398.8899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 382.3899999999999864 Td
+(- branch manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 365.8899999999999864 Td
+(- auditor) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 343.3899999999999864 Td
+(How to use:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 318.3899999999999864 Td
+(1. Open Dashboard from the sidebar.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 300.8899999999999864 Td
+(2. Select date range.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 283.3899999999999864 Td
+(3. Admin can select all branches or one branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 265.8899999999999864 Td
+(4. Manager sees the assigned branch only.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 248.3899999999999864 Td
+(5. Review sales totals, order counts, average order value, VAT, discounts, and low-stock count.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 230.8899999999999864 Td
+(6. Review charts for daily sales and sales by branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 213.3899999999999864 Td
+(7. Review cashier performance and low-stock tables.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 189.8899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 164.8899999999999864 Td
+(- completed sales are counted in sales totals) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 148.3899999999999864 Td
+(- voided and refunded records are separated where applicable) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 131.8899999999999864 Td
+(- low-stock alerts compare stock against reorder levels) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 115.3899999999999864 Td
+(- managers only see their branch data) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+504.2399999999999523 22. Td
+(Page 3 of 27) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 4519
+>>
+stream
+0.200025 w
+0 G
+0.91 0.96 0.94 rg
+43. 807.8899999999999864 m
+552.2799999999999727 807.8899999999999864 l
+556.1459932488155573 807.8899999999999864 559.2799999999999727 804.755993248815571 559.2799999999999727 800.8899999999999864 c
+559.2799999999999727 778.8899999999999864 l
+559.2799999999999727 775.0240067511844018 555.4140067511843881 771.8899999999999864 552.2799999999999727 771.8899999999999864 c
+43. 771.8899999999999864 l
+39.1340067511844438 771.8899999999999864 36. 775.755993248815571 36. 778.8899999999999864 c
+36. 800.8899999999999864 l
+36. 804.755993248815571 39.8659932488155562 807.8899999999999864 43. 807.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 787.8899999999999864 Td
+(7. Module 2 - Branch Management) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 753.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 728.8899999999999864 Td
+(- creates and controls head office and branch records) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 664.8899999999999864 Td
+(- branch manager with limited branch view) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 642.3899999999999864 Td
+(How to add a branch:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 617.3899999999999864 Td
+(1. Open Branches.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 599.8899999999999864 Td
+(2. Click Add Branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 582.3899999999999864 Td
+(3. Enter branch name, branch code, address, legal name, TIN, business style, and BIR RDO details.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 564.8899999999999864 Td
+(4. Choose pricing mode, tax profile, VAT rate, and inventory control setting.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 547.3899999999999864 Td
+(5. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 523.8899999999999864 Td
+(How to update a branch:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 498.8899999999999864 Td
+(1. Open Branches.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 481.3899999999999864 Td
+(2. Click the edit action.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 463.8899999999999864 Td
+(3. Update details.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 446.3899999999999864 Td
+(4. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 422.8899999999999864 Td
+(How to disable a branch:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 397.8899999999999864 Td
+(1. Open Branches.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 380.3899999999999864 Td
+(2. Select the branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 362.8899999999999864 Td
+(3. Use the status control.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 345.3899999999999864 Td
+(4. Disable the branch.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 321.8899999999999864 Td
+(How hard delete works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 296.8899999999999864 Td
+(- hard delete is allowed only for clean/test branches with no linked business history) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 280.3899999999999864 Td
+(- if the branch has sales, users, stock, batches, transfers, purchases, or expenses, the system blocks hard) Tj
+T* (delete) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 250.3899999999999864 Td
+(- disabling is the safer option for real branches) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 227.8899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 202.8899999999999864 Td
+(- branch code helps identify the branch in reports and invoices) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 186.3899999999999864 Td
+(- branch settings control pricing, tax, inventory, users, payments, and reporting) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 169.8899999999999864 Td
+(- branch records are linked to sales, inventory, staff, shifts, purchases, suppliers, customers, expenses, and) Tj
+T* (accounting) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+504.2399999999999523 22. Td
+(Page 4 of 27) Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 4901
+>>
+stream
+0.200025 w
+0 G
+0.91 0.96 0.94 rg
+43. 807.8899999999999864 m
+552.2799999999999727 807.8899999999999864 l
+556.1459932488155573 807.8899999999999864 559.2799999999999727 804.755993248815571 559.2799999999999727 800.8899999999999864 c
+559.2799999999999727 778.8899999999999864 l
+559.2799999999999727 775.0240067511844018 555.4140067511843881 771.8899999999999864 552.2799999999999727 771.8899999999999864 c
+43. 771.8899999999999864 l
+39.1340067511844438 771.8899999999999864 36. 775.755993248815571 36. 778.8899999999999864 c
+36. 800.8899999999999864 l
+36. 804.755993248815571 39.8659932488155562 807.8899999999999864 43. 807.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 787.8899999999999864 Td
+(8. Module 3 - User And Role Management) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 753.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 728.8899999999999864 Td
+(- creates staff accounts and controls what each staff member can do) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 664.8899999999999864 Td
+(- auditor for review if allowed) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 642.3899999999999864 Td
+(How to add staff:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 617.3899999999999864 Td
+(1. Open Users.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 599.8899999999999864 Td
+(2. Click Add Staff.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 582.3899999999999864 Td
+(3. Enter full name, username, email, and password.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 564.8899999999999864 Td
+(4. Select role.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 547.3899999999999864 Td
+(5. Select branch if the role is branch-level.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 529.8899999999999864 Td
+(6. Set shift days and shift time window if needed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 512.3899999999999864 Td
+(7. Set max discount percentage if the user can discount sales.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 494.8899999999999864 Td
+(8. Select permissions.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 477.3899999999999864 Td
+(9. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 453.8899999999999864 Td
+(How to update staff:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 428.8899999999999864 Td
+(1. Open Users.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 411.3899999999999864 Td
+(2. Click edit on the staff row.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 393.8899999999999864 Td
+(3. Update name, role, branch, permissions, or shift rules.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 376.3899999999999864 Td
+(4. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 352.8899999999999864 Td
+(How to delete staff:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 327.8899999999999864 Td
+(1. Open Users.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 310.3899999999999864 Td
+(2. Click the delete action.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 292.8899999999999864 Td
+(3. Confirm permanent deletion.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 269.3899999999999864 Td
+(How delete works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 244.3899999999999864 Td
+(- deleting staff removes the staff login account and staff profile) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 227.8899999999999864 Td
+(- historical sales, orders, audit logs, and reports remain linked to past activity) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 211.3899999999999864 Td
+(- the system blocks deleting your own admin account) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 194.8899999999999864 Td
+(- the system blocks deleting the last active admin) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 172.3899999999999864 Td
+(How permissions work:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 147.3899999999999864 Td
+(- role gives default access) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 130.8899999999999864 Td
+(- permission checklist can allow or block specific actions) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 114.3899999999999864 Td
+(- branch-level users are still limited to their assigned branch) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 97.8899999999999864 Td
+(- activity is logged when access changes) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+504.2399999999999523 22. Td
+(Page 5 of 27) Tj
+ET
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 4942
+>>
+stream
+0.200025 w
+0 G
+0.91 0.96 0.94 rg
+43. 807.8899999999999864 m
+552.2799999999999727 807.8899999999999864 l
+556.1459932488155573 807.8899999999999864 559.2799999999999727 804.755993248815571 559.2799999999999727 800.8899999999999864 c
+559.2799999999999727 778.8899999999999864 l
+559.2799999999999727 775.0240067511844018 555.4140067511843881 771.8899999999999864 552.2799999999999727 771.8899999999999864 c
+43. 771.8899999999999864 l
+39.1340067511844438 771.8899999999999864 36. 775.755993248815571 36. 778.8899999999999864 c
+36. 800.8899999999999864 l
+36. 804.755993248815571 39.8659932488155562 807.8899999999999864 43. 807.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 787.8899999999999864 Td
+(9. Module 4 - Product Management) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 753.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 728.8899999999999864 Td
+(- manages products, categories, brands, units, variants, barcodes, prices, and tax tags) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 664.8899999999999864 Td
+(- manager or inventory staff if allowed) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 642.3899999999999864 Td
+(How to add a product:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 617.3899999999999864 Td
+(1. Open Products.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 599.8899999999999864 Td
+(2. Click Add Product.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 582.3899999999999864 Td
+(3. Enter product name.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 564.8899999999999864 Td
+(4. Select category, brand, and unit.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 547.3899999999999864 Td
+(5. Enter SKU and barcode.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 529.8899999999999864 Td
+(6. Enter cost price and selling price.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 512.3899999999999864 Td
+(7. Set reorder level.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 494.8899999999999864 Td
+(8. Choose tax tag: VATable, VAT-exempt, zero-rated, non-VAT, or percentage-tax.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 477.3899999999999864 Td
+(9. Add variants if needed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 459.8899999999999864 Td
+(10. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 436.3899999999999864 Td
+(How to search products:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 411.3899999999999864 Td
+(1. Open Products.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 393.8899999999999864 Td
+(2. Use the search field.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 376.3899999999999864 Td
+(3. Search by product name, SKU, barcode, category, brand, or variant.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 352.8899999999999864 Td
+(How to delete a product:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 327.8899999999999864 Td
+(1. Open Products.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 310.3899999999999864 Td
+(2. Select the product.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 292.8899999999999864 Td
+(3. Click delete.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 275.3899999999999864 Td
+(4. Confirm.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 251.8899999999999864 Td
+(How product delete works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 226.8899999999999864 Td
+(- the system allows product delete only when business rules allow it) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 210.3899999999999864 Td
+(- if the product is already linked to sales, stock, purchases, or movements, deletion may be blocked or treated) Tj
+T* (as inactive depending on the current data) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 174.3899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 149.3899999999999864 Td
+(- product price is used at checkout) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 132.8899999999999864 Td
+(- cost price helps calculate profit reports) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 116.3899999999999864 Td
+(- tax tag controls VAT and tax reporting) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 99.8899999999999864 Td
+(- reorder level helps low-stock alerts) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 83.3899999999999864 Td
+(- variant barcode can be scanned separately at POS) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+504.2399999999999523 22. Td
+(Page 6 of 27) Tj
+ET
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4775
+>>
+stream
+0.200025 w
+0 G
+0.91 0.96 0.94 rg
+43. 807.8899999999999864 m
+552.2799999999999727 807.8899999999999864 l
+556.1459932488155573 807.8899999999999864 559.2799999999999727 804.755993248815571 559.2799999999999727 800.8899999999999864 c
+559.2799999999999727 778.8899999999999864 l
+559.2799999999999727 775.0240067511844018 555.4140067511843881 771.8899999999999864 552.2799999999999727 771.8899999999999864 c
+43. 771.8899999999999864 l
+39.1340067511844438 771.8899999999999864 36. 775.755993248815571 36. 778.8899999999999864 c
+36. 800.8899999999999864 l
+36. 804.755993248815571 39.8659932488155562 807.8899999999999864 43. 807.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 787.8899999999999864 Td
+(10. Module 5 - Inventory Management) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 753.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 728.8899999999999864 Td
+(- controls stock by branch, batch, expiry date, and movement type) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 664.8899999999999864 Td
+(- branch manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 648.3899999999999864 Td
+(- inventory staff) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 631.8899999999999864 Td
+(- auditor for review) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 609.3899999999999864 Td
+(How to add stock:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 584.3899999999999864 Td
+(1. Open Inventory.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 566.8899999999999864 Td
+(2. Select branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 549.3899999999999864 Td
+(3. Click Stock In or Adjustment.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 531.8899999999999864 Td
+(4. Select product and variant if needed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 514.3899999999999864 Td
+(5. Enter quantity.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 496.8899999999999864 Td
+(6. Enter batch number if available.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 479.3899999999999864 Td
+(7. Enter expiry date if applicable.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 461.8899999999999864 Td
+(8. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 438.3899999999999864 Td
+(How to remove stock:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 413.3899999999999864 Td
+(1. Open Inventory.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 395.8899999999999864 Td
+(2. Select product batch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 378.3899999999999864 Td
+(3. Choose Stock Out, Damaged, Expired, or Adjustment Minus.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 360.8899999999999864 Td
+(4. Enter quantity and reason.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 343.3899999999999864 Td
+(5. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 319.8899999999999864 Td
+(How to post stock count:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 294.8899999999999864 Td
+(1. Open Inventory.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 277.3899999999999864 Td
+(2. Start stock count.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 259.8899999999999864 Td
+(3. Enter counted quantity for each item.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 242.3899999999999864 Td
+(4. Review variance.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 224.8899999999999864 Td
+(5. Post count.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 201.3899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 176.3899999999999864 Td
+(- stock is branch-specific) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 159.8899999999999864 Td
+(- each batch can have its own expiry date) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 143.3899999999999864 Td
+(- every stock change creates a movement record) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 126.8899999999999864 Td
+(- stock count posts variance automatically) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 110.3899999999999864 Td
+(- low-stock alerts compare current stock with reorder level) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 93.8899999999999864 Td
+(- expiry watch highlights products near expiry) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+504.2399999999999523 22. Td
+(Page 7 of 27) Tj
+ET
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 18 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 4880
+>>
+stream
+0.200025 w
+0 G
+0.91 0.96 0.94 rg
+43. 807.8899999999999864 m
+552.2799999999999727 807.8899999999999864 l
+556.1459932488155573 807.8899999999999864 559.2799999999999727 804.755993248815571 559.2799999999999727 800.8899999999999864 c
+559.2799999999999727 778.8899999999999864 l
+559.2799999999999727 775.0240067511844018 555.4140067511843881 771.8899999999999864 552.2799999999999727 771.8899999999999864 c
+43. 771.8899999999999864 l
+39.1340067511844438 771.8899999999999864 36. 775.755993248815571 36. 778.8899999999999864 c
+36. 800.8899999999999864 l
+36. 804.755993248815571 39.8659932488155562 807.8899999999999864 43. 807.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 787.8899999999999864 Td
+(11. Module 6 - Stock Transfer) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 753.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 728.8899999999999864 Td
+(- moves stock from one branch to another with approval, dispatch, receiving, and variance tracking) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 664.8899999999999864 Td
+(- branch manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 648.3899999999999864 Td
+(- inventory staff) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 631.8899999999999864 Td
+(- auditor for review) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 609.3899999999999864 Td
+(How to request transfer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 584.3899999999999864 Td
+(1. Open Transfers.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 566.8899999999999864 Td
+(2. Click New Transfer.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 549.3899999999999864 Td
+(3. Select source branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 531.8899999999999864 Td
+(4. Select destination branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 514.3899999999999864 Td
+(5. Add products and requested quantities.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 496.8899999999999864 Td
+(6. Save request.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 473.3899999999999864 Td
+(How to approve:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 448.3899999999999864 Td
+(1. Source branch manager or admin opens the request.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 430.8899999999999864 Td
+(2. Review requested items.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 413.3899999999999864 Td
+(3. Approve if stock should be moved.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 389.8899999999999864 Td
+(How to dispatch:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 364.8899999999999864 Td
+(1. After approval, click Dispatch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 347.3899999999999864 Td
+(2. The system selects stock batches using earliest expiry first.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 329.8899999999999864 Td
+(3. Stock decreases from the source branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 312.3899999999999864 Td
+(4. Dispatch details are saved.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 288.8899999999999864 Td
+(How to receive:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 263.8899999999999864 Td
+(1. Destination branch opens the transfer.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 246.3899999999999864 Td
+(2. Enter received quantity.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 228.8899999999999864 Td
+(3. Save receiving.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 211.3899999999999864 Td
+(4. The system adds stock to the destination branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 193.8899999999999864 Td
+(5. Any shortage or overage is recorded as variance.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 170.3899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 145.3899999999999864 Td
+(- transfer has a clear status flow: request, approve, dispatch, receive) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 128.8899999999999864 Td
+(- source stock decreases at dispatch) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 112.3899999999999864 Td
+(- destination stock increases at receiving) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 95.8899999999999864 Td
+(- variance shows the difference between dispatched and received quantity) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+504.2399999999999523 22. Td
+(Page 8 of 27) Tj
+ET
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 20 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 4948
+>>
+stream
+0.200025 w
+0 G
+0.91 0.96 0.94 rg
+43. 807.8899999999999864 m
+552.2799999999999727 807.8899999999999864 l
+556.1459932488155573 807.8899999999999864 559.2799999999999727 804.755993248815571 559.2799999999999727 800.8899999999999864 c
+559.2799999999999727 778.8899999999999864 l
+559.2799999999999727 775.0240067511844018 555.4140067511843881 771.8899999999999864 552.2799999999999727 771.8899999999999864 c
+43. 771.8899999999999864 l
+39.1340067511844438 771.8899999999999864 36. 775.755993248815571 36. 778.8899999999999864 c
+36. 800.8899999999999864 l
+36. 804.755993248815571 39.8659932488155562 807.8899999999999864 43. 807.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 787.8899999999999864 Td
+(12. Module 7 - POS Sales And Checkout) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 753.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 728.8899999999999864 Td
+(- handles fast checkout, barcode scanning, discounts, payments, invoices, receipts, and stock reduction) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.3899999999999864 Td
+(- cashier) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 664.8899999999999864 Td
+(- branch manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 648.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 625.8899999999999864 Td
+(How to sell:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 600.8899999999999864 Td
+(1. Open POS.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 583.3899999999999864 Td
+(2. Confirm branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 565.8899999999999864 Td
+(3. Select customer or leave as walk-in.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 548.3899999999999864 Td
+(4. Scan barcode or search product.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 530.8899999999999864 Td
+(5. Add product to cart.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 513.3899999999999864 Td
+(6. Adjust quantity if needed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 495.8899999999999864 Td
+(7. Apply discount if permitted.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 478.3899999999999864 Td
+(8. Select payment method.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 460.8899999999999864 Td
+(9. Add split payments if needed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 443.3899999999999864 Td
+(10. Click Checkout.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 425.8899999999999864 Td
+(11. Print or save the receipt.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 402.3899999999999864 Td
+(How barcode scanning works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 377.3899999999999864 Td
+(- USB barcode scanners act like keyboard input) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 360.8899999999999864 Td
+(- scan focuses into the barcode field) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 344.3899999999999864 Td
+(- matching product is added to cart) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 327.8899999999999864 Td
+(- repeated scan increases quantity) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 305.3899999999999864 Td
+(How discounts work:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 280.3899999999999864 Td
+(- user must have discount permission) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 263.8899999999999864 Td
+(- discount must be within the user's allowed percentage) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 247.3899999999999864 Td
+(- discount amount is saved with the sale) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 230.8899999999999864 Td
+(- discount events appear in reports and audit review) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 208.3899999999999864 Td
+(How payments work:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 183.3899999999999864 Td
+(- one sale can have one payment or split payments) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 166.8899999999999864 Td
+(- cash can produce change) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 150.3899999999999864 Td
+(- non-cash methods can require reference numbers) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 133.8899999999999864 Td
+(- payment details are saved with the invoice) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 111.3899999999999864 Td
+(How stock reduction works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 86.3899999999999864 Td
+(- after checkout, stock decreases immediately) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+504.2399999999999523 22. Td
+(Page 9 of 27) Tj
+ET
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 22 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 4790
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 787.8899999999999864 Td
+(- batches with earliest expiry are used first) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 771.3899999999999864 Td
+(- batch allocation is saved for traceability) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 748.8899999999999864 Td
+(How offline sales work:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 723.8899999999999864 Td
+(1. Build the cart.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 706.3899999999999864 Td
+(2. If internet is down, save offline.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 688.8899999999999864 Td
+(3. Later, when online, click Sync Now.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 671.3899999999999864 Td
+(4. The system submits the queued sale and reduces stock during sync.) Tj
+ET
+0.91 0.96 0.94 rg
+43. 659.8899999999999864 m
+552.2799999999999727 659.8899999999999864 l
+556.1459932488155573 659.8899999999999864 559.2799999999999727 656.755993248815571 559.2799999999999727 652.8899999999999864 c
+559.2799999999999727 630.8899999999999864 l
+559.2799999999999727 627.0240067511844018 555.4140067511843881 623.8899999999999864 552.2799999999999727 623.8899999999999864 c
+43. 623.8899999999999864 l
+39.1340067511844438 623.8899999999999864 36. 627.755993248815571 36. 630.8899999999999864 c
+36. 652.8899999999999864 l
+36. 656.755993248815571 39.8659932488155562 659.8899999999999864 43. 659.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 639.8899999999999864 Td
+(13. Module 8 - Philippines Invoice And BIR Compliance) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 605.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 580.8899999999999864 Td
+(- manages invoice document types, branch/machine invoice numbering, reprints, void controls, and X/Z) Tj
+T* (readings) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 544.8899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 519.8899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 503.3899999999999864 Td
+(- branch manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 486.8899999999999864 Td
+(- auditor) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 464.3899999999999864 Td
+(How to set machine details:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 439.3899999999999864 Td
+(1. Open BIR.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 421.8899999999999864 Td
+(2. Review machine record for each branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 404.3899999999999864 Td
+(3. Enter machine serial number, MIN, permit number, accreditation number, software version, and permit) Tj
+T* (dates.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 373.3899999999999864 Td
+(4. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 349.8899999999999864 Td
+(How to set invoice series:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 324.8899999999999864 Td
+(1. Open BIR.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 307.3899999999999864 Td
+(2. Review invoice series.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 289.8899999999999864 Td
+(3. Set document type, prefix, current number, digit padding, start number, and end number.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 272.3899999999999864 Td
+(4. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 248.8899999999999864 Td
+(How invoices work:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 223.8899999999999864 Td
+(- checkout assigns invoice number automatically) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 207.3899999999999864 Td
+(- numbering follows branch and machine setup) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 190.8899999999999864 Td
+(- document type can be Sales Invoice, Cash Invoice, Charge/Credit Invoice, Service Invoice, or Billing Invoice) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 168.3899999999999864 Td
+(How reprint works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 143.3899999999999864 Td
+(1. Open BIR invoice list or POS recent invoice.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 125.8899999999999864 Td
+(2. Choose reprint.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 108.3899999999999864 Td
+(3. Enter reason if required.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 90.8899999999999864 Td
+(4. Print copy.) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 10 of 27) Tj
+ET
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 24 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 4878
+>>
+stream
+0.200025 w
+0 G
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 787.8899999999999864 Td
+(How void works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 762.8899999999999864 Td
+(1. Find the invoice.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 745.3899999999999864 Td
+(2. Choose void.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 727.8899999999999864 Td
+(3. Enter reason.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 710.3899999999999864 Td
+(4. Confirm.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 686.8899999999999864 Td
+(Void rules:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 661.8899999999999864 Td
+(- void reverses stock when allowed) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 645.3899999999999864 Td
+(- void is blocked after final Z-reading for the same branch/date/machine) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 628.8899999999999864 Td
+(- void action is recorded in audit logs) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 606.3899999999999864 Td
+(How readings work:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 581.3899999999999864 Td
+(- X-reading is a temporary daily sales reading) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 564.8899999999999864 Td
+(- Z-reading is final end-of-day reading) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 548.3899999999999864 Td
+(- after Z-reading, the business day is treated as closed for protected actions) Tj
+ET
+0.91 0.96 0.94 rg
+43. 537.8899999999999864 m
+552.2799999999999727 537.8899999999999864 l
+556.1459932488155573 537.8899999999999864 559.2799999999999727 534.7559932488154573 559.2799999999999727 530.8899999999999864 c
+559.2799999999999727 508.8899999999999864 l
+559.2799999999999727 505.0240067511844586 555.4140067511843881 501.8899999999999864 552.2799999999999727 501.8899999999999864 c
+43. 501.8899999999999864 l
+39.1340067511844438 501.8899999999999864 36. 505.7559932488155141 36. 508.8899999999999864 c
+36. 530.8899999999999864 l
+36. 534.7559932488154573 39.8659932488155562 537.8899999999999864 43. 537.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 517.8899999999999864 Td
+(14. Module 9 - Tax Management) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 483.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 458.8899999999999864 Td
+(- controls VAT, non-VAT, percentage tax, zero-rated, exempt sales, and tax reports) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 436.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 411.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 394.8899999999999864 Td
+(- manager for review if allowed) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 378.3899999999999864 Td
+(- auditor) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 355.8899999999999864 Td
+(How to configure tax profile:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 330.8899999999999864 Td
+(1. Open Tax.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 313.3899999999999864 Td
+(2. Review branch tax setup.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 295.8899999999999864 Td
+(3. Assign tax profile to each branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 278.3899999999999864 Td
+(4. Set VAT rate or percentage tax rate.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 260.8899999999999864 Td
+(5. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 237.3899999999999864 Td
+(How to manage tax codes:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 212.3899999999999864 Td
+(1. Open Tax.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 194.8899999999999864 Td
+(2. Add or edit tax code.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 177.3899999999999864 Td
+(3. Choose VATable, VAT-exempt, zero-rated, non-VAT, or percentage-tax.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 159.8899999999999864 Td
+(4. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 136.3899999999999864 Td
+(How tax works at checkout:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 111.3899999999999864 Td
+(- product tax tag decides how tax is calculated) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 94.8899999999999864 Td
+(- branch setting decides tax-inclusive or tax-exclusive pricing) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 78.3899999999999864 Td
+(- completed sales are grouped into VATable, VAT-exempt, zero-rated, non-VAT, and percentage-tax reports) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 11 of 27) Tj
+ET
+endstream
+endobj
+25 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 26 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 4580
+>>
+stream
+0.200025 w
+0 G
+0.91 0.96 0.94 rg
+43. 807.8899999999999864 m
+552.2799999999999727 807.8899999999999864 l
+556.1459932488155573 807.8899999999999864 559.2799999999999727 804.755993248815571 559.2799999999999727 800.8899999999999864 c
+559.2799999999999727 778.8899999999999864 l
+559.2799999999999727 775.0240067511844018 555.4140067511843881 771.8899999999999864 552.2799999999999727 771.8899999999999864 c
+43. 771.8899999999999864 l
+39.1340067511844438 771.8899999999999864 36. 775.755993248815571 36. 778.8899999999999864 c
+36. 800.8899999999999864 l
+36. 804.755993248815571 39.8659932488155562 807.8899999999999864 43. 807.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 787.8899999999999864 Td
+(15. Module 10 - Senior Citizen And PWD Discounts) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 753.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 728.8899999999999864 Td
+(- applies Senior Citizen and PWD discount rules with ID capture and separate reporting) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.3899999999999864 Td
+(- cashier at checkout) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 664.8899999999999864 Td
+(- admin for setup) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 648.3899999999999864 Td
+(- manager and auditor for review) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 625.8899999999999864 Td
+(How to set branch rules:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 600.8899999999999864 Td
+(1. Open Senior/PWD.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 583.3899999999999864 Td
+(2. Select branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 565.8899999999999864 Td
+(3. Set 20 percent discount rate.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 548.3899999999999864 Td
+(4. Set VAT exemption rule.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 530.8899999999999864 Td
+(5. Set 5 percent basic necessities or prime commodities rule if applicable.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 513.3899999999999864 Td
+(6. Set ID and booklet capture requirements.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 495.8899999999999864 Td
+(7. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 472.3899999999999864 Td
+(How to tag eligible products:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 447.3899999999999864 Td
+(1. Open Senior/PWD.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 429.8899999999999864 Td
+(2. Search product.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 412.3899999999999864 Td
+(3. Choose eligibility type.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 394.8899999999999864 Td
+(4. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 371.3899999999999864 Td
+(How to apply during sale:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 346.3899999999999864 Td
+(1. Open POS.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 328.8899999999999864 Td
+(2. Add eligible products.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 311.3899999999999864 Td
+(3. Select Senior Citizen or PWD in checkout panel.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 293.8899999999999864 Td
+(4. Enter beneficiary name.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 276.3899999999999864 Td
+(5. Enter ID type and ID number.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 258.8899999999999864 Td
+(6. Enter booklet/reference if required.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 241.3899999999999864 Td
+(7. Checkout.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 217.8899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 192.8899999999999864 Td
+(- discount amount is saved on the sale) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 176.3899999999999864 Td
+(- VAT exemption is tracked where applicable) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 159.8899999999999864 Td
+(- Senior/PWD claim is saved for reporting) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 143.3899999999999864 Td
+(- separate report shows beneficiary, ID details, invoice, discount, and branch) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 12 of 27) Tj
+ET
+endstream
+endobj
+27 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 28 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 4557
+>>
+stream
+0.200025 w
+0 G
+0.91 0.96 0.94 rg
+43. 807.8899999999999864 m
+552.2799999999999727 807.8899999999999864 l
+556.1459932488155573 807.8899999999999864 559.2799999999999727 804.755993248815571 559.2799999999999727 800.8899999999999864 c
+559.2799999999999727 778.8899999999999864 l
+559.2799999999999727 775.0240067511844018 555.4140067511843881 771.8899999999999864 552.2799999999999727 771.8899999999999864 c
+43. 771.8899999999999864 l
+39.1340067511844438 771.8899999999999864 36. 775.755993248815571 36. 778.8899999999999864 c
+36. 800.8899999999999864 l
+36. 804.755993248815571 39.8659932488155562 807.8899999999999864 43. 807.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 787.8899999999999864 Td
+(16. Module 11 - Payments) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 753.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 728.8899999999999864 Td
+(- manages payment methods, split payments, references, fees, settlement status, and payment reports) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.3899999999999864 Td
+(- admin for setup) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 664.8899999999999864 Td
+(- cashier at checkout) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 648.3899999999999864 Td
+(- manager and auditor for review) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 625.8899999999999864 Td
+(How to enable payment method:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 600.8899999999999864 Td
+(1. Open Payments.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 583.3899999999999864 Td
+(2. Review payment method list.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 565.8899999999999864 Td
+(3. Enable or disable method per branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 548.3899999999999864 Td
+(4. Set whether reference is required.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 530.8899999999999864 Td
+(5. Set whether overpayment/change is allowed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 513.3899999999999864 Td
+(6. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 489.8899999999999864 Td
+(Supported payment methods:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 464.8899999999999864 Td
+(- Cash) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 448.3899999999999864 Td
+(- Credit/debit card) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 431.8899999999999864 Td
+(- GCash) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 415.3899999999999864 Td
+(- Maya) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 398.8899999999999864 Td
+(- Bank transfer) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 382.3899999999999864 Td
+(- Store credit) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 365.8899999999999864 Td
+(- COD if delivery or credit sale is used) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 343.3899999999999864 Td
+(How split payment works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 318.3899999999999864 Td
+(1. In POS, add payment row.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 300.8899999999999864 Td
+(2. Select method.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 283.3899999999999864 Td
+(3. Enter amount.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 265.8899999999999864 Td
+(4. Add another payment row.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 248.3899999999999864 Td
+(5. Continue until total is fully paid.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 230.8899999999999864 Td
+(6. Checkout.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 207.3899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 182.3899999999999864 Td
+(- payment rows are saved per invoice) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 165.8899999999999864 Td
+(- cash can calculate change) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 149.3899999999999864 Td
+(- non-cash methods can require reference numbers) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 132.8899999999999864 Td
+(- payment reports group collections by branch, cashier, and method) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 13 of 27) Tj
+ET
+endstream
+endobj
+29 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 30 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 4598
+>>
+stream
+0.200025 w
+0 G
+0.91 0.96 0.94 rg
+43. 807.8899999999999864 m
+552.2799999999999727 807.8899999999999864 l
+556.1459932488155573 807.8899999999999864 559.2799999999999727 804.755993248815571 559.2799999999999727 800.8899999999999864 c
+559.2799999999999727 778.8899999999999864 l
+559.2799999999999727 775.0240067511844018 555.4140067511843881 771.8899999999999864 552.2799999999999727 771.8899999999999864 c
+43. 771.8899999999999864 l
+39.1340067511844438 771.8899999999999864 36. 775.755993248815571 36. 778.8899999999999864 c
+36. 800.8899999999999864 l
+36. 804.755993248815571 39.8659932488155562 807.8899999999999864 43. 807.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 787.8899999999999864 Td
+(17. Module 12 - Cash Register And Shift Management) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 753.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 728.8899999999999864 Td
+(- controls opening cash, cash in/out, shift closing, short/over tracking, and end-of-day cash reports) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.3899999999999864 Td
+(- cashier) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 664.8899999999999864 Td
+(- branch manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 648.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 631.8899999999999864 Td
+(- auditor for review) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 609.3899999999999864 Td
+(How to open shift:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 584.3899999999999864 Td
+(1. Open Shifts.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 566.8899999999999864 Td
+(2. Select branch and register.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 549.3899999999999864 Td
+(3. Enter opening cash.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 531.8899999999999864 Td
+(4. Click Open Shift.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 508.3899999999999864 Td
+(How to cash in:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 483.3899999999999864 Td
+(1. Open Shifts.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 465.8899999999999864 Td
+(2. Click Cash In.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 448.3899999999999864 Td
+(3. Enter amount and reason.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 430.8899999999999864 Td
+(4. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 407.3899999999999864 Td
+(How to cash out:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 382.3899999999999864 Td
+(1. Open Shifts.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 364.8899999999999864 Td
+(2. Click Cash Out.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 347.3899999999999864 Td
+(3. Enter amount and reason.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 329.8899999999999864 Td
+(4. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 306.3899999999999864 Td
+(How to close shift:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 281.3899999999999864 Td
+(1. Open Shifts.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 263.8899999999999864 Td
+(2. Click Close Shift.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 246.3899999999999864 Td
+(3. Enter counted cash.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 228.8899999999999864 Td
+(4. Review expected cash.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 211.3899999999999864 Td
+(5. Review short or over amount.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 193.8899999999999864 Td
+(6. Confirm close.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 170.3899999999999864 Td
+(Why shifts are important:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 145.3899999999999864 Td
+(- they separate each cashier's responsibility) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 128.8899999999999864 Td
+(- they protect cash drawer accountability) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 112.3899999999999864 Td
+(- they show whether counted cash matches expected cash) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 95.8899999999999864 Td
+(- they make end-of-day sales and cash review easier) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 14 of 27) Tj
+ET
+endstream
+endobj
+31 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 32 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 4746
+>>
+stream
+0.200025 w
+0 G
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 787.8899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 762.8899999999999864 Td
+(- completed POS sales attach to the open shift) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 746.3899999999999864 Td
+(- cash payments increase expected cash) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 729.8899999999999864 Td
+(- cash in/out changes drawer balance) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 713.3899999999999864 Td
+(- closing calculates short or over automatically) Tj
+ET
+0.91 0.96 0.94 rg
+43. 702.8899999999999864 m
+552.2799999999999727 702.8899999999999864 l
+556.1459932488155573 702.8899999999999864 559.2799999999999727 699.755993248815571 559.2799999999999727 695.8899999999999864 c
+559.2799999999999727 673.8899999999999864 l
+559.2799999999999727 670.0240067511844018 555.4140067511843881 666.8899999999999864 552.2799999999999727 666.8899999999999864 c
+43. 666.8899999999999864 l
+39.1340067511844438 666.8899999999999864 36. 670.755993248815571 36. 673.8899999999999864 c
+36. 695.8899999999999864 l
+36. 699.755993248815571 39.8659932488155562 702.8899999999999864 43. 702.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 682.8899999999999864 Td
+(18. Module 13 - Returns And Exchanges) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 648.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 623.8899999999999864 Td
+(- handles returns, refunds, exchanges, void transactions, credit memos, and return reasons) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 601.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 576.3899999999999864 Td
+(- cashier if allowed) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 559.8899999999999864 Td
+(- branch manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 543.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 526.8899999999999864 Td
+(- auditor for review) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 504.3899999999999864 Td
+(How to process return:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 479.3899999999999864 Td
+(1. Open Returns.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 461.8899999999999864 Td
+(2. Search invoice.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 444.3899999999999864 Td
+(3. Select item to return.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 426.8899999999999864 Td
+(4. Enter quantity.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 409.3899999999999864 Td
+(5. Choose reason.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 391.8899999999999864 Td
+(6. Choose item condition: sellable, damaged, expired, or other.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 374.3899999999999864 Td
+(7. Choose refund method or credit memo.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 356.8899999999999864 Td
+(8. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 333.3899999999999864 Td
+(How exchange works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 308.3899999999999864 Td
+(1. Return original item.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 290.8899999999999864 Td
+(2. Issue exchange credit or credit memo.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 273.3899999999999864 Td
+(3. Sell replacement item through POS.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 255.8899999999999864 Td
+(4. Apply credit where allowed.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 232.3899999999999864 Td
+(How void works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 207.3899999999999864 Td
+(1. Find invoice.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 189.8899999999999864 Td
+(2. Click Void.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 172.3899999999999864 Td
+(3. Enter reason.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 154.8899999999999864 Td
+(4. Confirm.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 131.3899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 106.3899999999999864 Td
+(- sellable returned stock is restored to original batch trace where possible) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 89.8899999999999864 Td
+(- damaged or expired returns are not restored as sellable stock) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 15 of 27) Tj
+ET
+endstream
+endobj
+33 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 34 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 4710
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 787.8899999999999864 Td
+(- refunds are tracked by method) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 771.3899999999999864 Td
+(- credit memo can be used for future customer credit) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 754.8899999999999864 Td
+(- voids are protected by invoice reading rules) Tj
+ET
+0.91 0.96 0.94 rg
+43. 744.3899999999999864 m
+552.2799999999999727 744.3899999999999864 l
+556.1459932488155573 744.3899999999999864 559.2799999999999727 741.255993248815571 559.2799999999999727 737.3899999999999864 c
+559.2799999999999727 715.3899999999999864 l
+559.2799999999999727 711.5240067511844018 555.4140067511843881 708.3899999999999864 552.2799999999999727 708.3899999999999864 c
+43. 708.3899999999999864 l
+39.1340067511844438 708.3899999999999864 36. 712.255993248815571 36. 715.3899999999999864 c
+36. 737.3899999999999864 l
+36. 741.255993248815571 39.8659932488155562 744.3899999999999864 43. 744.3899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 724.3899999999999864 Td
+(19. Module 14 - Purchase Management) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 690.3899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 665.3899999999999864 Td
+(- manages purchase orders, receiving, supplier invoices, purchase returns, and cost tracking) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 642.8899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 617.8899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 601.3899999999999864 Td
+(- manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 584.8899999999999864 Td
+(- inventory staff) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 568.3899999999999864 Td
+(- auditor for review) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 545.8899999999999864 Td
+(How to create purchase order:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 520.8899999999999864 Td
+(1. Open Purchases.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 503.3899999999999864 Td
+(2. Click New Purchase Order.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 485.8899999999999864 Td
+(3. Select supplier.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 468.3899999999999864 Td
+(4. Select branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 450.8899999999999864 Td
+(5. Add products, quantities, and costs.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 433.3899999999999864 Td
+(6. Save as draft.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 415.8899999999999864 Td
+(7. Submit for approval.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 392.3899999999999864 Td
+(How to approve:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 367.3899999999999864 Td
+(1. Open purchase order.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 349.8899999999999864 Td
+(2. Review products, quantities, and cost.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 332.3899999999999864 Td
+(3. Approve.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 308.8899999999999864 Td
+(How to receive:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 283.8899999999999864 Td
+(1. Open approved purchase order.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 266.3899999999999864 Td
+(2. Click Receive.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 248.8899999999999864 Td
+(3. Enter received quantities.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 231.3899999999999864 Td
+(4. Enter batch numbers and expiry dates.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 213.8899999999999864 Td
+(5. Confirm receiving.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 190.3899999999999864 Td
+(How supplier invoice works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 165.3899999999999864 Td
+(- received goods create supplier payable record) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 148.8899999999999864 Td
+(- invoice balance tracks pending, partial, paid, or voided status) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 126.3899999999999864 Td
+(How purchase return works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 101.3899999999999864 Td
+(1. Open Purchases.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 83.8899999999999864 Td
+(2. Select received batch.) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 16 of 27) Tj
+ET
+endstream
+endobj
+35 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 36 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 4673
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 787.8899999999999864 Td
+(3. Click Purchase Return.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 770.3899999999999864 Td
+(4. Enter returned quantity and reason.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 752.8899999999999864 Td
+(5. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 729.3899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 704.3899999999999864 Td
+(- receiving increases branch stock) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 687.8899999999999864 Td
+(- received cost updates cost history) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 671.3899999999999864 Td
+(- supplier payable is created or updated) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 654.8899999999999864 Td
+(- purchase return reduces received batch stock) Tj
+ET
+0.91 0.96 0.94 rg
+43. 644.3899999999999864 m
+552.2799999999999727 644.3899999999999864 l
+556.1459932488155573 644.3899999999999864 559.2799999999999727 641.255993248815571 559.2799999999999727 637.3899999999999864 c
+559.2799999999999727 615.3899999999999864 l
+559.2799999999999727 611.5240067511844018 555.4140067511843881 608.3899999999999864 552.2799999999999727 608.3899999999999864 c
+43. 608.3899999999999864 l
+39.1340067511844438 608.3899999999999864 36. 612.255993248815571 36. 615.3899999999999864 c
+36. 637.3899999999999864 l
+36. 641.255993248815571 39.8659932488155562 644.3899999999999864 43. 644.3899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 624.3899999999999864 Td
+(20. Module 15 - Supplier Management) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 590.3899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 565.3899999999999864 Td
+(- manages supplier profiles, payables, supplier payments, balances, and purchase history) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 542.8899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 517.8899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 501.3899999999999864 Td
+(- manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 484.8899999999999864 Td
+(- purchasing staff) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 468.3899999999999864 Td
+(- auditor for review) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 445.8899999999999864 Td
+(How to add supplier:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 420.8899999999999864 Td
+(1. Open Suppliers.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 403.3899999999999864 Td
+(2. Click Add Supplier.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 385.8899999999999864 Td
+(3. Enter supplier name.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 368.3899999999999864 Td
+(4. Enter contact person, phone, email, address, TIN, terms, credit limit, and default payment method.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 350.8899999999999864 Td
+(5. Set status.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 333.3899999999999864 Td
+(6. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 309.8899999999999864 Td
+(How to view payables:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 284.8899999999999864 Td
+(1. Open Suppliers.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 267.3899999999999864 Td
+(2. Review payable summary.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 249.8899999999999864 Td
+(3. Check overdue invoices.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 232.3899999999999864 Td
+(4. Filter by supplier or branch.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 208.8899999999999864 Td
+(How to post supplier payment:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 183.8899999999999864 Td
+(1. Open Suppliers.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 166.3899999999999864 Td
+(2. Select invoice.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 148.8899999999999864 Td
+(3. Click Pay.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 131.3899999999999864 Td
+(4. Enter amount, date, method, and reference.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 113.8899999999999864 Td
+(5. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 90.3899999999999864 Td
+(How to void supplier payment:) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 17 of 27) Tj
+ET
+endstream
+endobj
+37 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 38 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 4788
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 787.8899999999999864 Td
+(1. Open supplier payment ledger.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 770.3899999999999864 Td
+(2. Select posted payment.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 752.8899999999999864 Td
+(3. Click Void.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 735.3899999999999864 Td
+(4. Enter reason.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 717.8899999999999864 Td
+(5. Confirm.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 694.3899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 669.3899999999999864 Td
+(- supplier payment reduces invoice balance) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 652.8899999999999864 Td
+(- voiding payment restores the unpaid balance) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 636.3899999999999864 Td
+(- supplier purchase history comes from received purchases) Tj
+ET
+0.91 0.96 0.94 rg
+43. 625.8899999999999864 m
+552.2799999999999727 625.8899999999999864 l
+556.1459932488155573 625.8899999999999864 559.2799999999999727 622.755993248815571 559.2799999999999727 618.8899999999999864 c
+559.2799999999999727 596.8899999999999864 l
+559.2799999999999727 593.0240067511844018 555.4140067511843881 589.8899999999999864 552.2799999999999727 589.8899999999999864 c
+43. 589.8899999999999864 l
+39.1340067511844438 589.8899999999999864 36. 593.755993248815571 36. 596.8899999999999864 c
+36. 618.8899999999999864 l
+36. 622.755993248815571 39.8659932488155562 625.8899999999999864 43. 625.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 605.8899999999999864 Td
+(21. Module 16 - Customer Management) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 571.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 546.8899999999999864 Td
+(- manages customer profiles, purchase history, credit sales, store credit, loyalty points, and receivables) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 524.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 499.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 482.8899999999999864 Td
+(- manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 466.3899999999999864 Td
+(- cashier) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 449.8899999999999864 Td
+(- auditor for review) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 427.3899999999999864 Td
+(How to add customer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 402.3899999999999864 Td
+(1. Open Customers.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 384.8899999999999864 Td
+(2. Click Add Customer.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 367.3899999999999864 Td
+(3. Enter customer name, type, phone, email, address, TIN, branch, credit limit, and status.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 349.8899999999999864 Td
+(4. Save.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 326.3899999999999864 Td
+(How to use customer in POS:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 301.3899999999999864 Td
+(1. Open POS.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 283.8899999999999864 Td
+(2. Select customer before checkout.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 266.3899999999999864 Td
+(3. Complete sale.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 242.8899999999999864 Td
+(How purchase history works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 217.8899999999999864 Td
+(- completed sales linked to a customer appear in purchase history) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 201.3899999999999864 Td
+(- customer report shows total purchases and balance) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 178.8899999999999864 Td
+(How receivables work:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 153.8899999999999864 Td
+(1. Use COD or customer credit payment method where allowed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 136.3899999999999864 Td
+(2. Sale creates customer receivable.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 118.8899999999999864 Td
+(3. Later, open Customers.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 101.3899999999999864 Td
+(4. Post customer payment.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 83.8899999999999864 Td
+(5. Balance decreases.) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 18 of 27) Tj
+ET
+endstream
+endobj
+39 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 40 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 4670
+>>
+stream
+0.200025 w
+0 G
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 787.8899999999999864 Td
+(How store credit works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 762.8899999999999864 Td
+(- credit memo or manual store credit increases customer credit) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 746.3899999999999864 Td
+(- store credit payment can apply credit to sales) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 723.8899999999999864 Td
+(How loyalty works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 698.8899999999999864 Td
+(- completed purchases can earn loyalty points) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 682.3899999999999864 Td
+(- admin can adjust points when permitted) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 665.8899999999999864 Td
+(- ledger records every loyalty movement) Tj
+ET
+0.91 0.96 0.94 rg
+43. 655.3899999999999864 m
+552.2799999999999727 655.3899999999999864 l
+556.1459932488155573 655.3899999999999864 559.2799999999999727 652.255993248815571 559.2799999999999727 648.3899999999999864 c
+559.2799999999999727 626.3899999999999864 l
+559.2799999999999727 622.5240067511844018 555.4140067511843881 619.3899999999999864 552.2799999999999727 619.3899999999999864 c
+43. 619.3899999999999864 l
+39.1340067511844438 619.3899999999999864 36. 623.255993248815571 36. 626.3899999999999864 c
+36. 648.3899999999999864 l
+36. 652.255993248815571 39.8659932488155562 655.3899999999999864 43. 655.3899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 635.3899999999999864 Td
+(22. Module 17 - Expenses) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 601.3899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 576.3899999999999864 Td
+(- tracks branch expenses such as rent, utilities, salaries, supplies, repairs, transport, marketing, and other) Tj
+T* (costs) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 540.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 515.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 498.8899999999999864 Td
+(- branch manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 482.3899999999999864 Td
+(- auditor for review) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 459.8899999999999864 Td
+(How to add expense:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 434.8899999999999864 Td
+(1. Open Expenses.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 417.3899999999999864 Td
+(2. Click New Expense.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 399.8899999999999864 Td
+(3. Select branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 382.3899999999999864 Td
+(4. Select category.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 364.8899999999999864 Td
+(5. Enter date, payee, amount, tax amount if any, payment method, and notes.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 347.3899999999999864 Td
+(6. Save as draft or submit.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 323.8899999999999864 Td
+(How approval works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 298.8899999999999864 Td
+(1. Submitted expense waits for approval.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 281.3899999999999864 Td
+(2. Manager or admin reviews it.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 263.8899999999999864 Td
+(3. Approve or reject.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 246.3899999999999864 Td
+(4. If paid, mark as paid.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 222.8899999999999864 Td
+(How void works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 197.8899999999999864 Td
+(1. Open expense.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 180.3899999999999864 Td
+(2. Click Void.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 162.8899999999999864 Td
+(3. Enter reason.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 145.3899999999999864 Td
+(4. Confirm.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 121.8899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 96.8899999999999864 Td
+(- expenses reduce profit reports) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 80.3899999999999864 Td
+(- paid expenses affect cash ledger where applicable) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 19 of 27) Tj
+ET
+endstream
+endobj
+41 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 42 0 R
+>>
+endobj
+42 0 obj
+<<
+/Length 4772
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 787.8899999999999864 Td
+(- category charts help review cost areas) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 771.3899999999999864 Td
+(- approval trail is recorded) Tj
+ET
+0.91 0.96 0.94 rg
+43. 760.8899999999999864 m
+552.2799999999999727 760.8899999999999864 l
+556.1459932488155573 760.8899999999999864 559.2799999999999727 757.755993248815571 559.2799999999999727 753.8899999999999864 c
+559.2799999999999727 731.8899999999999864 l
+559.2799999999999727 728.0240067511844018 555.4140067511843881 724.8899999999999864 552.2799999999999727 724.8899999999999864 c
+43. 724.8899999999999864 l
+39.1340067511844438 724.8899999999999864 36. 728.755993248815571 36. 731.8899999999999864 c
+36. 753.8899999999999864 l
+36. 757.755993248815571 39.8659932488155562 760.8899999999999864 43. 760.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 740.8899999999999864 Td
+(23. Module 18 - Accounting) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.8899999999999864 Td
+(- gives financial views for sales journal, cash ledger, receivables, payables, profit/loss, VAT payable, trial) Tj
+T* (balance, and manual journals) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 645.8899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 620.8899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 604.3899999999999864 Td
+(- auditor) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 587.8899999999999864 Td
+(- manager for allowed branch scope) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 565.3899999999999864 Td
+(How to view accounting dashboard:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 540.3899999999999864 Td
+(1. Open Accounting.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 522.8899999999999864 Td
+(2. Select date range and branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 505.3899999999999864 Td
+(3. Review revenue, cost, gross profit, expenses, net profit, cash, receivables, payables, and VAT.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 481.8899999999999864 Td
+(How sales journal works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 456.8899999999999864 Td
+(- completed invoices become sales journal rows) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 440.3899999999999864 Td
+(- rows include invoice number, branch, revenue, VAT, total, and cost) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 417.8899999999999864 Td
+(How cash ledger works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 392.8899999999999864 Td
+(- cash-equivalent sale payments, customer payments, supplier payments, and paid expenses appear in the) Tj
+T* (ledger) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 356.8899999999999864 Td
+(How receivables work:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 331.8899999999999864 Td
+(- customer credit sales increase receivables) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 315.3899999999999864 Td
+(- customer payments reduce receivables) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 292.8899999999999864 Td
+(How payables work:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 267.8899999999999864 Td
+(- supplier invoices increase payables) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 251.3899999999999864 Td
+(- supplier payments reduce payables) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 228.8899999999999864 Td
+(How manual journal works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 203.8899999999999864 Td
+(1. Open Accounting.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 186.3899999999999864 Td
+(2. Click Manual Journal.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 168.8899999999999864 Td
+(3. Enter date, branch, reference, memo, debit lines, and credit lines.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 151.3899999999999864 Td
+(4. Make sure total debits equal total credits.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 133.8899999999999864 Td
+(5. Post journal.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 110.3899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 85.3899999999999864 Td
+(- accounting reports summarize business activity) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 20 of 27) Tj
+ET
+endstream
+endobj
+43 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 44 0 R
+>>
+endobj
+44 0 obj
+<<
+/Length 4597
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 787.8899999999999864 Td
+(- manual journals allow controlled adjustments) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 771.3899999999999864 Td
+(- voided journals are excluded from active totals where applicable) Tj
+ET
+0.91 0.96 0.94 rg
+43. 760.8899999999999864 m
+552.2799999999999727 760.8899999999999864 l
+556.1459932488155573 760.8899999999999864 559.2799999999999727 757.755993248815571 559.2799999999999727 753.8899999999999864 c
+559.2799999999999727 731.8899999999999864 l
+559.2799999999999727 728.0240067511844018 555.4140067511843881 724.8899999999999864 552.2799999999999727 724.8899999999999864 c
+43. 724.8899999999999864 l
+39.1340067511844438 724.8899999999999864 36. 728.755993248815571 36. 731.8899999999999864 c
+36. 753.8899999999999864 l
+36. 757.755993248815571 39.8659932488155562 760.8899999999999864 43. 760.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 740.8899999999999864 Td
+(24. Module 19 - Reports) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.8899999999999864 Td
+(- gives detailed operational and financial reports for sales, stock, tax, discounts, readings, and profit) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 659.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 634.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 617.8899999999999864 Td
+(- branch manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 601.3899999999999864 Td
+(- auditor) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 578.8899999999999864 Td
+(How to use reports:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 553.8899999999999864 Td
+(1. Open Reports.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 536.3899999999999864 Td
+(2. Select report type.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 518.8899999999999864 Td
+(3. Select date range.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 501.3899999999999864 Td
+(4. Select branch if allowed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 483.8899999999999864 Td
+(5. Use search if needed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 466.3899999999999864 Td
+(6. Review chart and table.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 448.8899999999999864 Td
+(7. Click Export CSV to download the active report.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 425.3899999999999864 Td
+(Report types:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 400.3899999999999864 Td
+(- daily sales) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 383.8899999999999864 Td
+(- branch sales) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 367.3899999999999864 Td
+(- cashier sales) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 350.8899999999999864 Td
+(- invoice sales detail) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 334.3899999999999864 Td
+(- top products) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 317.8899999999999864 Td
+(- payment mix) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 301.3899999999999864 Td
+(- inventory report) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 284.8899999999999864 Td
+(- stock movement) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 268.3899999999999864 Td
+(- VAT sales) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 251.8899999999999864 Td
+(- Senior/PWD discount) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 235.3899999999999864 Td
+(- Z-reading) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 218.8899999999999864 Td
+(- profit) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 196.3899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 171.3899999999999864 Td
+(- daily reports show only days with records) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 154.8899999999999864 Td
+(- branch-level users see only assigned branch data) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 138.3899999999999864 Td
+(- reports use completed business records) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 121.8899999999999864 Td
+(- CSV export downloads the current filtered view) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 21 of 27) Tj
+ET
+endstream
+endobj
+45 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 46 0 R
+>>
+endobj
+46 0 obj
+<<
+/Length 5393
+>>
+stream
+0.200025 w
+0 G
+0.91 0.96 0.94 rg
+43. 807.8899999999999864 m
+552.2799999999999727 807.8899999999999864 l
+556.1459932488155573 807.8899999999999864 559.2799999999999727 804.755993248815571 559.2799999999999727 800.8899999999999864 c
+559.2799999999999727 778.8899999999999864 l
+559.2799999999999727 775.0240067511844018 555.4140067511843881 771.8899999999999864 552.2799999999999727 771.8899999999999864 c
+43. 771.8899999999999864 l
+39.1340067511844438 771.8899999999999864 36. 775.755993248815571 36. 778.8899999999999864 c
+36. 800.8899999999999864 l
+36. 804.755993248815571 39.8659932488155562 807.8899999999999864 43. 807.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 787.8899999999999864 Td
+(25. Module 20 - Audit Logs) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 753.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 728.8899999999999864 Td
+(- records important activity for security, review, and accountability) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 706.3899999999999864 Td
+(Who uses it:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 681.3899999999999864 Td
+(- admin) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 664.8899999999999864 Td
+(- auditor) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 648.3899999999999864 Td
+(- branch manager for branch-scoped activity) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 625.8899999999999864 Td
+(How to use audit logs:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 600.8899999999999864 Td
+(1. Open Audit Logs.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 583.3899999999999864 Td
+(2. Select date range.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 565.8899999999999864 Td
+(3. Select branch, actor, category, or severity if needed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 548.3899999999999864 Td
+(4. Search by text.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 530.8899999999999864 Td
+(5. Review overview cards.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 513.3899999999999864 Td
+(6. Review daily audit chart and category chart.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 495.8899999999999864 Td
+(7. Open Activity, Access, Controls, Discounts, or Inventory sections.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 478.3899999999999864 Td
+(8. Export CSV if needed.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 454.8899999999999864 Td
+(What is tracked:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 429.8899999999999864 Td
+(- login and logout history) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 413.3899999999999864 Td
+(- voids) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 396.8899999999999864 Td
+(- deleted records) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 380.3899999999999864 Td
+(- price changes) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 363.8899999999999864 Td
+(- discounts) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 347.3899999999999864 Td
+(- stock adjustments) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 330.8899999999999864 Td
+(- damaged and expired stock movements) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 314.3899999999999864 Td
+(- user and access changes) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 297.8899999999999864 Td
+(- high-risk events) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 275.3899999999999864 Td
+(How the system works:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 250.3899999999999864 Td
+(- actions are classified by category and severity) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 233.8899999999999864 Td
+(- admin and auditor can review all branches) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 217.3899999999999864 Td
+(- managers can review assigned branch activity) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 200.8899999999999864 Td
+(- audit history supports investigation and accountability) Tj
+ET
+0.91 0.96 0.94 rg
+43. 190.3899999999999864 m
+552.2799999999999727 190.3899999999999864 l
+556.1459932488155573 190.3899999999999864 559.2799999999999727 187.255993248815571 559.2799999999999727 183.3899999999999864 c
+559.2799999999999727 161.3899999999999864 l
+559.2799999999999727 157.5240067511844018 555.4140067511843881 154.3899999999999864 552.2799999999999727 154.3899999999999864 c
+43. 154.3899999999999864 l
+39.1340067511844438 154.3899999999999864 36. 158.255993248815571 36. 161.3899999999999864 c
+36. 183.3899999999999864 l
+36. 187.255993248815571 39.8659932488155562 190.3899999999999864 43. 190.3899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 170.3899999999999864 Td
+(26. PWA Install Support) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 136.3899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 111.3899999999999864 Td
+(- lets users install the system like an app on desktop, tablet, or mobile) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 88.8899999999999864 Td
+(How to test locally:) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 22 of 27) Tj
+ET
+endstream
+endobj
+47 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 48 0 R
+>>
+endobj
+48 0 obj
+<<
+/Length 5157
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 787.8899999999999864 Td
+(1. Run the app.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 770.3899999999999864 Td
+(2. Open the app in Chrome or Edge.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 752.8899999999999864 Td
+(3. Open `/manifest.webmanifest` and confirm JSON appears.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 735.3899999999999864 Td
+(4. Refresh the app.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 717.8899999999999864 Td
+(5. Use the browser install icon if available.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 694.3899999999999864 Td
+(How to install on desktop:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 669.3899999999999864 Td
+(1. Open the deployed app URL in Chrome or Edge.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 651.8899999999999864 Td
+(2. Login once.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 634.3899999999999864 Td
+(3. Click the install icon in the address bar.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 616.8899999999999864 Td
+(4. Confirm install.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 599.3899999999999864 Td
+(5. Open the app from desktop/start menu.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 575.8899999999999864 Td
+(How to install on mobile:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 550.8899999999999864 Td
+(1. Open the deployed app URL.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 533.3899999999999864 Td
+(2. Use browser menu.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 515.8899999999999864 Td
+(3. Choose Add to Home Screen.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 498.3899999999999864 Td
+(4. Open from home-screen icon.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 474.8899999999999864 Td
+(Important:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 449.8899999999999864 Td
+(- production install needs HTTPS) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 433.3899999999999864 Td
+(- localhost is accepted for testing) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 416.8899999999999864 Td
+(- local network IP addresses usually need HTTPS to be installable) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 400.3899999999999864 Td
+(- app shell can load after first successful visit) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 383.8899999999999864 Td
+(- live sales, stock, staff, and reporting actions still need network access unless POS offline queue is used) Tj
+ET
+0.91 0.96 0.94 rg
+43. 373.3899999999999864 m
+552.2799999999999727 373.3899999999999864 l
+556.1459932488155573 373.3899999999999864 559.2799999999999727 370.2559932488155141 559.2799999999999727 366.3899999999999864 c
+559.2799999999999727 344.3899999999999864 l
+559.2799999999999727 340.5240067511844586 555.4140067511843881 337.3899999999999864 552.2799999999999727 337.3899999999999864 c
+43. 337.3899999999999864 l
+39.1340067511844438 337.3899999999999864 36. 341.2559932488155141 36. 344.3899999999999864 c
+36. 366.3899999999999864 l
+36. 370.2559932488155141 39.8659932488155562 373.3899999999999864 43. 373.3899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 353.3899999999999864 Td
+(27. Complete Checkout Flow Example) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 319.3899999999999864 Td
+(1. Cashier opens shift with opening cash.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 301.8899999999999864 Td
+(2. Cashier opens POS.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 284.3899999999999864 Td
+(3. Cashier scans product barcode.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 266.8899999999999864 Td
+(4. Product is added to cart.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 249.3899999999999864 Td
+(5. Cashier selects customer if known.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 231.8899999999999864 Td
+(6. Cashier applies allowed discount if needed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 214.3899999999999864 Td
+(7. Cashier selects payment method.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 196.8899999999999864 Td
+(8. Cashier completes checkout.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 179.3899999999999864 Td
+(9. System saves invoice.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 161.8899999999999864 Td
+(10. System saves items and payments.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 144.3899999999999864 Td
+(11. System calculates tax.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 126.8899999999999864 Td
+(12. System allocates stock from earliest expiry batches.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 109.3899999999999864 Td
+(13. System decreases branch stock.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 91.8899999999999864 Td
+(14. System updates cashier and branch sales reports.) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 23 of 27) Tj
+ET
+endstream
+endobj
+49 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 50 0 R
+>>
+endobj
+50 0 obj
+<<
+/Length 6387
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 787.8899999999999864 Td
+(15. System updates payment reports.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 770.3899999999999864 Td
+(16. System updates cash drawer expected amount if payment is cash.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 752.8899999999999864 Td
+(17. System updates customer purchase history if customer is selected.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 735.3899999999999864 Td
+(18. System updates accounting summaries.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 717.8899999999999864 Td
+(19. System records important activity for audit.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 700.3899999999999864 Td
+(20. Cashier prints or saves receipt.) Tj
+ET
+0.91 0.96 0.94 rg
+43. 688.8899999999999864 m
+552.2799999999999727 688.8899999999999864 l
+556.1459932488155573 688.8899999999999864 559.2799999999999727 685.755993248815571 559.2799999999999727 681.8899999999999864 c
+559.2799999999999727 659.8899999999999864 l
+559.2799999999999727 656.0240067511844018 555.4140067511843881 652.8899999999999864 552.2799999999999727 652.8899999999999864 c
+43. 652.8899999999999864 l
+39.1340067511844438 652.8899999999999864 36. 656.755993248815571 36. 659.8899999999999864 c
+36. 681.8899999999999864 l
+36. 685.755993248815571 39.8659932488155562 688.8899999999999864 43. 688.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 668.8899999999999864 Td
+(28. Complete Purchasing And Receiving Flow Example) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 634.8899999999999864 Td
+(1. Admin or manager creates supplier.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 617.3899999999999864 Td
+(2. User creates purchase order.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 599.8899999999999864 Td
+(3. Purchase order is submitted.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 582.3899999999999864 Td
+(4. Approver reviews and approves.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 564.8899999999999864 Td
+(5. Goods arrive at branch.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 547.3899999999999864 Td
+(6. User posts receiving.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 529.8899999999999864 Td
+(7. User enters batch number and expiry date.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 512.3899999999999864 Td
+(8. System increases branch stock.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 494.8899999999999864 Td
+(9. System saves cost history.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 477.3899999999999864 Td
+(10. System creates or updates supplier invoice.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 459.8899999999999864 Td
+(11. Supplier payable appears in reports.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 442.3899999999999864 Td
+(12. Supplier payment can be posted later.) Tj
+ET
+0.91 0.96 0.94 rg
+43. 430.8899999999999864 m
+552.2799999999999727 430.8899999999999864 l
+556.1459932488155573 430.8899999999999864 559.2799999999999727 427.7559932488155141 559.2799999999999727 423.8899999999999864 c
+559.2799999999999727 401.8899999999999864 l
+559.2799999999999727 398.0240067511844586 555.4140067511843881 394.8899999999999864 552.2799999999999727 394.8899999999999864 c
+43. 394.8899999999999864 l
+39.1340067511844438 394.8899999999999864 36. 398.7559932488155141 36. 401.8899999999999864 c
+36. 423.8899999999999864 l
+36. 427.7559932488155141 39.8659932488155562 430.8899999999999864 43. 430.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 410.8899999999999864 Td
+(29. Complete Stock Transfer Flow Example) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 376.8899999999999864 Td
+(1. Destination branch requests stock.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 359.3899999999999864 Td
+(2. Source branch approves.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 341.8899999999999864 Td
+(3. Source branch dispatches.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 324.3899999999999864 Td
+(4. System selects earliest expiry batches.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 306.8899999999999864 Td
+(5. Source stock decreases.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 289.3899999999999864 Td
+(6. Destination branch receives.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 271.8899999999999864 Td
+(7. Destination stock increases.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 254.3899999999999864 Td
+(8. Variance is recorded if received quantity differs.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 236.8899999999999864 Td
+(9. Transfer appears in stock movement and reports.) Tj
+ET
+0.91 0.96 0.94 rg
+43. 225.3899999999999864 m
+552.2799999999999727 225.3899999999999864 l
+556.1459932488155573 225.3899999999999864 559.2799999999999727 222.255993248815571 559.2799999999999727 218.3899999999999864 c
+559.2799999999999727 196.3899999999999864 l
+559.2799999999999727 192.5240067511844018 555.4140067511843881 189.3899999999999864 552.2799999999999727 189.3899999999999864 c
+43. 189.3899999999999864 l
+39.1340067511844438 189.3899999999999864 36. 193.255993248815571 36. 196.3899999999999864 c
+36. 218.3899999999999864 l
+36. 222.255993248815571 39.8659932488155562 225.3899999999999864 43. 225.3899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 205.3899999999999864 Td
+(30. Complete Return Flow Example) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 171.3899999999999864 Td
+(1. User finds original invoice.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 153.8899999999999864 Td
+(2. User selects item and return quantity.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 136.3899999999999864 Td
+(3. User chooses reason and condition.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 118.8899999999999864 Td
+(4. User selects refund, exchange, or credit memo.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 101.3899999999999864 Td
+(5. System saves return record.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 83.8899999999999864 Td
+(6. If item is sellable, stock is restored.) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 24 of 27) Tj
+ET
+endstream
+endobj
+51 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 52 0 R
+>>
+endobj
+52 0 obj
+<<
+/Length 5486
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 787.8899999999999864 Td
+(7. If item is damaged or expired, stock is not restored as sellable.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 770.3899999999999864 Td
+(8. Refund/payment impact is tracked.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 752.8899999999999864 Td
+(9. Reports and audit records update.) Tj
+ET
+0.91 0.96 0.94 rg
+43. 741.3899999999999864 m
+552.2799999999999727 741.3899999999999864 l
+556.1459932488155573 741.3899999999999864 559.2799999999999727 738.255993248815571 559.2799999999999727 734.3899999999999864 c
+559.2799999999999727 712.3899999999999864 l
+559.2799999999999727 708.5240067511844018 555.4140067511843881 705.3899999999999864 552.2799999999999727 705.3899999999999864 c
+43. 705.3899999999999864 l
+39.1340067511844438 705.3899999999999864 36. 709.255993248815571 36. 712.3899999999999864 c
+36. 734.3899999999999864 l
+36. 738.255993248815571 39.8659932488155562 741.3899999999999864 43. 741.3899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 721.3899999999999864 Td
+(31. End-Of-Day Flow) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 687.3899999999999864 Td
+(1. Cashier finishes sales.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 669.8899999999999864 Td
+(2. Manager reviews POS invoices.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 652.3899999999999864 Td
+(3. Cashier counts cash drawer.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 634.8899999999999864 Td
+(4. Cashier closes shift.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 617.3899999999999864 Td
+(5. System calculates expected cash.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 599.8899999999999864 Td
+(6. System calculates short or over.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 582.3899999999999864 Td
+(7. Manager reviews cash in/out movements.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 564.8899999999999864 Td
+(8. Manager generates Z-reading.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 547.3899999999999864 Td
+(9. Reports are reviewed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 529.8899999999999864 Td
+(10. Accounting dashboard is checked.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+62. 512.3899999999999864 Td
+(11. Audit logs are reviewed for voids, discounts, and high-risk activity.) Tj
+ET
+0.91 0.96 0.94 rg
+43. 500.8899999999999864 m
+552.2799999999999727 500.8899999999999864 l
+556.1459932488155573 500.8899999999999864 559.2799999999999727 497.7559932488155141 559.2799999999999727 493.8899999999999864 c
+559.2799999999999727 471.8899999999999864 l
+559.2799999999999727 468.0240067511844586 555.4140067511843881 464.8899999999999864 552.2799999999999727 464.8899999999999864 c
+43. 464.8899999999999864 l
+39.1340067511844438 464.8899999999999864 36. 468.7559932488155141 36. 471.8899999999999864 c
+36. 493.8899999999999864 l
+36. 497.7559932488155141 39.8659932488155562 500.8899999999999864 43. 500.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 480.8899999999999864 Td
+(32. Common Troubleshooting) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 446.8899999999999864 Td
+(Missing page:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 421.8899999999999864 Td
+(- check user role and permissions) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 405.3899999999999864 Td
+(- check branch assignment) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 388.8899999999999864 Td
+(- login again after permission changes) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 366.3899999999999864 Td
+(Product not found in POS:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 341.3899999999999864 Td
+(- check product active status) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 324.8899999999999864 Td
+(- check barcode or SKU) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 308.3899999999999864 Td
+(- check branch stock) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 291.8899999999999864 Td
+(- check variant barcode if variant is used) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 269.3899999999999864 Td
+(Cannot checkout:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 244.3899999999999864 Td
+(- check open shift) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 227.8899999999999864 Td
+(- check stock availability) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 211.3899999999999864 Td
+(- check payment total) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 194.8899999999999864 Td
+(- check required reference number) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 178.3899999999999864 Td
+(- check discount permission) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 155.8899999999999864 Td
+(Shift says "Shift not found" when closing:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 130.8899999999999864 Td
+(- refresh the Shifts page and try closing again) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 114.3899999999999864 Td
+(- make sure the shift is still open) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 97.8899999999999864 Td
+(- make sure you are closing the shift from the correct branch) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 25 of 27) Tj
+ET
+endstream
+endobj
+53 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 54 0 R
+>>
+endobj
+54 0 obj
+<<
+/Length 5813
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 787.8899999999999864 Td
+(- if the error keeps happening, rerun the latest Module 12 setup file because older installs may not return the) Tj
+T* (shift ID needed for closing) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 757.8899999999999864 Td
+(- after rerunning the setup file, refresh the app and open the Shifts page again) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 735.3899999999999864 Td
+(Cannot hard delete:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 710.3899999999999864 Td
+(- record likely has linked history) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 693.8899999999999864 Td
+(- disable the record instead) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 671.3899999999999864 Td
+(PWA install icon not showing:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 646.3899999999999864 Td
+(- test in Chrome or Edge) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 629.8899999999999864 Td
+(- refresh once) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 613.3899999999999864 Td
+(- check `/manifest.webmanifest`) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 596.8899999999999864 Td
+(- unregister old service worker if browser cached an old version) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 580.3899999999999864 Td
+(- use HTTPS for deployed app) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 557.8899999999999864 Td
+(Reports look different between users:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 532.8899999999999864 Td
+(- admin sees all allowed branch data) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 516.3899999999999864 Td
+(- manager sees assigned branch data) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 499.8899999999999864 Td
+(- auditor sees view-only scope) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 483.3899999999999864 Td
+(- date range and branch filters affect results) Tj
+ET
+0.91 0.96 0.94 rg
+43. 472.8899999999999864 m
+552.2799999999999727 472.8899999999999864 l
+556.1459932488155573 472.8899999999999864 559.2799999999999727 469.7559932488155141 559.2799999999999727 465.8899999999999864 c
+559.2799999999999727 443.8899999999999864 l
+559.2799999999999727 440.0240067511844586 555.4140067511843881 436.8899999999999864 552.2799999999999727 436.8899999999999864 c
+43. 436.8899999999999864 l
+39.1340067511844438 436.8899999999999864 36. 440.7559932488155141 36. 443.8899999999999864 c
+36. 465.8899999999999864 l
+36. 469.7559932488155141 39.8659932488155562 472.8899999999999864 43. 472.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 452.8899999999999864 Td
+(33. Best Practices) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 418.8899999999999864 Td
+(- create branches before staff) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 402.3899999999999864 Td
+(- assign every branch a clear branch code) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 385.8899999999999864 Td
+(- use real machine and invoice serial details before live operations) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 369.3899999999999864 Td
+(- add products with correct tax tags) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 352.8899999999999864 Td
+(- enter expiry dates for perishable stock) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 336.3899999999999864 Td
+(- require references for non-cash payments) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 319.8899999999999864 Td
+(- open cashier shifts before selling) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 303.3899999999999864 Td
+(- close shifts daily) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 286.8899999999999864 Td
+(- use Z-reading only when the business day is final) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 270.3899999999999864 Td
+(- review reports daily) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 253.8899999999999864 Td
+(- review audit logs for voids, discounts, price changes, and stock adjustments) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 237.3899999999999864 Td
+(- disable old branches and users instead of hard deleting records with history) Tj
+ET
+0.91 0.96 0.94 rg
+43. 226.8899999999999864 m
+552.2799999999999727 226.8899999999999864 l
+556.1459932488155573 226.8899999999999864 559.2799999999999727 223.755993248815571 559.2799999999999727 219.8899999999999864 c
+559.2799999999999727 197.8899999999999864 l
+559.2799999999999727 194.0240067511844018 555.4140067511843881 190.8899999999999864 552.2799999999999727 190.8899999999999864 c
+43. 190.8899999999999864 l
+39.1340067511844438 190.8899999999999864 36. 194.755993248815571 36. 197.8899999999999864 c
+36. 219.8899999999999864 l
+36. 223.755993248815571 39.8659932488155562 226.8899999999999864 43. 226.8899999999999864 c
+h
+f
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0.043 0.373 0.298 rg
+46. 206.8899999999999864 Td
+(34. Quick Role Checklist) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 172.8899999999999864 Td
+(Admin daily checklist:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 147.8899999999999864 Td
+(- review Dashboard) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 131.3899999999999864 Td
+(- check low stock) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 114.8899999999999864 Td
+(- review sales and branch performance) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 98.3899999999999864 Td
+(- review reports) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 81.8899999999999864 Td
+(- review audit logs) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 26 of 27) Tj
+ET
+endstream
+endobj
+55 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 56 0 R
+>>
+endobj
+56 0 obj
+<<
+/Length 3397
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 787.8899999999999864 Td
+(- manage branches, users, products, taxes, and settings) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 765.3899999999999864 Td
+(Branch Manager daily checklist:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 740.3899999999999864 Td
+(- open or monitor shifts) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 723.8899999999999864 Td
+(- review branch sales) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 707.3899999999999864 Td
+(- approve stock transfers) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 690.8899999999999864 Td
+(- receive purchases) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 674.3899999999999864 Td
+(- monitor low stock and expiry) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 657.8899999999999864 Td
+(- review returns and voids) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 641.3899999999999864 Td
+(- close day with readings and shift reports) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 618.8899999999999864 Td
+(Cashier daily checklist:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 593.8899999999999864 Td
+(- open shift) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 577.3899999999999864 Td
+(- sell through POS) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 560.8899999999999864 Td
+(- scan products carefully) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 544.3899999999999864 Td
+(- collect correct payment) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 527.8899999999999864 Td
+(- print or save receipt) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 511.3899999999999864 Td
+(- process allowed returns only) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 494.8899999999999864 Td
+(- close shift with counted cash) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 472.3899999999999864 Td
+(Auditor checklist:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 447.3899999999999864 Td
+(- review reports) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 430.8899999999999864 Td
+(- verify readings) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 414.3899999999999864 Td
+(- check audit logs) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 397.8899999999999864 Td
+(- inspect voids, discounts, stock adjustments, and price changes) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 381.3899999999999864 Td
+(- export evidence when needed) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.09 0.239 0.2 rg
+46. 358.8899999999999864 Td
+(Inventory staff checklist:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 333.8899999999999864 Td
+(- receive stock with batch and expiry details) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 317.3899999999999864 Td
+(- post adjustments with reasons) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 300.8899999999999864 Td
+(- count physical stock) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 284.3899999999999864 Td
+(- process transfers) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.137 0.2 0.176 rg
+64. 267.8899999999999864 Td
+(- monitor damaged, expired, and low-stock items) Tj
+ET
+0.79 0.87 0.84 RG
+46. 38. m
+549.2799999999999727 38. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+46. 22. Td
+(Multi-Branch POS Complete User Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.365 0.451 0.416 rg
+499.839999999999975 22. Td
+(Page 27 of 27) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R ]
+/Count 27
+>>
+endobj
+57 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+58 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+59 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+60 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+61 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+62 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+63 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+64 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+65 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+66 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+67 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+68 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+69 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+70 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 57 0 R
+/F2 58 0 R
+/F3 59 0 R
+/F4 60 0 R
+/F5 61 0 R
+/F6 62 0 R
+/F7 63 0 R
+/F8 64 0 R
+/F9 65 0 R
+/F10 66 0 R
+/F11 67 0 R
+/F12 68 0 R
+/F13 69 0 R
+/F14 70 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+71 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20260606135044+08'00')
+>>
+endobj
+72 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 73
+0000000000 65535 f 
+0000138720 00000 n 
+0000140722 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000005340 00000 n 
+0000005477 00000 n 
+0000011428 00000 n 
+0000011565 00000 n 
+0000017156 00000 n 
+0000017294 00000 n 
+0000021866 00000 n 
+0000022005 00000 n 
+0000026959 00000 n 
+0000027098 00000 n 
+0000032093 00000 n 
+0000032232 00000 n 
+0000037060 00000 n 
+0000037199 00000 n 
+0000042132 00000 n 
+0000042271 00000 n 
+0000047272 00000 n 
+0000047411 00000 n 
+0000052254 00000 n 
+0000052393 00000 n 
+0000057324 00000 n 
+0000057463 00000 n 
+0000062096 00000 n 
+0000062235 00000 n 
+0000066845 00000 n 
+0000066984 00000 n 
+0000071635 00000 n 
+0000071774 00000 n 
+0000076573 00000 n 
+0000076712 00000 n 
+0000081475 00000 n 
+0000081614 00000 n 
+0000086340 00000 n 
+0000086479 00000 n 
+0000091320 00000 n 
+0000091459 00000 n 
+0000096182 00000 n 
+0000096321 00000 n 
+0000101146 00000 n 
+0000101285 00000 n 
+0000105935 00000 n 
+0000106074 00000 n 
+0000111520 00000 n 
+0000111659 00000 n 
+0000116869 00000 n 
+0000117008 00000 n 
+0000123448 00000 n 
+0000123587 00000 n 
+0000129126 00000 n 
+0000129265 00000 n 
+0000135131 00000 n 
+0000135270 00000 n 
+0000138957 00000 n 
+0000139083 00000 n 
+0000139214 00000 n 
+0000139348 00000 n 
+0000139486 00000 n 
+0000139610 00000 n 
+0000139739 00000 n 
+0000139871 00000 n 
+0000140007 00000 n 
+0000140135 00000 n 
+0000140262 00000 n 
+0000140391 00000 n 
+0000140524 00000 n 
+0000140626 00000 n 
+0000140975 00000 n 
+0000141061 00000 n 
+trailer
+<<
+/Size 73
+/Root 72 0 R
+/Info 71 0 R
+/ID [ <D03B6A7696F79BDA1A297E7FDB621ED0> <D03B6A7696F79BDA1A297E7FDB621ED0> ]
+>>
+startxref
+141165
+%%EOF

@@ -122,6 +122,18 @@ function normalizeShiftData(payload) {
   }
 }
 
+function requireShiftId(payload, actionLabel) {
+  const shiftId = payload?.shift_id || payload?.id || null
+
+  if (!shiftId) {
+    throw new Error(
+      `${actionLabel} needs a valid open shift. Refresh the Shifts page and try again. If this keeps happening, rerun the latest Module 12 SQL so shift records include their ID.`,
+    )
+  }
+
+  return shiftId
+}
+
 async function callShiftRpc(name, args = {}) {
   const client = requireSupabaseConfig()
   const { data, error } = await client.rpc(name, args)
@@ -152,7 +164,7 @@ export function openShift(payload) {
 
 export function saveCashMovement(payload) {
   return callShiftRpc('shift_cash_movement_save', {
-    p_shift_id: payload.shift_id,
+    p_shift_id: requireShiftId(payload, 'Cash movement'),
     p_movement_type: payload.movement_type,
     p_amount: Number(payload.amount || 0),
     p_reason: payload.reason || null,
@@ -161,7 +173,7 @@ export function saveCashMovement(payload) {
 
 export function closeShift(payload) {
   return callShiftRpc('shift_close', {
-    p_shift_id: payload.shift_id,
+    p_shift_id: requireShiftId(payload, 'Shift closing'),
     p_counted_cash: Number(payload.counted_cash || 0),
     p_notes: payload.notes || null,
   })

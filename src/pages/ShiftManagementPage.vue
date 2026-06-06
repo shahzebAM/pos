@@ -567,6 +567,17 @@ function canCloseShift(shift) {
   return Boolean(auth.state.profile?.can_close_shift && shift.user_id === auth.state.profile?.id)
 }
 
+function resolveShift(shift = null) {
+  const candidate = shift || shiftData.value?.current_shift || null
+  if (!candidate) return null
+  if (candidate.id) return candidate
+
+  return (
+    (shiftData.value?.shifts || []).find((item) => item.id && item.shift_number === candidate.shift_number) ||
+    candidate
+  )
+}
+
 function formatDateTime(value) {
   if (!value) return '-'
 
@@ -621,9 +632,14 @@ function openOpenDialog() {
 }
 
 function openMovementDialog(shift = null) {
-  selectedShift.value = shift || shiftData.value?.current_shift || null
+  selectedShift.value = resolveShift(shift)
+  if (!selectedShift.value?.id) {
+    error.value = 'This shift cannot accept cash movement because its ID is missing. Refresh the Shifts page. If it still happens, rerun the latest Module 12 SQL.'
+    return
+  }
+
   Object.assign(movementForm, {
-    shift_id: selectedShift.value?.id || null,
+    shift_id: selectedShift.value.id,
     movement_type: 'cash_in',
     amount: 0,
     reason: '',
@@ -632,9 +648,14 @@ function openMovementDialog(shift = null) {
 }
 
 function openCloseDialog(shift = null) {
-  selectedShift.value = shift || shiftData.value?.current_shift || null
+  selectedShift.value = resolveShift(shift)
+  if (!selectedShift.value?.id) {
+    error.value = 'This shift cannot be closed because its ID is missing. Refresh the Shifts page. If it still happens, rerun the latest Module 12 SQL.'
+    return
+  }
+
   Object.assign(closeForm, {
-    shift_id: selectedShift.value?.id || null,
+    shift_id: selectedShift.value.id,
     counted_cash: selectedShift.value?.expected_cash || 0,
     notes: '',
   })
@@ -664,6 +685,9 @@ async function submitCashMovement() {
   successMessage.value = ''
 
   try {
+    if (!movementForm.shift_id) {
+      throw new Error('Cash movement needs a valid open shift. Refresh the Shifts page and try again.')
+    }
     shiftData.value = await saveCashMovement(movementForm)
     movementDialogVisible.value = false
     successMessage.value = 'Cash drawer movement saved.'
@@ -680,6 +704,9 @@ async function submitCloseShift() {
   successMessage.value = ''
 
   try {
+    if (!closeForm.shift_id) {
+      throw new Error('Shift closing needs a valid open shift. Refresh the Shifts page and try again.')
+    }
     shiftData.value = await closeShift(closeForm)
     closeDialogVisible.value = false
     successMessage.value = `Shift closed with ${formatCurrency(closeShortOver.value)} short/over.`
