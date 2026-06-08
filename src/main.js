@@ -1,6 +1,7 @@
 import { createApp, defineAsyncComponent } from 'vue'
 import PrimeVue from 'primevue/config'
 import Aura from '@primeuix/themes/aura'
+import Column from 'primevue/column'
 import App from './App.vue'
 import router from './router'
 import 'primeicons/primeicons.css'
@@ -44,7 +45,7 @@ app.component('PBadge', primeAsync(() => import('primevue/badge')))
 app.component('PButton', primeAsync(() => import('primevue/button')))
 app.component('PCard', primeAsync(() => import('primevue/card')))
 app.component('PCheckbox', primeAsync(() => import('primevue/checkbox')))
-app.component('PColumn', primeAsync(() => import('primevue/column')))
+app.component('PColumn', Column)
 app.component('PDataTable', primeAsync(() => import('primevue/datatable')))
 app.component('PDatePicker', primeAsync(() => import('primevue/datepicker')))
 app.component('PDialog', primeAsync(() => import('primevue/dialog')))

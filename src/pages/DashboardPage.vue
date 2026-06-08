@@ -128,6 +128,13 @@
             <PColumn field="average_order" header="Avg. order">
               <template #body="{ data }">{{ formatCurrency(data.average_order) }}</template>
             </PColumn>
+            <template #empty>
+              <div class="empty-state empty-state--small">
+                <i class="pi pi-user"></i>
+                <strong>No cashier sales found</strong>
+                <span>Change the date range or branch to see cashier performance.</span>
+              </div>
+            </template>
           </PDataTable>
         </section>
 
@@ -161,6 +168,13 @@
                 <PTag :value="data.severity" :severity="severityTag(data.severity)" />
               </template>
             </PColumn>
+            <template #empty>
+              <div class="empty-state empty-state--small">
+                <i class="pi pi-check-circle"></i>
+                <strong>No low-stock alerts</strong>
+                <span>All visible branch stock is currently above reorder level.</span>
+              </div>
+            </template>
           </PDataTable>
         </section>
       </section>
@@ -170,6 +184,9 @@
 
 <script setup>
 import { computed, onMounted, reactive, ref } from 'vue'
+import PColumn from 'primevue/column'
+import PDataTable from 'primevue/datatable'
+import PTag from 'primevue/tag'
 import BarChart from '../components/BarChart.vue'
 import DailySalesChart from '../components/DailySalesChart.vue'
 import MetricCard from '../components/MetricCard.vue'
@@ -179,6 +196,7 @@ import { fetchDashboardMetrics } from '../services/dashboardService'
 const loading = ref(false)
 const error = ref('')
 const metrics = ref(null)
+const allBranches = ref([])
 
 const filters = reactive({
   from: new Date(`${addDaysISO(-6)}T00:00:00`),
@@ -188,7 +206,7 @@ const filters = reactive({
 
 const branchOptions = computed(() => [
   { id: null, name: 'All branches' },
-  ...(metrics.value?.branches || []),
+  ...allBranches.value,
 ])
 
 const periodLabel = computed(() => {
@@ -210,11 +228,26 @@ async function loadDashboard() {
   error.value = ''
 
   try {
-    metrics.value = await fetchDashboardMetrics({
+    const nextMetrics = await fetchDashboardMetrics({
       from: toISODate(filters.from),
       to: toISODate(filters.to),
       branchId: filters.branchId,
     })
+
+    metrics.value = nextMetrics
+
+    if (!filters.branchId || allBranches.value.length === 0) {
+      allBranches.value = nextMetrics.branches || []
+    } else {
+      const knownBranchIds = new Set(allBranches.value.map((branch) => branch.id))
+      const missingBranches = (nextMetrics.branches || []).filter((branch) => !knownBranchIds.has(branch.id))
+
+      if (missingBranches.length) {
+        allBranches.value = [...allBranches.value, ...missingBranches].sort((a, b) =>
+          String(a.name || '').localeCompare(String(b.name || ''))
+        )
+      }
+    }
   } catch (loadError) {
     error.value = loadError.message
   } finally {
