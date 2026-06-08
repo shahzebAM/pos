@@ -231,10 +231,23 @@ serve(async (req) => {
     createdNewUser = Boolean(userId)
 
     if (createError || !userId) {
-      const alreadyRegistered = createError?.message?.toLowerCase().includes('already')
+      const createMessage = createError?.message || ''
+      const normalizedCreateMessage = createMessage.toLowerCase()
+      const alreadyRegistered = normalizedCreateMessage.includes('already')
+      const databaseTriggerFailed = normalizedCreateMessage.includes('database error')
 
       if (!alreadyRegistered) {
-        return jsonResponse({ error: createError?.message || 'Unable to create staff user.' }, 400)
+        if (databaseTriggerFailed) {
+          return jsonResponse(
+            {
+              error:
+                'Staff login could not be created because the new-user trigger is outdated or broken. Run supabase/patch-auth-user-trigger.sql in SQL Editor, then try again.',
+            },
+            400,
+          )
+        }
+
+        return jsonResponse({ error: createMessage || 'Unable to create staff user.' }, 400)
       }
 
       let existingAuthUser

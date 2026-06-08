@@ -373,11 +373,22 @@ security definer
 set search_path = public
 as $$
 declare
-  v_username text := lower(trim(coalesce(new.raw_user_meta_data->>'username', split_part(coalesce(new.email, ''), '@', 1))));
+  v_username text := lower(regexp_replace(trim(coalesce(new.raw_user_meta_data->>'username', split_part(coalesce(new.email, ''), '@', 1))), '[^a-z0-9._-]', '', 'g'));
   v_full_name text := coalesce(nullif(trim(new.raw_user_meta_data->>'full_name'), ''), v_username, 'Staff User');
 begin
-  if v_username = '' then
+  if v_username = '' or length(v_username) < 3 or v_username !~ '^[a-z0-9]' then
     v_username := 'user' || replace(left(new.id::text, 8), '-', '');
+  end if;
+
+  v_username := left(v_username, 32);
+
+  if exists (
+    select 1
+    from public.user_profiles
+    where lower(username) = v_username
+      and id <> new.id
+  ) then
+    v_username := left(v_username, 23) || '-' || left(replace(new.id::text, '-', ''), 8);
   end if;
 
   insert into public.user_profiles (id, username, email, full_name, role, is_active, deleted_at)

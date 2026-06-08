@@ -1,26 +1,37 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import AccountingPage from '../pages/AccountingPage.vue'
-import AuditLogsPage from '../pages/AuditLogsPage.vue'
-import BirCompliancePage from '../pages/BirCompliancePage.vue'
-import DashboardPage from '../pages/DashboardPage.vue'
-import BranchManagementPage from '../pages/BranchManagementPage.vue'
-import CustomerManagementPage from '../pages/CustomerManagementPage.vue'
-import ExpenseManagementPage from '../pages/ExpenseManagementPage.vue'
-import InventoryManagementPage from '../pages/InventoryManagementPage.vue'
-import LoginPage from '../pages/LoginPage.vue'
-import PaymentManagementPage from '../pages/PaymentManagementPage.vue'
-import PosCheckoutPage from '../pages/PosCheckoutPage.vue'
-import ProductManagementPage from '../pages/ProductManagementPage.vue'
-import PurchaseManagementPage from '../pages/PurchaseManagementPage.vue'
-import ReportsPage from '../pages/ReportsPage.vue'
-import ReturnsManagementPage from '../pages/ReturnsManagementPage.vue'
-import SeniorPwdDiscountPage from '../pages/SeniorPwdDiscountPage.vue'
-import ShiftManagementPage from '../pages/ShiftManagementPage.vue'
-import StockTransferPage from '../pages/StockTransferPage.vue'
-import SupplierManagementPage from '../pages/SupplierManagementPage.vue'
-import TaxManagementPage from '../pages/TaxManagementPage.vue'
-import UserRoleManagementPage from '../pages/UserRoleManagementPage.vue'
 import { useAuthStore } from '../stores/authStore'
+
+const routeComponents = {
+  accounting: () => import('../pages/AccountingPage.vue'),
+  'audit-logs': () => import('../pages/AuditLogsPage.vue'),
+  'bir-compliance': () => import('../pages/BirCompliancePage.vue'),
+  branches: () => import('../pages/BranchManagementPage.vue'),
+  customers: () => import('../pages/CustomerManagementPage.vue'),
+  dashboard: () => import('../pages/DashboardPage.vue'),
+  expenses: () => import('../pages/ExpenseManagementPage.vue'),
+  inventory: () => import('../pages/InventoryManagementPage.vue'),
+  login: () => import('../pages/LoginPage.vue'),
+  payments: () => import('../pages/PaymentManagementPage.vue'),
+  pos: () => import('../pages/PosCheckoutPage.vue'),
+  products: () => import('../pages/ProductManagementPage.vue'),
+  purchases: () => import('../pages/PurchaseManagementPage.vue'),
+  reports: () => import('../pages/ReportsPage.vue'),
+  returns: () => import('../pages/ReturnsManagementPage.vue'),
+  'senior-pwd': () => import('../pages/SeniorPwdDiscountPage.vue'),
+  shifts: () => import('../pages/ShiftManagementPage.vue'),
+  suppliers: () => import('../pages/SupplierManagementPage.vue'),
+  'tax-management': () => import('../pages/TaxManagementPage.vue'),
+  transfers: () => import('../pages/StockTransferPage.vue'),
+  users: () => import('../pages/UserRoleManagementPage.vue'),
+}
+
+const preloadedRoutes = new Set()
+const preloadQueueByRole = {
+  admin: ['dashboard', 'pos', 'reports', 'products', 'inventory', 'shifts', 'branches', 'users', 'payments', 'customers'],
+  manager: ['dashboard', 'pos', 'inventory', 'shifts', 'reports', 'products', 'customers', 'returns', 'payments'],
+  cashier: ['pos', 'shifts', 'customers', 'returns', 'dashboard'],
+  auditor: ['dashboard', 'reports', 'audit-logs', 'inventory', 'accounting', 'bir-compliance'],
+}
 
 const routes = [
   {
@@ -30,7 +41,7 @@ const routes = [
   {
     path: '/login',
     name: 'login',
-    component: LoginPage,
+    component: routeComponents.login,
     meta: {
       public: true,
     },
@@ -38,7 +49,7 @@ const routes = [
   {
     path: '/dashboard',
     name: 'dashboard',
-    component: DashboardPage,
+    component: routeComponents.dashboard,
     meta: {
       requiresAuth: true,
     },
@@ -46,7 +57,7 @@ const routes = [
   {
     path: '/pos',
     name: 'pos',
-    component: PosCheckoutPage,
+    component: routeComponents.pos,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'cashier'],
@@ -55,7 +66,7 @@ const routes = [
   {
     path: '/branches',
     name: 'branches',
-    component: BranchManagementPage,
+    component: routeComponents.branches,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -64,7 +75,7 @@ const routes = [
   {
     path: '/users',
     name: 'users',
-    component: UserRoleManagementPage,
+    component: routeComponents.users,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -73,7 +84,7 @@ const routes = [
   {
     path: '/products',
     name: 'products',
-    component: ProductManagementPage,
+    component: routeComponents.products,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -82,7 +93,7 @@ const routes = [
   {
     path: '/inventory',
     name: 'inventory',
-    component: InventoryManagementPage,
+    component: routeComponents.inventory,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -91,7 +102,7 @@ const routes = [
   {
     path: '/transfers',
     name: 'transfers',
-    component: StockTransferPage,
+    component: routeComponents.transfers,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -100,7 +111,7 @@ const routes = [
   {
     path: '/bir-compliance',
     name: 'bir-compliance',
-    component: BirCompliancePage,
+    component: routeComponents['bir-compliance'],
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -109,7 +120,7 @@ const routes = [
   {
     path: '/tax-management',
     name: 'tax-management',
-    component: TaxManagementPage,
+    component: routeComponents['tax-management'],
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -118,7 +129,7 @@ const routes = [
   {
     path: '/senior-pwd',
     name: 'senior-pwd',
-    component: SeniorPwdDiscountPage,
+    component: routeComponents['senior-pwd'],
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -127,7 +138,7 @@ const routes = [
   {
     path: '/payments',
     name: 'payments',
-    component: PaymentManagementPage,
+    component: routeComponents.payments,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -136,7 +147,7 @@ const routes = [
   {
     path: '/shifts',
     name: 'shifts',
-    component: ShiftManagementPage,
+    component: routeComponents.shifts,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'cashier', 'auditor'],
@@ -145,7 +156,7 @@ const routes = [
   {
     path: '/returns',
     name: 'returns',
-    component: ReturnsManagementPage,
+    component: routeComponents.returns,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'cashier', 'auditor'],
@@ -154,7 +165,7 @@ const routes = [
   {
     path: '/purchases',
     name: 'purchases',
-    component: PurchaseManagementPage,
+    component: routeComponents.purchases,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -163,7 +174,7 @@ const routes = [
   {
     path: '/suppliers',
     name: 'suppliers',
-    component: SupplierManagementPage,
+    component: routeComponents.suppliers,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -172,7 +183,7 @@ const routes = [
   {
     path: '/customers',
     name: 'customers',
-    component: CustomerManagementPage,
+    component: routeComponents.customers,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'cashier', 'auditor'],
@@ -181,7 +192,7 @@ const routes = [
   {
     path: '/accounting',
     name: 'accounting',
-    component: AccountingPage,
+    component: routeComponents.accounting,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -190,7 +201,7 @@ const routes = [
   {
     path: '/expenses',
     name: 'expenses',
-    component: ExpenseManagementPage,
+    component: routeComponents.expenses,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -199,7 +210,7 @@ const routes = [
   {
     path: '/reports',
     name: 'reports',
-    component: ReportsPage,
+    component: routeComponents.reports,
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -208,7 +219,7 @@ const routes = [
   {
     path: '/audit-logs',
     name: 'audit-logs',
-    component: AuditLogsPage,
+    component: routeComponents['audit-logs'],
     meta: {
       requiresAuth: true,
       roles: ['admin', 'manager', 'auditor'],
@@ -220,6 +231,43 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
 })
+
+function scheduleIdleWork(callback) {
+  if (typeof window === 'undefined') return
+
+  const run = () => callback()
+  if ('requestIdleCallback' in window) {
+    window.requestIdleCallback(run, { timeout: 2500 })
+    return
+  }
+
+  window.setTimeout(run, 700)
+}
+
+function preloadRoute(name) {
+  const loader = routeComponents[name]
+  if (!loader || preloadedRoutes.has(name)) return
+
+  preloadedRoutes.add(name)
+  loader().catch(() => {
+    preloadedRoutes.delete(name)
+  })
+}
+
+function preloadAllowedRoutes(role, currentName) {
+  if (!role) return
+
+  const prioritized = preloadQueueByRole[role] || ['dashboard']
+  const allowedNames = routes
+    .filter((route) => route.name && !route.meta?.public)
+    .filter((route) => !Array.isArray(route.meta?.roles) || route.meta.roles.includes(role))
+    .map((route) => route.name)
+
+  const queue = [...prioritized, ...allowedNames].filter((name, index, list) => name !== currentName && list.indexOf(name) === index)
+  queue.slice(0, 12).forEach((name, index) => {
+    window.setTimeout(() => preloadRoute(name), 180 * index)
+  })
+}
 
 router.beforeEach(async (to) => {
   const auth = useAuthStore()
@@ -258,6 +306,15 @@ router.beforeEach(async (to) => {
   }
 
   return true
+})
+
+router.afterEach((to) => {
+  const auth = useAuthStore()
+  if (!auth.state.session || to.meta.public) return
+
+  scheduleIdleWork(() => {
+    preloadAllowedRoutes(auth.state.profile?.role, to.name)
+  })
 })
 
 export default router

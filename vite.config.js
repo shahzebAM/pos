@@ -72,20 +72,26 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks(id) {
-          if (!id.includes('node_modules')) {
+          const normalizedId = id.replaceAll('\\', '/')
+
+          if (!normalizedId.includes('node_modules')) {
             return undefined
           }
 
-          if (id.includes('primevue') || id.includes('@primeuix') || id.includes('primeicons')) {
-            return 'vendor-primevue'
-          }
-
-          if (id.includes('@supabase')) {
+          if (normalizedId.includes('/node_modules/@supabase/')) {
             return 'vendor-supabase'
           }
 
-          if (id.includes('vue') || id.includes('@vue')) {
+          if (normalizedId.includes('/node_modules/vue/') || normalizedId.includes('/node_modules/@vue/')) {
             return 'vendor-vue'
+          }
+
+          if (
+            normalizedId.includes('/node_modules/primevue/') ||
+            normalizedId.includes('/node_modules/@primeuix/') ||
+            normalizedId.includes('/node_modules/primeicons/')
+          ) {
+            return undefined
           }
 
           return 'vendor'

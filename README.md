@@ -387,6 +387,15 @@ npx supabase functions deploy admin-create-staff --project-ref your-project-ref 
 npx supabase functions deploy admin-delete-staff --project-ref your-project-ref --no-verify-jwt
 ```
 
+If Add Staff shows **Database error creating new user**, open SQL Editor and run:
+
+```sql
+-- paste everything from:
+supabase/patch-auth-user-trigger.sql
+```
+
+Then redeploy `admin-create-staff` and try Add Staff again. This fixes the new-user trigger that creates the staff profile when a login account is created.
+
 ## Step 8: Install Module 4 Product Management
 
 Open another SQL Editor query and run:

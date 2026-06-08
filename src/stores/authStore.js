@@ -1,5 +1,5 @@
 import { computed, reactive } from 'vue'
-import { requireSupabaseConfig, supabase } from '../lib/supabase'
+import { clearSupabaseRpcCache, requireSupabaseConfig, supabase } from '../lib/supabase'
 import { recordAuditAuthEvent } from '../services/auditService'
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL?.replace(/\/$/, '')
@@ -16,6 +16,7 @@ const state = reactive({
 
 let initPromise = null
 let authSubscription = null
+let lastSessionUserId = null
 
 function authInstallMessage(error) {
   const message = error?.message || ''
@@ -65,6 +66,7 @@ async function initAuth() {
       if (error) throw error
 
       state.session = data.session
+      lastSessionUserId = data.session?.user?.id || null
 
       if (state.session) {
         await loadProfile()
@@ -72,6 +74,11 @@ async function initAuth() {
 
       if (!authSubscription) {
         const { data: subscriptionData } = client.auth.onAuthStateChange(async (_event, session) => {
+          if (session?.user?.id !== lastSessionUserId) {
+            clearSupabaseRpcCache()
+            lastSessionUserId = session?.user?.id || null
+          }
+
           state.session = session
 
           if (session) {
@@ -163,6 +170,8 @@ async function signIn({ username, password }) {
 
     if (error) throw error
 
+    clearSupabaseRpcCache()
+    lastSessionUserId = data.session?.user?.id || null
     state.session = data.session
     await loadProfile()
     await recordAuditAuthEvent('auth.login', {
@@ -208,7 +217,9 @@ async function signOut() {
     user_agent: navigator.userAgent,
   })
 
+  clearSupabaseRpcCache()
   await supabase.auth.signOut()
+  lastSessionUserId = null
   state.session = null
   state.profile = null
   state.hasAdmin = false
